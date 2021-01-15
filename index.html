@@ -1442,12 +1442,12 @@
 		.catch(error => console.error('Error!', error.message))
 	})
   </script><script>
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbyJ-uarmslGS9aWSNpvVkNt9FavZHzXiu_Z4TDy0nbuugqtvmw3YyJkvw/exec'
-	const form = document.forms['google-sheet2']
+	const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyJ-uarmslGS9aWSNpvVkNt9FavZHzXiu_Z4TDy0nbuugqtvmw3YyJkvw/exec'
+	const form2 = document.forms['google-sheet2']
   
 	form.addEventListener('submit', e => {
 	  e.preventDefault()
-	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+	  fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
 		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
 		.catch(error => console.error('Error!', error.message))
 	})
