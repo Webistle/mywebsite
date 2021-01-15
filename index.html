@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Merix Creative Digital Agency HTML-5 Template | Homepage 02</title>
+<title>Webistle | Comming Soon</title>
 <!-- Stylesheets -->
 <link href="html/merix/merix/css/bootstrap.css" rel="stylesheet">
 <link href="html/merix/merix/css/style.css" rel="stylesheet">
@@ -356,7 +356,7 @@
 								<h1>We’re Digital AIl <br> Startup Support</h1>
 								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
 								<div class="clearfix">
-									<a href="html/merix/merix/about.html" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
+									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
 									<div class="phone-box" style="display: none;">
 										<span class="phone-icon fa fa-phone"></span>
 										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
@@ -386,7 +386,7 @@
 								<h1>We’re Digital AIl <br> Startup Support</h1>
 								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
 								<div class="clearfix">
-									<a href="html/merix/merix/about.html" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
+									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
 									<div class="phone-box" style="display: none;">
 										<span class="phone-icon fa fa-phone"></span>
 										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
@@ -416,7 +416,7 @@
 								<h1>We’re Digital AIl <br> Startup Support</h1>
 								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
 								<div class="clearfix">
-									<a href="html/merix/merix/about.html" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
+									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
 									<div class="phone-box" style="display: none;">
 										<span class="phone-icon fa fa-phone"></span>
 										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
@@ -448,7 +448,7 @@
 				<h2>We Provide the Best Facilites For Business</h2>
 				<div class="text">From keyword research to technical auditing to site migration, our team of technical <br> SEOs are true experts in their field.</div>
 			</div>
-			<a href="html/merix/merix/about.html" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
+			<a href="#contact" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
 			<div class="inner-container">
 				<div class="row clearfix">
 					<!-- Image Column -->
@@ -553,7 +553,7 @@
 						</div>
 						<!-- Seo Form Two -->
 						<div class="seo-form-two">
-							<form method="post" action="index.html">
+							<form method="post" name="google-sheet2" autocomplete="off">
 								<div class="form-group clearfix">
 									<input type="text" name="website" value="" placeholder="Your Website URL" required>
 									<input type="email" name="email" value="" placeholder="Your Email" required>
@@ -595,7 +595,7 @@
 					<div class="inner-column">
 						<h2>Take Your Site to Next Level At this moment!</h2>
 						<div class="text">Make the Right Choice for Your Future. Choose Moto!</div>
-						<a href="html/merix/merix/about.html" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
+						<a href="#contact" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
 					</div>
 				</div>
 			</div>
@@ -1230,32 +1230,32 @@
             <div class="contact-form">
 
                 <!--Contact Form-->
-                <form autocomplete="off" method="post" target="hidden_iframe" name="google-sheet">
+                <form autocomplete="off" method="post" name="google-sheet">
                     <div class="row clearfix">
 
                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                             <span class="icon flaticon-user-2"></span>
-                            <input type="text" placeholder="Your Name" name="name" required>
+                            <input type="text" placeholder="Your Name" name="Name" value="" required>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                             <span class="icon flaticon-phone-call"></span>
-                            <input type="text" placeholder="Your Phone" name="phone" required>
+                            <input type="text" placeholder="Your Phone" name="Phone" value="" required>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                             <span class="icon flaticon-big-envelope"></span>
-                            <input type="email" placeholder="Email" name="email" required>
+                            <input type="email" placeholder="Email" name="Email" value="" required>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                             <span class="icon flaticon-notepad"></span>
-                            <input type="text" placeholder="Subject" name="sub" required>
+                            <input type="text" placeholder="Subject" name="Subject" value="" required>
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                             <span class="icon flaticon-message"></span>
-                            <textarea placeholder="Message" name="mess"></textarea>
+                            <textarea placeholder="Message" name="Message"></textarea>
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
@@ -1434,15 +1434,26 @@
 <script>
 	const scriptURL = 'https://script.google.com/macros/s/AKfycbz_YuEfBX7QSPe5QzqOIxkp5yTTieiqmNL76P-wNE4CGUM6vw8c9pT2/exec'
 	const form = document.forms['google-sheet']
-
-	form.addEventListener('submit' , e=> {
-		e.preventDefault()
-		fetch(scriptURL, { method: 'POST' , body: new FormData(form)})
-		.then(response => alert('Thanks, for Contact us..! We will contact you soonn.. '))
-		.catch(error => console.error('Error'))
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+		.catch(error => console.error('Error!', error.message))
 	})
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</script>
+  </script><script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyJ-uarmslGS9aWSNpvVkNt9FavZHzXiu_Z4TDy0nbuugqtvmw3YyJkvw/exec'
+	const form = document.forms['google-sheet2']
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+		.catch(error => console.error('Error!', error.message))
+	})
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
