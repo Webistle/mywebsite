@@ -553,12 +553,12 @@
 						</div>
 						<!-- Seo Form Two -->
 						<div class="seo-form-two">
-							<form method="post" name="google-sheet2" autocomplete="off">
+							<form method="post" name="google-sheet2" autocomplete="off" >
 								<div class="form-group clearfix">
 									<input type="text" name="website" value="" placeholder="Your Website URL" required>
 									<input type="email" name="email" value="" placeholder="Your Email" required>
 								</div>
-								<button type="submit" class="theme-btn btn-style-eleven"><span class="txt">Send Now</span></button>
+								<button type="submit" class="theme-btn btn-style-eleven" ><span class="txt">Send Now</span></button>
 							</form>
 						</div>
 					</div>
@@ -1259,7 +1259,7 @@
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
-                            <button class="theme-btn btn-style-three" type="submit" name="submit-form"><span class="txt">Submit Now</span></button>
+                            <button class="theme-btn btn-style-three" type="submit" name="submit-form" onclick="myFunction();"><span class="txt">Submit Now</span></button>
                         </div>
 
                     </div>
@@ -1446,9 +1446,18 @@
   </script><script>
 	const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyJ-uarmslGS9aWSNpvVkNt9FavZHzXiu_Z4TDy0nbuugqtvmw3YyJkvw/exec'
 	const form2 = document.forms['google-sheet2']
-  
+	form2.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL2, { method: 'POST', body: new FormData2(form2)})
+		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+		.catch(error => console.error('Error!', error.message))
+  </script>
 
-
+<script>
+	function myFunction() {
+	  document.getElementById("google-sheet").reset();
+	}
+	</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
