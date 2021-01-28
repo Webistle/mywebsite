@@ -1,1464 +1,510 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Webistle | Comming Soon</title>
-<!-- Stylesheets -->
-<link href="html/merix/merix/css/bootstrap.css" rel="stylesheet">
-<link href="html/merix/merix/css/style.css" rel="stylesheet">
-<link href="html/merix/merix/css/responsive.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<!-- Color Switcher Mockup -->
-<link href="html/merix/merix/css/color-switcher-design.css" rel="stylesheet">
-<link rel="shortcut icon" href="pl2.png" type="image/x-icon">
-<link rel="icon" href="pl2.png" type="image/x-icon">
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<script src="https://kit.fontawesome.com/47cfa1d6ce.js" crossorigin="anonymous"></script>
-<style>
-	html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-	#wp , #wp2{
-		position: relative;
-		right: 4px;
-	}
-	#wd , #wd2{
-		position: relative;
-		right: 8px;
-	}
-	#html , #css{
-		position: relative;
-		left: 4px;
-		top: 5px;
-	}
+<html lang="en">
 
-</style>
+<head>
+    <meta charset="UTF-8">
+    <!-- META DATA -->
+    <title>Webistle | Web Development Agency
+    </title>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <meta name="description" content="Codelander is a multi-purpose HTML landing page template by Codefest&trade;. Purchase now.">
+    <meta name="keywords" content="Codelander,Codefest">
+    <meta name="author" content="Codefest">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/accordian.css" />
+    <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script>
+        $("#navbarNav").on("click", "a", function() {
+            $(".navbar-toggle").click();
+            //or $("#nav").slideToggle();
+        });
+    </script>
 </head>
-<body class="hidden-bar-wrapper">
-	
-<div class="page-wrapper">
-    <!-- Preloader -->
-	<div class="preloader">
-		<div class="box"></div>
-	</div>
- 	<!-- Main Header / Header Style Two -->
-    <header class="main-header header-style-two">
-		<!-- Header Top -->
-        <div class="header-top" style="display: none;">
-            <div class="auto-container">
-                <div class="inner-container clearfix">
-					<!-- Top Left -->
-                    <div class="top-left pull-left">
-						<div class="text">Welcome to Best IT Company Solution.</div>
+<script type="text/javascript">
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-96875843-3', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-header navbar-mobile">
+        <div class="navbar-container container">
+            <!-- LOGO -->
+            <div class="navbar-brand">
+                <a class="navbar-brand-logo" href="#">
+					<img src="logo2.png" width="155px">
+				</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav" id="mainnav" style="position: relative; right: 30px;">
+                    <li class="nav-item" style="position: relative; left: 200px;">
+                        <a class="nav-link homesection active" href="#top">
+                          Home
+                        </a>
+                    </li>
+                    <li class="nav-item" style="position: relative; left: 200px;">
+                        <a class="nav-link servicessection" href="#services">
+                       
+                           Services
+                        </a>
+                    </li>
+                    <li class="nav-item" style="position: relative; left: 200px;">
+                        <a class="nav-link pricingsection" href="#pricing">
+                        Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none;">
+                        <a class="nav-link" href="#clients">
+      
+                        Clients
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none;">
+                        <a class="nav-link" href="#news">
+           
+                            <p class="nav-link-menu">News</p>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none;">
+                        <a class="nav-link" href="#contact">
+                            <p class="nav-link-number">06</p>
+                          Contact
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link learn-more-btn" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SECTION LABEL -->
+    <div id="top"></div>
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <section id="homesection">
+        <div class="header">
+            <div class="container header-container">
+                <div class="col-lg-6 header-img-section">
+                    <img src="assets/images/header.png">
+                </div>
+                <div class="col-lg-5 offset-lg-1 header-title-section">
+                    <p class="header-subtitle">Multipurpose landing template</p>
+                    <h1 class="header-title">Beautifully simple, code.</h1>
+                    <p class="header-title-text">Codelander is a beautifully simple, clean and lightweight landing page template for all types of businesses, with bold and bright colours.</p>
+                    <div class="learn-more-btn-section">
+                        <a class="nav-link learn-more-btn btn-invert" href="#services">Learn More</a>
                     </div>
-					<!-- Top Right -->
-					<div class="top-right pull-right">
-						<!-- Info List -->
-						<ul class="info-list">
-							<li><span class="icon flaticon-maps-and-flags"></span> 16122 Collins Street West, Melbourne</li>
-							<li><span class="icon flaticon-big-envelope"></span><a href="mailto:Merix_itcompany@gmail.com"> Merix_itcompany@gmail.com</a></li>
-						</ul>
-					</div>
                 </div>
             </div>
         </div>
-		<!--Header-Upper-->
-        <div class="header-upper" style="display: none;">
-        	<div class="auto-container clearfix">
-				<div class="pull-left logo-box">
-					<div class="logo"><a href="html/merix/merix/index.html"><img src="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" alt="" title=""></a></div>
-				</div>
-				<div class="nav-outer clearfix">
-					<!--Mobile Navigation Toggler-->
-					<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
-					<!-- Main Menu -->
-					<nav class="main-menu navbar-expand-md">
-						<div class="navbar-header">
-							<!-- Toggle Button -->    	
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-							<ul class="navigation clearfix">
-								<li><a href="#home">Home</a>
-									
-								</li>
-								<li ><a href="#about">About</a>
-									
-								</li>
-								<li ><a href="#services">Services</a>
-									
-								</li>
-								<li ><a href="#testimonial">Testimonials</a>
-									
-								</li>
-								<li class="dropdown has-mega-menu" style="display: none;"><a href="#">Pages</a>
-									<div class="mega-menu">
-										<div class="mega-menu-bar row clearfix">
-											<div class="column col-lg-3 col-md-4 col-sm-12">
-												<h3>About Us</h3>
-												<ul>
-													<li><a href="html/merix/merix/about.html">About Us</a></li>
-													<li><a href="html/merix/merix/faq.html">Faq</a></li>
-													<li><a href="html/merix/merix/price.html">Price</a></li>
-													<li><a href="html/merix/merix/team.html">Team</a></li>
-													<li><a href="index.html">Team Detail</a></li>
-													<li><a href="index.html">Testimonial</a></li>
-													<li><a href="index.html">Comming Soon</a></li>
-													<li><a href="index.html">Terms & Condition</a></li>
-													<li><a href="index.html">Privacy & Policy</a></li>
-												</ul>
-											</div>
-											<div class="column col-lg-3 col-md-4 col-sm-12">
-												<h3>Services</h3>
-												<ul>
-													<li><a href="index.html">Content Marketing</a></li>
-													<li><a href="index.html">Social Marketing</a></li>
-													<li><a href="index.html">App Development</a></li>
-													<li><a href="index.html">SEO Optimization</a></li>
-													<li><a href="index.html">Web Development</a></li>
-													<li><a href="index.html">PPC Advertising</a></li>
-												</ul>
-											</div>
-											<div class="column col-lg-3 col-md-4 col-sm-12">
-												<h3>Blog</h3>
-												<ul>
-													<li><a href="index.html">Our Blog</a></li>
-													<li><a href="index.html">Blog Classic</a></li>
-													<li><a href="index.html">Blog Left Sidebar</a></li>
-													<li><a href="index.html">Blog Single</a></li>
-													<li><a href="index.html">Not Found</a></li>
-												</ul>
-											</div>
-											<div class="column col-lg-3 col-md-4 col-sm-12">
-												<h3>Our Shop</h3>
-												<ul>
-													<li><a href="index.html">Shop</a></li>
-													<li><a href="index.html">Shop Details</a></li>
-													<li><a href="index.html">Cart Page</a></li>
-													<li><a href="index.html">Checkout Page</a></li>
-													<li><a href="index.html">Login</a></li>
-													<li><a href="index.html">Register</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="dropdown" style="display: none;"><a href="#">Shop</a>
-									<ul>
-										<li><a href="index.html">Our Products</a></li>
-										<li><a href="index.html">Product Single</a></li>
-										<li><a href="index.html">Shopping Cart</a></li>
-										<li><a href="index.html">Checkout</a></li>
-										<li><a href="index.html">Account</a></li>
-									</ul>
-								</li>
-								<li class="dropdown" style="display:none;"><a href="#">Blog</a>
-									<ul>
-										<li><a href="index.html">Our Blog</a></li>
-										<li><a href="index.html">Blog Classic</a></li>
-										<li><a href="index.html">Blog Left Sidebar</a></li>
-										<li><a href="index.html">Blog Single</a></li>
-										<li><a href="index.html">Not Found</a></li>
-									</ul>
-								</li>
-								<li><a href="#contact">Contact us</a></li>
-							</ul>
-						</div>
-					</nav>
-					<!-- Main Menu End-->
-					<div class="outer-box clearfix">
-						<!-- Cart Box -->
-						<div class="cart-box">
-							<div class="dropdown">
-								<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-cart"></span><span class="total-cart">2</span></button>
-								<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
-									<div class="cart-product">
-										<div class="inner">
-											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-											<div class="image"><img src="html/merix/merix/images/resource/post-thumb-1.jpg" alt="" /></div>
-											<h3><a href="index.html">Product 01</a></h3>
-											<div class="quantity-text">Quantity 1</div>
-											<div class="price">$99.00</div>
-										</div>
-									</div>
-									<div class="cart-product">
-										<div class="inner">
-											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-											<div class="image"><img src="html/merix/merix/images/resource/post-thumb-2.jpg" alt="" /></div>
-											<h3><a href="index.html">Product 02</a></h3>
-											<div class="quantity-text">Quantity 1</div>
-											<div class="price">$99.00</div>
-										</div>
-									</div>
-									<div class="cart-total">Sub Total: <span>$198</span></div>
-									<ul class="btns-boxed">
-										<li><a href="index.html">View Cart</a></li>
-										<li><a href="index.html">CheckOut</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Search Btn -->
-						<div class="search-box-btn search-box-outer"><span class="icon fa fa-search"></span></div>
-						<!-- Quote Btn -->
-						<div class="btn-box">
-							<a href="index.html" class="theme-btn btn-style-one"><span class="txt">Get A Quote</span></a>
-						</div>
-						<!-- Nav Btn -->
-						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu"></span></div>
-					</div>
-				</div>
+        <!-- STRATEGY SECTION -->
+        <div class="strategy-section" style="display: none;">
+            <div class="strategy-section-bg-graphics-section">
+                <img src="assets/images/strategy-section-bg.png">
+            </div>
+            <div class="container strategy-container">
+                <div class="col-lg-3 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
+                    <div class="strategy-card">
+                        <div class="strategy-card-icon-section">
+                            <img src="assets/images/strategy-1.png">
+                        </div>
+                        <h2>Strategy</h2>
+                        <p>We'll work with you to develop the right strategy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
+                    <div class="strategy-card">
+                        <div class="strategy-card-icon-section">
+                            <img src="assets/images/strategy-2.png">
+                        </div>
+                        <h2>Automation</h2>
+                        <p>Work synchronization and automated services</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
+                    <div class="strategy-card">
+                        <div class="strategy-card-icon-section">
+                            <img src="assets/images/strategy-3.png">
+                        </div>
+                        <h2>Deployment</h2>
+                        <p>Dedicated servers to deploy and test applications</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-8 offset-xs-2 strategy-card-section">
+                    <div class="strategy-card">
+                        <div class="strategy-card-icon-section">
+                            <img src="assets/images/strategy-4.png">
+                        </div>
+                        <h2>Education</h2>
+                        <p>Stay informed on all our tools and technologies</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--End Header Upper-->
-		<!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="auto-container clearfix">
-                <!--Logo-->
-                <div class="logo pull-left">
-                    <a href="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" title=""><img src="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" alt="" title="" style="width: 200px;"></a> 
-                </div>
-                <!--Right Col-->
-                <div class="pull-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav><!-- Main Menu End-->
-					<!-- Main Menu End-->
-					<div class="outer-box clearfix">
-						<!-- Cart Box -->
-						<div class="cart-box" style="display: none;">
-							<div class="dropdown">
-								<button class="cart-box-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flaticon-cart"></span><span class="total-cart">2</span></button>
-								<div class="dropdown-menu pull-right cart-panel" aria-labelledby="dropdownMenu1">
-									<div class="cart-product">
-										<div class="inner">
-											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-											<div class="image"><img src="html/merix/merix/images/resource/post-thumb-1.jpg" alt="" /></div>
-											<h3><a href="index.html">Product 01</a></h3>
-											<div class="quantity-text">Quantity 1</div>
-											<div class="price">$99.00</div>
-										</div>
-									</div>
-									<div class="cart-product">
-										<div class="inner">
-											<div class="cross-icon"><span class="icon fa fa-remove"></span></div>
-											<div class="image"><img src="html/merix/merix/images/resource/post-thumb-2.jpg" alt="" /></div>
-											<h3><a href="index.html">Product 02</a></h3>
-											<div class="quantity-text">Quantity 1</div>
-											<div class="price">$99.00</div>
-										</div>
-									</div>
-									<div class="cart-total">Sub Total: <span>$198</span></div>
-									<ul class="btns-boxed">
-										<li><a href="index.html">View Cart</a></li>
-										<li><a href="index.html">CheckOut</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- Search Btn -->
-						<div class="search-box-btn search-box-outer" style="display: none;"><span class="icon fa fa-search"></span></div>
-						<!-- Quote Btn -->
-						<div class="btn-box">
-							<a href="#contact" class="theme-btn btn-style-two"><span class="txt">Get A Quote</span></a>
-						</div>
-						<!-- Nav Btn -->
-						<div class="nav-btn navSidebar-button" style="display: none;"><span class="icon flaticon-menu"></span></div>
-					</div>
-                </div>
+        </section>
+        <!-- SECTION LABEL -->
+        <div id="services"></div>
+
+        <!-- SERVICES -->
+        <section id="servicessection">
+        <div class="services-section">
+            <div class="services-section-bg-graphics">
+                <img src="assets/images/services-section-bg.png">
             </div>
-        </div><!-- End Sticky Menu -->
-		<!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="html/merix/merix/index.html"><img src="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-    </header>
-    <!-- End Main Header -->
-	<!-- Sidebar Cart Item -->
-	<div class="xs-sidebar-group info-group">
-		<div class="xs-overlay xs-bg-black"></div>
-		<div class="xs-sidebar-widget">
-			<div class="sidebar-widget-container">
-				<div class="widget-heading">
-					<a href="#" class="close-side-widget">
-						X
-					</a>
-				</div>
-				<div class="sidebar-textwidget">
-					<!-- Sidebar Info Content -->
-					<div class="sidebar-info-contents">
-						<div class="content-inner">
-							<div class="logo">
-								<a href="html/merix/merix/index.html"><img src="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" alt="" /></a>
-							</div>
-							<div class="content-box">
-								<h2>About Us</h2>
-								<p class="text">Over the years, we have worked with Fortune 500s and brand-new startups. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</p>
-								<a href="#contact" class="theme-btn btn-style-two"><span class="txt">Contact Now</span></a>
-							</div>
-							<div class="contact-info">
-								<h2>Contact Info</h2>
-								<ul class="list-style-one">
-									<li><span class="icon fa fa-location-arrow"></span>New York 24, Melborne City, USA</li>
-									<li><span class="icon fa fa-phone"></span><a href="tel:+000-000-000-0000">(000) 000-000-0000</a></li>
-									<li><span class="icon fa fa-envelope"></span><a href="mailto:Merix@gmail.com">Merix@gmail.com</a></li>
-									<li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday: Closed</li>
-								</ul>
-							</div>
-							<!-- Social Box -->
-							<ul class="social-box">
-								<li class="facebook"><a href="#" class="fa fa-facebook-f"></a></li>
-								<li class="twitter"><a href="#" class="fa fa-twitter"></a></li>
-								<li class="linkedin"><a href="#" class="fa fa-linkedin"></a></li>
-								<li class="instagram"><a href="#" class="fa fa-instagram"></a></li>
-								<li class="youtube"><a href="#" class="fa fa-youtube"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- END sidebar widget item -->
-	<!-- Banner Section Five -->
-    <section class="banner-section-five" id="home">
-		<!-- Social Box -->
-		<ul class="social-box">
-			<li><a href="#" class="fa fa-facebook-f"></a></li>
-			<li><a href="#" class="fa fa-linkedin"></a></li>
-			<li><a href="#" class="fa fa-twitter"></a></li>
-			<li><a href="#" class="fa fa-google"></a></li>
-		</ul>
-		<div class="single-item-carousel owl-carousel owl-theme">
-			<!-- Slide -->
-			<div class="slide">
-				<div class="auto-container">
-					<div class="row clearfix">
-						<!-- Content Column -->
-						<div class="content-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="title">Best for You</div>
-								<h1>We’re Digital AIl <br> Startup Support</h1>
-								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
-								<div class="clearfix">
-									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
-									<div class="phone-box" style="display: none;">
-										<span class="phone-icon fa fa-phone"></span>
-										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="image">
-									<img src="html/merix/merix/images/resource/banner-3.png" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Slide -->
-			<div class="slide">
-				<div class="auto-container">
-					<div class="row clearfix">
-						<!-- Content Column -->
-						<div class="content-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="title">Best for You</div>
-								<h1>We’re Digital AIl <br> Startup Support</h1>
-								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
-								<div class="clearfix">
-									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
-									<div class="phone-box" style="display: none;">
-										<span class="phone-icon fa fa-phone"></span>
-										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="image">
-									<img src="html/merix/merix/images/resource/banner-3.png" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Slide -->
-			<div class="slide">
-				<div class="auto-container">
-					<div class="row clearfix">
-						<!-- Content Column -->
-						<div class="content-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="title">Best for You</div>
-								<h1>We’re Digital AIl <br> Startup Support</h1>
-								<div class="text">We bet you don’t spend much time on the 2nd page <br> of Google - So why should your website,</div>
-								<div class="clearfix">
-									<a href="#contact" class="theme-btn btn-style-seven"><span class="txt">Lets Start</span></a>
-									<div class="phone-box" style="display: none;">
-										<span class="phone-icon fa fa-phone"></span>
-										<a class="phone" href="tel:+9999-999-999">9999 999 999</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column">
-								<div class="image">
-									<img src="html/merix/merix/images/resource/banner-3.png" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Banner Section -->
-	<!-- Business Section -->
-	<section class="business-section" id="about">
-		<div class="pattern-layer" style="background-image: url(html/merix/merix/images/background/pattern-23.png)"></div>
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title light">
-				<div class="title">WHY US CHOOSE NOW</div>
-				<h2>We Provide the Best Facilites For Business</h2>
-				<div class="text">From keyword research to technical auditing to site migration, our team of technical <br> SEOs are true experts in their field.</div>
-			</div>
-			<a href="#contact" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
-			<div class="inner-container">
-				<div class="row clearfix">
-					<!-- Image Column -->
-					<div class="image-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<div class="image wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="html/merix/merix/images/resource/business.png" alt="" />
-							</div>
-							<div class="arrow-image wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="html/merix/merix/images/resource/business-arrow.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<!-- Content Column -->
-					<div class="content-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<!-- Business Block -->
-							<div class="business-block">
-								<div class="inner-box">
-									<div class="box-number">01</div>
-									<div class="icon-box">
-										<span class="icon flaticon-safe"></span>
-									</div>
-									<div class="content">
-										<h4>Best Security</h4>
-										<div class="text">We have seen great successes with everyone companies.</div>
-									</div>
-								</div>
-							</div>
-							<!-- Business Block -->
-							<div class="business-block">
-								<div class="inner-box">
-									<div class="box-number">02</div>
-									<div class="icon-box">
-										<span class="icon flaticon-chat-2"></span>
-									</div>
-									<div class="content">
-										<h4>Risk Manage</h4>
-										<div class="text">Every business and industry requires an approach in our Heand.</div>
-									</div>
-								</div>
-							</div>
-							<!-- Business Block -->
-							<div class="business-block">
-								<div class="inner-box">
-									<div class="box-number">03</div>
-									<div class="icon-box">
-										<span class="icon flaticon-growth"></span>
-									</div>
-									<div class="content">
-										<h4>Growth Revenue</h4>
-										<div class="text">You make sure you know how campaign is performing Business</div>
-									</div>
-								</div>
-							</div>
-							<!-- Business Block -->
-							<div class="business-block">
-								<div class="inner-box">
-									<div class="box-number">04</div>
-									<div class="icon-box">
-										<span class="icon flaticon-management"></span>
-									</div>
-									<div class="content">
-										<h4>Greate Support</h4>
-										<div class="text">To generate highly focused leads ready to purchases our service</div>
-									</div>
-								</div>
-							</div>
-							<!-- Business Block -->
-							<div class="business-block">
-								<div class="inner-box">
-									<div class="box-number">05</div>
-									<div class="icon-box">
-										<span class="icon flaticon-united"></span>
-									</div>
-									<div class="content">
-										<h4>Expert Team Work</h4>
-										<div class="text">Get access to everyone in your organization with a team directory.</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Business Section -->
-	
-	<!-- SEO Section Two -->
-	<section class="seo-section-two" style="display: none;">
-		<div class="image-layer" style="background-image: url(html/merix/merix/images/background/pattern-21.png)"></div>
-		<div class="auto-container">
-			<div class="row clearfix">
-				<!-- Form Column -->
-				<div class="form-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="title">Web SEO</div>
-							<h2>Check Your Website For SEO</h2>
-						</div>
-						<!-- Seo Form Two -->
-						<div class="seo-form-two">
-							<form method="post" name="google-sheet2" autocomplete="off" >
-								<div class="form-group clearfix">
-									<input type="text" name="website" value="" placeholder="Your Website URL" required>
-									<input type="email" name="email" value="" placeholder="Your Email" required>
-								</div>
-								<button type="submit" class="theme-btn btn-style-eleven" ><span class="txt">Send Now</span></button>
-							</form>
-						</div>
-					</div>
-				</div>
-				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<!-- Seo Image -->
-						<div class="seo-image titlt" data-tilt data-tilt-max="5">
-							<img src="html/merix/merix/images/resource/seo-1.png" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End SEO Section -->
-	<!-- Call To Action Section Two -->
-    <section class="call-to-action-section-two" style="background-image: url(html/merix/merix/images/background/map-pattern-1.png)">
-		<div class="pattern-layer-one" style="background-image: url(html/merix/merix/images/background/pattern-22.png)"></div>
-		<div class="pattern-layer-two" style="background-image: url(html/merix/merix/images/background/pattern-9.png)"></div>
-        <div class="auto-container">
-			<div class="row clearfix">
-				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="image titlt" data-tilt data-tilt-max="3">
-							<img src="html/merix/merix/images/resource/cta-1.png" alt="" />
-						</div>
-					</div>
-				</div>
-				<!-- Title Column -->
-				<div class="title-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h2>Take Your Site to Next Level At this moment!</h2>
-						<div class="text">Make the Right Choice for Your Future. Choose Moto!</div>
-						<a href="#contact" class="theme-btn btn-style-eight"><span class="txt">Lets Start</span></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Call To Action Section Two -->
-	<!-- Clients Section Two -->
-    <section class="clients-section-two margin-top" style="display: none;">
-        <div class="auto-container">
-            <div class="inner-container">
-				<div class="sponsors-outer">
-					<!--Sponsors Carousel-->
-					<ul class="sponsors-carousel owl-carousel owl-theme">
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/1.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/2.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/3.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/4.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/5.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/1.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/2.png" alt=""></a></figure></li>
-						<li class="slide-item"><figure class="image-box"><a href="#"><img src="html/merix/merix/images/clients/3.png" alt=""></a></figure></li>
-					</ul>
-				</div>
+            <div class="container services-container">
+                <div class="col-lg-5 services-title-section">
+                    <p class="services-subtitle">Our services</p>
+                    <h2 class="services-title">Solving Problems</h2>
+                    <p class="services-text">This is a great section to introduce your company and showcase your featured services.</p>
+                    <div class="services-accordion">
+                        <button class="accordion">
+	                          Website Design
+	                        </button>
+                        <div class="panel">
+                            <p>
+                                Some information on your web design and development services can go here. A few lines should do the trick.
+                            </p>
+                        </div>
+                        <button class="accordion">
+	                          Application Development
+	                        </button>
+                        <div class="panel">
+                            <p>
+                                More information on your application development services can go here, too. There's plenty of space available for you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 services-header-img-section">
+                    <img src="assets/images/services-header.png">
+                </div>
             </div>
         </div>
     </section>
-    <!-- End Clients Section Two -->
-	<!-- Gallery Section -->
-	<section class="gallery-section" style=" display: none;">
-		<div class="pattern-layer" style="background-image: url(html/merix/merix/images/resource/cta-bg.png)"></div>
-    	<div class="auto-container">
-			<!-- MixitUp Galery -->
-			<div class="mixitup-gallery">
-				<div class="sec-title">
-					<div class="clearfix">
-						<div class="pull-left">
-							<div class="title">RECENT PROJECTS</div>
-							<h2>Our Latest Case Works</h2>
-						</div>
-						<div class="pull-right">
-							<!--Filter-->
-							<div class="filters clearfix">
-								<ul class="filter-tabs filter-btns clearfix">
-									<li class="active filter" data-role="button" data-filter="all">All</li>
-									<li class="filter" data-role="button" data-filter=".development">Development</li>
-									<li class="filter" data-role="button" data-filter=".marketing">Markeging</li>
-									<li class="filter" data-role="button" data-filter=".media">Media</li>
-									<li class="filter" data-role="button" data-filter=".optimization">Optimization</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="filter-list row clearfix">
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/1.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/1.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">System Project</div>
-								<h5><a href="index.html">Movie Recommendation</a></h5>
-							</div>
-						</div>
-					</div>
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix optimization media marketing col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/2.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/2.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">Machine Learning</div>
-								<h5><a href="index.html">Customer Segmentation</a></h5>
-							</div>
-						</div>
-					</div>
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix development development media col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/3.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/3.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">Web Project</div>
-								<h5><a href="index.html">Data Analysis</a></h5>
-							</div>
-						</div>
-					</div>
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix development marketing col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/4.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/4.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">Programming</div>
-								<h5><a href="index.html">Detection Project</a></h5>
-							</div>
-						</div>
-					</div>
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix optimization media development col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/5.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/5.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">Data Science</div>
-								<h5><a href="index.html">Data Scientist</a></h5>
-							</div>
-						</div>
-					</div>
-					<!-- Gallery Block -->
-					<div class="gallery-block all mix development development marketing col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<figure class="image-box">
-								<img src="html/merix/merix/images/gallery/6.jpg" alt="">
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="content">
-											<a href="html/merix/merix/images/gallery/6.jpg" data-fancybox="gallery" data-caption="" class="icon flaticon-plus"></a>
-										</div>
-									</div>
-								</div>
-							</figure>
-							<div class="lower-content">
-								<div class="title">Science Projects</div>
-								<h5><a href="index.html">Benefits Research</a></h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="btn-box text-center">
-					<a href="index.html" class="theme-btn btn-style-eight"><span class="txt">View More</span></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Gallery Section -->
-	<!-- Services Section Four -->
-	<section class="services-section-four style-two" id="services">
-		<div class="pattern-layer-one" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-		<div class="pattern-layer-two" style="background-image: url(html/merix/merix/images/icons/icon-7.png)"></div>
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title centered">
-				<div class="title">Our Services</div>
-				<h2>You Take Growth For Business</h2>
-				<div class="text">Our strategy includes consistently evolving, to ensure we’re producing <br> exceptional SEO for business.</div>
-			</div>
-			<div class="services-carousel owl-carousel owl-theme">
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box">
-							<i class="fas fa-cogs" id="wd2"></i>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">Web Development</a></h5>
-						<div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box">
-							<i class="fab fa-wordpress" id="wp"></i>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">Wordpress Development</a></h5>
-						<div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box">
-							<i class="fab fa-html5" id="html"></i>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">Html</a></h5>
-						<div class="text">Get more website traffic, more customers, and more online visibility with powerful SEO services.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box">
-							<i class="fab fa-css3-alt" id="css"></i>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">Css</a></h5>
-						<div class="text">You can provide the answers that your potential customers are trying to find, so you can become the industry.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box" >
-							<i class="fab fa-js-square"></i>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">Javascript</a></h5>
-						<div class="text">Create and manage top-performing social campaigns and start developing a dedicated customer fan base.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-				<!-- Service Block Four / Style Two -->
-				<div class="service-block-four style-two">
-					<div class="inner-box">
-						<div class="color-layer"></div>
-						<div class="icon-one" style="background-image: url(html/merix/merix/images/icons/icon-1.png)"></div>
-						<div class="icon-two" style="background-image: url(html/merix/merix/images/icons/icon-2.png)"></div>
-						<div class="icon-three" style="background-image: url(html/merix/merix/images/icons/icon-3.png)"></div>
-						<div class="icon-four" style="background-image: url(html/merix/merix/images/icons/icon-4.png)"></div>
-						<div class="icon-box">
-							<span class="icon flaticon-search-1"></span>
-							<div class="icon-five" style="background-image: url(html/merix/merix/images/icons/icon-6.png)"></div>
-						</div>
-						<h5><a href="index.html">SEO Optimization</a></h5>
-						<div class="text">Get more website traffic, more customers, and more online visibility with powerful SEO services.</div>
-						<a href="index.html" class="arrow-icon flaticon-arrow-pointing-to-right"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Services Section Four -->
-	<!-- Testimonial Section Two -->
-	<section class="testimonial-section-two" id="testimonial">
-		<div class="pattern-layer" style="background-image: url(html/merix/merix/images/background/pattern-10.png)"></div>
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title centered">
-				<div class="title">Real Testimonials</div>
-				<h2>What They Say About Our <br> Company?</h2>
-				<div class="text">We know how important customer experience is for a busines and therefore, <br> we trive to make your company excel in this.</div>
-			</div>
-			<div class="two-item-carousel owl-carousel owl-theme">
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-3.jpg" alt="" />
-							</div>
-							<h6>Margaret Sunsan</h6>
-							<div class="designation">Develper</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-4.jpg" alt="" />
-							</div>
-							<h6>Eizabeth Blackwell</h6>
-							<div class="designation">Web Designer</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-3.jpg" alt="" />
-							</div>
-							<h6>Margaret Sunsan</h6>
-							<div class="designation">Develper</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-4.jpg" alt="" />
-							</div>
-							<h6>Eizabeth Blackwell</h6>
-							<div class="designation">Web Designer</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-3.jpg" alt="" />
-							</div>
-							<h6>Margaret Sunsan</h6>
-							<div class="designation">Develper</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-				<!-- Testimonial Block Two -->
-				<div class="testimonial-block-two">
-					<div class="inner-box">
-						<div class="author-image-outer">
-							<div class="author-image">
-								<img src="html/merix/merix/images/resource/author-4.jpg" alt="" />
-							</div>
-							<h6>Eizabeth Blackwell</h6>
-							<div class="designation">Web Designer</div>
-							<div class="quote-icon fa fa-quote-right"></div>
-						</div>
-						<div class="text">I had so much fun working with your specialists on my business project that we will come back soom! Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</div>
-						<div class="rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Testimonial Section Two -->
-	<!-- Faq's Section -->
-	<section class="faq-section" style="display: none;">
-        <div class="auto-container">
-			<div class="row clearfix">
-				<!-- Accordian Column -->
-				<div class="accordian-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="title">Some Faq’s</div>
-							<h2>Work with a Dedicated SEO Company</h2>
-						</div>
-						<ul class="accordion-box">
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn">Best Practices for Keyword Density? <div class="icon flaticon-right-arrow-1"></div></div>
-								<div class="acc-content">
-									<div class="content">
-										<div class="text">Google has said for years that the most important single factor to them is high quality content. Now more than ever, they have the ability. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers.</div>
-									</div>
-								</div>
-							</li>
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn">Best SEO Practices for Page Layouts? <div class="icon flaticon-right-arrow-1"></div></div>
-								<div class="acc-content">
-									<div class="content">
-										<div class="text">Google has said for years that the most important single factor to them is high quality content. Now more than ever, they have the ability. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers.</div>
-									</div>
-								</div>
-							</li>
-							<!--Block-->
-							<li class="accordion block active-block">
-								<div class="acc-btn active">What is off page SEO link building? <div class="icon flaticon-right-arrow-1"></div></div>
-								<div class="acc-content current">
-									<div class="content">
-										<div class="text">Google has said for years that the most important single factor to them is high quality content. Now more than ever, they have the ability. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers.</div>
-									</div>
-								</div>
-							</li>
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn">Best SEO Practices for High Quality Content? <div class="icon flaticon-right-arrow-1"></div></div>
-								<div class="acc-content">
-									<div class="content">
-										<div class="text">Google has said for years that the most important single factor to them is high quality content. Now more than ever, they have the ability. We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers.</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="image titlt" data-tilt data-tilt-max="3">
-							<img src="html/merix/merix/images/resource/faq.png" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Faq's Section -->
-	<!-- News Section Two -->
-	<section class="news-section-two style-two" style="display:none;">
-		<div class="pattern-layer-two" style="background-image: url(html/merix/merix/images/background/pattern-24.png)"></div>
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title centered">
-				<div class="title">OUR BLOG</div>
-				<h2>Our Latest Media</h2>
-				<div class="text">Our campaigns get your business in front of the right people at the <br> right time to increase organic traffic and boost engagement.</div>
-			</div>
-			<div class="row clearfix">
-				<!-- News Block Two / Style Two -->
-				<div class="news-block-two style-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="html/merix/merix/images/resource/news-14.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<a href="index.html" class="icon flaticon-unlink"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<ul class="post-meta">
-								<li><a href="index.html"><span class="icon fa fa-user"></span> Pablo Villalpando</a></li>
-								<li><a href="index.html"><span class="icon fa fa-calendar"></span> November 21, 2020</a></li>
-							</ul>
-							<h5><a href="index.html">Google now disregards or overlooks all reciprocal links</a></h5>
-							<!-- Social Boxed -->
-							<div class="social-boxed">
-								<div class="social-inner">
-									<span class="share-now fa fa-share-alt"></span>
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-dribbble"></span></a>
-									<a href="#"><span class="fa fa-behance"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- News Block Two / Style Two -->
-				<div class="news-block-two style-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="html/merix/merix/images/resource/news-15.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<a href="index.html" class="icon flaticon-unlink"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<ul class="post-meta">
-								<li><a href="index.html"><span class="icon fa fa-user"></span> Adam Pando</a></li>
-								<li><a href="index.html"><span class="icon fa fa-calendar"></span> November 21, 2020</a></li>
-							</ul>
-							<h5><a href="index.html">Absolute Links vs. Relative Links – SEO Intrinsic Value</a></h5>
-							<!-- Social Boxed -->
-							<div class="social-boxed">
-								<div class="social-inner">
-									<span class="share-now fa fa-share-alt"></span>
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-dribbble"></span></a>
-									<a href="#"><span class="fa fa-behance"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- News Block Two / Style Two -->
-				<div class="news-block-two style-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="html/merix/merix/images/resource/news-16.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<a href="index.html" class="icon flaticon-unlink"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<ul class="post-meta">
-								<li><a href="index.html"><span class="icon fa fa-user"></span> Mark Roy</a></li>
-								<li><a href="index.html"><span class="icon fa fa-calendar"></span> November 21, 2020</a></li>
-							</ul>
-							<h5><a href="index.html">How to increase your ROI through scientific SEM?</a></h5>
-							<!-- Social Boxed -->
-							<div class="social-boxed">
-								<div class="social-inner">
-									<span class="share-now fa fa-share-alt"></span>
-									<a href="#"><span class="fa fa-facebook"></span></a>
-									<a href="#"><span class="fa fa-twitter"></span></a>
-									<a href="#"><span class="fa fa-dribbble"></span></a>
-									<a href="#"><span class="fa fa-behance"></span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End News Section Two -->
-
-<section class="contact-form-section" id="contact">
-    <div class="auto-container">
-        <!-- Sec Title -->
-        <div class="sec-title centered">
-            <div class="title">Don’t Hasitate To Contact With us</div>
-            <h2>Now Very Easy</h2>
-            <div class="text">Our approach to SEO is uniquely built around what we know works…and what we know <br> doesn’t work. With over 200 verified factors in play.</div>
-        </div>
-        <div class="inner-container">
-
-            <!-- Contact Form -->
-            <div class="contact-form">
-
-                <!--Contact Form-->
-                <form autocomplete="off" method="post" name="google-sheet">
-                    <div class="row clearfix">
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <span class="icon flaticon-user-2"></span>
-                            <input type="text" placeholder="Your Name" name="Name" value="" required>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <span class="icon flaticon-phone-call"></span>
-                            <input type="text" placeholder="Your Phone" name="Phone" value="" required>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <span class="icon flaticon-big-envelope"></span>
-                            <input type="email" placeholder="Email" name="Email" value="" required>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <span class="icon flaticon-notepad"></span>
-                            <input type="text" placeholder="Subject" name="Subject" value="" required>
-                        </div>
-
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                            <span class="icon flaticon-message"></span>
-                            <textarea placeholder="Message" name="Message"></textarea>
-                        </div>
-
-                        <div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
-                            <button class="theme-btn btn-style-three" type="submit" name="submit-form" onclick="myFunction();"><span class="txt">Submit Now</span></button>
-                        </div>
-
+        <!-- SALES GROWTH -->
+        <div class="services-sales-section">
+            <div class="container services-container">
+                <div class="col-lg-6 services-header-img-section padding-0">
+                    <img src="assets/images/services-sales-header.png">
+                </div>
+                <div class="col-lg-5 offset-lg-1 services-title-section">
+                    <p class="services-subtitle">Our services</p>
+                    <h2 class="services-title">Sales Growth</h2>
+                    <p class="services-text">You can talk about your secondary services here, or maybe promote your excellent customer service approach. Always grab your website visitors' attention.</p>
+                    <div class="learn-more-btn-section">
+                        <a class="nav-link learn-more-btn btn-invert" href="#pricing">View Pricing</a>
                     </div>
-                </form>
-
-                <!--End Contact Form -->
+                </div>
             </div>
-
         </div>
-	</div>
-	
+        <!-- SECTION LABEL -->
+        <div id="pricing"></div>
+        <!-- PRICING -->
+        <section id="pricingsection"></section>
+        <div class="pricing-section">
+            <div class="pricing-section-left-bg-graphics">
+                <img src="assets/images/pricing-section-left-bg.png">
+            </div>
+            <div class="pricing-section-right-bg-graphics">
+                <img src="assets/images/pricing-section-right-bg.png">
+            </div>
+            <div class="container pricing-container">
+                <div class="pricing-title">
+                    <h2>Pricing</h2>
+                    <p>Offer multiple packages or monthly subscriptions? Why not showcase your featured price plans here, bold and beautifully.</p>
+                </div>
+                <!-- PRICE PLANS -->
+                <div class="pricing-plan-cards-section">
+                    <div class="col-lg-4 col-md-8 col-xs-10 pricing-card-section">
+                        <div class="pricing-card">
+                            <p class="pricing-rate">$199</p>
+                            <p class="pricing-period">Basic</p>
+                            <p class="pricing-text">Starter plan with all the basics included</p>
+                            <div class="pricing-all-plan-features-section basic-plan-features-section">
+                                <ul>
+                                    <li>Core Business System</li>
+                                    <li>Team Management</li>
+                                    <li>Dual Infrastructure</li>
+                                    <li>Customized Features</li>
+                                </ul>
+                            </div>
+                            <a class="nav-link learn-more-btn" href="#contact">Enquire</a>
+                        </div>
+                    </div>
 
-</section>
-	<!-- Footer Style Two -->
+                    <div class="col-lg-4 col-md-8 col-xs-10 pricing-card-section">
+                        <div class="pricing-card featured">
+                            <p class="pricing-rate">$499</p>
+                            <p class="pricing-period">Growth</p>
+                            <p class="pricing-text">The sensible option for growing companies</p>
+                            <div class="pricing-all-plan-features-section medium-plan-features-section">
+                                <ul>
+                                    <li>Core Business System</li>
+                                    <li>Team Management</li>
+                                    <li>Dual Infrastructure</li>
+                                    <li>Customized Features</li>
+                                </ul>
+                            </div>
+                            <a class="nav-link learn-more-btn" href="#contact">Enquire</a>
+                        </div>
+                    </div>
 
-	<footer class="footer-style-two" style="display:none; background-image: url(html/merix/merix/images/background/map-pattern-2.png)">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section" style="display: none;">
-            	<div class="row clearfix">
-                    <!-- Column -->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-                        	<!-- Footer Column -->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget logo-widget">
-									<div class="logo">
-										<a href="html/merix/merix/index.html"><img src="Screen-Shot-2020-12-19-at-12.01.59-PM copy 2.png" alt="" /></a>
-									</div>
-									<div class="text">Lorem ipsum dolor amet consectetur adip- ielit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis....</div>
-								</div>
-							</div>
-							<!-- Footer Column -->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget" style="position: relative; left: 275px;">
-									<h4>Quicky links</h4>
-									<div class="row clearfix">
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-link-two">
-												<li><a href="#home">Home</a></li>
-												<li><a href="#about">About</a></li>
-												<li><a href="#services">Services</a></li>
-												<li><a href="#testimonial">Testimonials</a></li>
-												<li><a href="#contact">Contact us</a></li>
-											</ul>
-										</div>
-										<div class="column col-lg-6 col-md-6 col-sm-12">
-											<ul class="list-link-two" style="display: none;">
-												<li><a href="#about">About</a></li>
-												<li><a href="#">Team</a></li>
-												<li><a href="#">Testimonials</a></li>
-												<li><a href="#">Blog</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Column -->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12" style = "position: relative; left: 450px;">
-						<div class="row clearfix">
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget contact-info-widget">
-									<h4>Contact us</h4>
-									<div class="widget-content">
-										<ul>
-											
-											<li><a href="mailto:Webistle@gmail.com">Webistle@gmail.com</a></li>
-											
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- Footer Column -->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget app-widget">
-									<h4 style="display: none;">Download the App</h4>
-									<div class="app-btns clearfix" style="display: none;">
-										<a href="#"><img src="html/merix/merix/images/icons/app-btn.png" alt="" /></a>&ensp;
-										<a href="#"><img src="html/merix/merix/images/icons/google-btn.png" alt="" /></a>
-									</div>
-									<!-- Social Box -->
-									<ul class="social-box" style="position:relative; right: 295px; top: 100px;">
-										<li class="follow">Follow Us Now</li>
-										<li><a href="#" class="fa fa-facebook-f"></a></li>
-										<li><a href="#" class="fa fa-linkedin"></a></li>
-										<li><a href="#" class="fa fa-twitter"></a></li>
-										<li><a href="#" class="fa fa-google"></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="auto-container">
-				<div class="row clearfix">
-					<!-- Copyright Column -->
-					<div class="copyright-column col-lg-6 col-md-12 col-sm-12">
-						<div class="copyright">Copyright &copy; 2020. All Rights Reserved By <a href="https://webistle.ml">Webistle.</a></div>
-					</div>
-					<!-- Nav Column -->
-					<div class="nav-column col-lg-6 col-md-12 col-sm-12" style="display: none;">
-						<ul>
-							<li><a href="index.html">Privacy</a></li>
-							<li><a href="html/merix/merix/faq.html">FAQs</a></li>
-							<li><a href="index.html">Account</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<!-- End Main Footer -->
-</div>
-<!--End pagewrapper-->
-<!-- Color Palate / Color Switcher -->
-<div class="color-palate" style="display:none;">
-    <div class="color-trigger">
-        <i class="fa fa-gear"></i>
+                    <div class="col-lg-4 col-md-8 col-xs-10 pricing-card-section">
+                        <div class="pricing-card">
+                            <p class="pricing-rate">$1299</p>
+                            <p class="pricing-period">Corporate</p>
+                            <p class="pricing-text">Everything a global company needs</p>
+                            <div class="pricing-all-plan-features-section advance-plan-features-section">
+                                <ul>
+                                    <li>Core Business System</li>
+                                    <li>Team Management</li>
+                                    <li>Dual Infrastructure</li>
+                                    <li>Customized Features</li>
+                                </ul>
+                            </div>
+                            <a class="nav-link learn-more-btn" href="#contact">Enquire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="clients"></div>
+        <!-- CLIENTS -->
+        <div class="clients-section" style="display: none;">
+            <div class="container clients-container">
+                <div class="clients-title-section">
+                    <p class="clients-subtitle">Our clients</p>
+                    <h2 class="clients-title">Client Showcase</h2>
+                </div>
+                <div class="clients-slider">
+                    <div class="owl-carousel owl-theme clients-slider-section">
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo1.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo2.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo3.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo4.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo1.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo2.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo3.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo4.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo1.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo2.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo3.png">
+                        </div>
+                        <div class="item client-logo-section">
+                            <img src="assets/images/logo4.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="news"></div>
+        <!-- NEWS -->
+        <div class="blog-section" style="display: none;">
+            <div class="blog-section-right-bg">
+                <img src="assets/images/blog-section-right-bg.png">
+            </div>
+            <div class="blog-section-left-bg">
+                <img src="assets/images/blog-section-left-bg.png">
+            </div>
+            <div class="container blog-container">
+                <div class="blog-title-section">
+                    <p class="blog-subtitle">Recent updates</p>
+                    <h2 class="blog-title">Featured Stories</h2>
+                </div>
+                <div class="blog-posts-section">
+                    <div class="col-lg-4 col-md-8 col-xs-10 blog-post-card-container">
+                        <div class="blog-post-card">
+                            <div class="blog-post-icon">
+                                <img src="assets/images/blog-card-1.png">
+                            </div>
+                            <h3 class="blog-post-title">Remote Working</h3>
+                            <p class="blog-post-text">Making it easier to connect with every client worldwide</p>
+                            <a class="blog-post-link" href="#news">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-xs-10 blog-post-card-container">
+                        <div class="blog-post-card">
+                            <div class="blog-post-icon mb-4">
+                                <img src="assets/images/blog-card-2.png">
+                            </div>
+                            <h3 class="blog-post-title">Google Rankings</h3>
+                            <h4 class="blog-post-subtitle">Keywords</h4>
+                            <p class="blog-post-text mb-4">We've ranked number one on Google for multiple keywords. Read about our SEO strategies</p>
+                            <a class="nav-link learn-more-btn" href="#news">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-xs-10 blog-post-card-container">
+                        <div class="blog-post-card">
+                            <div class="blog-post-icon">
+                                <img src="assets/images/blog-card-3.png">
+                            </div>
+                            <h3 class="blog-post-title">Communication</h3>
+                            <p class="blog-post-text">We've made our client support services easy to access</p>
+                            <a class="blog-post-link" href="#news">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION LABEL -->
+        <div id="contact"></div>
+        <!-- CONTACT -->
+        <section id="contactsection"></section>
+        <div class="contact-section">
+            <div class="container contact-container">
+                <div class="col-md-6 contact-title-section">
+                    <p class="contact-subtitle">Contact</p>
+                    <h2 class="contact-title">Questions?<br>Get in touch</h2>
+                    <p class="contact-text">We'll be happy to help answer any of your questions. Send us an email and we'll get back to you shortly.</p>
+                    <div class="learn-more-btn-section">
+                        <a class="nav-link learn-more-btn btn-invert" href="mailto:webistle@gmail.com">Send an Email</a>
+                    </div>
+                </div>
+                <div class="col-md-6 contact-header-img">
+                    <img src="assets/images/contact-header-img.png">
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer-section">
+            <div class="footer-section-bg-graphics">
+                <img src="assets/images/footer-section-bg.png">
+            </div>
+            <!-- Footer Column 1 -->
+            <div class="container footer-container">
+                <div class="col-lg-3 col-md-6 footer-logo">
+                    <img src="logo3.png">
+                    <p class="footer-susection-text">Helping businesses to raise their online presence</p>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-subsection">
+                    <div class="footer-subsection-2-1">
+                        <h3 class="footer-subsection-title">About</h3>
+                        <p class="footer-subsection-text">We are here helping buisinesses to develop their online presence.</p>
+                    </div>
+                </div>
+                <!-- Footer Column 2 -->
+                <div class="col-lg-3 col-md-6 footer-subsection">
+                    <h3 class="footer-subsection-title">Contact Us</h3>
+                    <ul class="footer-subsection-list">
+                        
+                        <li>webistle@gmail.com</webistle@gmail></li>
+                    </ul>
+                </div>
+                <!-- Footer Column 3 -->
+                <div class="col-lg-3 col-md-6 footer-subsection">
+                    <div class="footer-subsection-2-2">
+                        <h3 class="footer-subsection-title">Socials</h3>
+                        <div class="footer-social-media-icons-section">
+                            <a href="#top" class="footer-social-media-icon"><i class="fa fa-twitter"></i></a>
+                            <a href="#top" class="footer-social-media-icon"><i class="fa fa-instagram"></i></a>
+                            <a href="#top" class="footer-social-media-icon"><i class="fa fa-facebook"></i></a>
+                            <a href="#top" class="footer-social-media-icon"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FOOTER CREDITS -->
+            <div class="container footer-credits">
+                <p>&copy; 2021 Webistle All Rights Reserved.</p>
+            </div>
+        </div>
     </div>
-    <div class="color-palate-head">
-        <h6>Choose Your Options</h6>
-    </div>
-	<h5>RTL Version</h5>
-	<ul class="rtl-version option-box"> <li class="rtl">RTL Version</li> <li>LTR Version</li> </ul>
-	<h5>Boxed Version</h5>
-	<ul class="box-version option-box"> <li class="box">Boxed</li> <li>Full width</li></ul>
-	<h5>Want Sticky Header</h5>
-	<ul class="header-version option-box"> <li class="box">No</li> <li>Yes</li></ul>
-    <h5>Dark Verion</h5>
-	<ul class="dark-version option-box"> <li class="box">Yes</li> <li>No</li></ul>
-	<a href="#" class="purchase-btn">Purchase now $17</a>
-    <div class="palate-foo">
-        <span>You will find much more options and styling in admin panel.</span>
-    </div>
-</div>
-<!-- Search Popup -->
-<div class="search-popup">
-	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
-	<button class="close-search"><span class="fa fa-arrow-up"></span></button>
-	<form method="post" action="index.html">
-		<div class="form-group">
-			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-			<button type="submit"><i class="fa fa-search"></i></button>
-		</div>
-	</form>
-</div>
-<!-- End Header Search -->
-<!-- Scroll To Top -->
-<div class="back-to-top scroll-to-target show-back-to-top" data-target="html" style="display: none;">TOP</div>
-<script src="html/merix/merix/js/jquery.js"></script>
-<script src="html/merix/merix/js/popper.min.js"></script>
-<script src="html/merix/merix/js/bootstrap.min.js"></script>
-<script src="html/merix/merix/js/jquery.mcustomscrollbar.concat.min.js"></script>
-<script src="html/merix/merix/js/jquery.fancybox.js"></script>
-<script src="html/merix/merix/js/appear.js"></script>
-<script src="html/merix/merix/js/parallax.min.js"></script>
-<script src="html/merix/merix/js/tilt.jquery.min.js"></script>
-<script src="html/merix/merix/js/jquery.paroller.min.js"></script>
-<script src="html/merix/merix/js/owl.js"></script>
-<script src="html/merix/merix/js/wow.js"></script>
-<script src="html/merix/merix/js/mixitup.js"></script>
-<script src="html/merix/merix/js/nav-tool.js"></script>
-<script src="html/merix/merix/js/jquery-ui.js"></script>
-<script src="html/merix/merix/js/script.js"></script>
-<script src="html/merix/merix/js/color-settings.js"></script>
-<script>
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbz_YuEfBX7QSPe5QzqOIxkp5yTTieiqmNL76P-wNE4CGUM6vw8c9pT2/exec'
-	const form = document.forms['google-sheet']
-  
-	form.addEventListener('submit', e => {
-	  e.preventDefault()
-	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-		.catch(error => console.error('Error!', error.message))
-	})
-  </script><script>
-	const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyJ-uarmslGS9aWSNpvVkNt9FavZHzXiu_Z4TDy0nbuugqtvmw3YyJkvw/exec'
-	const form2 = document.forms['google-sheet2']
-	form2.addEventListener('submit', e => {
-	  e.preventDefault()
-	  fetch(scriptURL2, { method: 'POST', body: new FormData2(form2)})
-		.then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-		.catch(error => console.error('Error!', error.message))
-  </script>
 
-<script>
-	function myFunction() {
-	  document.getElementById("google-sheet").reset();
-	}
-	</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- FOOTER SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl/owl.carousel.js"></script>
+    <script src="assets/js/accordian.js"></script>
+    <!-- Header scroll -->
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 20) {
+                $('#navbar').addClass('header-scrolled');
+            } else {
+                $('#navbar').removeClass('header-scrolled');
+            }
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 4,
+                loop: true,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript" src="nav.js"></script>
 </body>
+
 </html>
