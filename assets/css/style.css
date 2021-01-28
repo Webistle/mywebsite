@@ -166,7 +166,11 @@ color: #FF3E81;
     letter-spacing: 1.5px;
     line-height: 1;
 }
-
+@media only screen and (max-width: 1205px) {
+#navbar {
+display: none;
+}
+}
 
 
 .learn-more-btn {
