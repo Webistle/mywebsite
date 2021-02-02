@@ -1,5 +1,11 @@
-<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_template_part() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/templates/template-full-width.php:11
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/templates/template-full-width.php</b> on line <b>11</b><br />
+<?php
+/**
+ * Template Name: Full Width Template
+ * Template Post Type: post, page
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty
+ * @since Twenty Twenty 1.0
+ */
+
+get_template_part( 'singular' );

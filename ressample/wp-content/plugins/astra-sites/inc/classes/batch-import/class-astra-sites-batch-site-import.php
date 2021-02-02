@@ -1,0 +1,6 @@
+<br />
+<b>Warning</b>:  Use of undefined constant ASTRA_SITES_DIR - assumed 'ASTRA_SITES_DIR' (this will throw an Error in a future version of PHP) in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/batch-import/class-astra-sites-batch-site-import.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  require_once(ASTRA_SITES_DIRinc/classes/batch-import/class-astra-sites-batch-site-import-batch.php): failed to open stream: No such file or directory in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/batch-import/class-astra-sites-batch-site-import.php</b> on line <b>68</b><br />
+<br />
+<b>Fatal error</b>:  require_once(): Failed opening required 'ASTRA_SITES_DIRinc/classes/batch-import/class-astra-sites-batch-site-import-batch.php' (include_path='.:/opt/lampp/lib/php') in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/batch-import/class-astra-sites-batch-site-import.php</b> on line <b>68</b><br />

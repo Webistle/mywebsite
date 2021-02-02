@@ -1,5 +1,33 @@
-<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_header() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/templates/template-cover.php:11
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/templates/template-cover.php</b> on line <b>11</b><br />
+<?php
+/**
+ * Template Name: Cover Template
+ * Template Post Type: post, page
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty
+ * @since Twenty Twenty 1.0
+ */
+
+get_header();
+?>
+
+<main id="site-content" role="main">
+
+	<?php
+
+	if ( have_posts() ) {
+
+		while ( have_posts() ) {
+			the_post();
+
+			get_template_part( 'template-parts/content-cover' );
+		}
+	}
+
+	?>
+
+</main><!-- #site-content -->
+
+<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+
+<?php get_footer(); ?>

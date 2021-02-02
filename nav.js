@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("#navbar ul li.nav-item a.nav-link");
+const navLi = document.querySelectorAll("#navbartop ul li a");
 window.addEventListener("scroll", () => {
   let current = "";
   sections.forEach((section) => {

@@ -1,6 +1,36 @@
+<?php
+/**
+ * Template part for displaying header row.
+ *
+ * @package Astra Builder
+ */
+
+?>
 <div id="ast-desktop-header">
-	<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function astra_main_header_bar_top() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/header/builder/desktop-builder-layout.php:11
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/header/builder/desktop-builder-layout.php</b> on line <b>11</b><br />
+	<?php
+		astra_main_header_bar_top();
+
+		/**
+		 * Astra Top Header
+		 */
+		do_action( 'astra_above_header' );
+
+		/**
+		 * Astra Main Header
+		 */
+		do_action( 'astra_primary_header' );
+
+		/**
+		 * Astra Bottom Header
+		 */
+		do_action( 'astra_below_header' );
+
+		astra_main_header_bar_bottom();
+	?>
+</div> <!-- Main Header Bar Wrap -->
+<?php
+/**
+ * Astra Mobile Header
+ */
+do_action( 'astra_mobile_header' );
+?>

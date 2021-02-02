@@ -1,5 +1,36 @@
-<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_header() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/404.php:10
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/twentytwenty/404.php</b> on line <b>10</b><br />
+<?php
+/**
+ * The template for displaying the 404 template in the Twenty Twenty theme.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty
+ * @since Twenty Twenty 1.0
+ */
+
+get_header();
+?>
+
+<main id="site-content" role="main">
+
+	<div class="section-inner thin error404-content">
+
+		<h1 class="entry-title"><?php _e( 'Page Not Found', 'twentytwenty' ); ?></h1>
+
+		<div class="intro-text"><p><?php _e( 'The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place.', 'twentytwenty' ); ?></p></div>
+
+		<?php
+		get_search_form(
+			array(
+				'label' => __( '404 not found', 'twentytwenty' ),
+			)
+		);
+		?>
+
+	</div><!-- .section-inner -->
+
+</main><!-- #site-content -->
+
+<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+
+<?php
+get_footer();

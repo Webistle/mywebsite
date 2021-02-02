@@ -1,6 +1,40 @@
-<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_filter() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/inc/compatibility/class-astra-yoast-seo.php:19
-Stack trace:
-#0 /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/inc/compatibility/class-astra-yoast-seo.php(40): Astra_Yoast_SEO-&gt;__construct()
-#1 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/inc/compatibility/class-astra-yoast-seo.php</b> on line <b>19</b><br />
+<?php
+/**
+ * Yoast SEO Compatibility File.
+ *
+ * @package Astra
+ */
+
+/**
+ * Astra Yoast SEO Compatibility
+ *
+ * @since 2.1.2
+ */
+class Astra_Yoast_SEO {
+
+	/**
+	 * Constructor
+	 */
+	public function __construct() {
+		add_filter( 'wpseo_sitemap_exclude_post_type', array( $this, 'sitemap_exclude_post_type' ), 10, 2 );
+	}
+
+	/**
+	 * Exclude One Content Type From Yoast SEO Sitemap
+	 *
+	 * @param  string $value value.
+	 * @param  string $post_type Post Type.
+	 * @since 2.1.2
+	 */
+	public function sitemap_exclude_post_type( $value, $post_type ) {
+		if ( 'astra-advanced-hook' === $post_type ) {
+			return true;
+		}
+	}
+
+}
+
+/**
+ * Kicking this off by object
+ */
+new Astra_Yoast_SEO();

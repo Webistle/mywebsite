@@ -1,6 +1,34 @@
-<br />
-<b>Warning</b>:  Use of undefined constant HFE_DIR - assumed 'HFE_DIR' (this will throw an Error in a future version of PHP) in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/header-footer-elementor/themes/hello-elementor/class-hfe-hello-elementor-compat.php</b> on line <b>27</b><br />
-<br />
-<b>Warning</b>:  require_once(HFE_DIRthemes/default/class-hfe-default-compat.php): failed to open stream: No such file or directory in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/header-footer-elementor/themes/hello-elementor/class-hfe-hello-elementor-compat.php</b> on line <b>27</b><br />
-<br />
-<b>Fatal error</b>:  require_once(): Failed opening required 'HFE_DIRthemes/default/class-hfe-default-compat.php' (include_path='.:/opt/lampp/lib/php') in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/header-footer-elementor/themes/hello-elementor/class-hfe-hello-elementor-compat.php</b> on line <b>27</b><br />
+<?php
+/**
+ * HFE_Hello_Elementor_Compat setup
+ *
+ * @package header-footer-elementor
+ */
+
+/**
+ * Hello Elementor compatibility.
+ */
+class HFE_Hello_Elementor_Compat {
+
+	/**
+	 * Instance of HFE_Hello_Elementor_Compat.
+	 *
+	 * @var HFE_Hello_Elementor_Compat
+	 */
+	private static $instance;
+
+	/**
+	 *  Initiator
+	 */
+	public static function instance() {
+		if ( ! isset( self::$instance ) ) {
+			self::$instance = new HFE_Hello_Elementor_Compat();
+
+			require_once HFE_DIR . 'themes/default/class-hfe-default-compat.php';
+		}
+
+		return self::$instance;
+	}
+}
+
+HFE_Hello_Elementor_Compat::instance();

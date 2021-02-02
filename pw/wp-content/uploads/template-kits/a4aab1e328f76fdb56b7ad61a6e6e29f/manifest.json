@@ -1,0 +1,2679 @@
+{
+    "manifest_version": "1.0.14",
+    "title": "Digim",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.png",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/404-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.png",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/about\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/pricing\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home Version Three",
+            "screenshot": "screenshots\/home-version-three.png",
+            "source": "templates\/home-version-three.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/home-version-three\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home Version Two",
+            "screenshot": "screenshots\/home-version-two.png",
+            "source": "templates\/home-version-two.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/home-version-two\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home Version One",
+            "screenshot": "screenshots\/home-version-one.png",
+            "source": "templates\/home-version-one.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/home-version-one\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.png",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/team\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "How it Works",
+            "screenshot": "screenshots\/how-it-works.png",
+            "source": "templates\/how-it-works.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/how-it-works\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.png",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/faq\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/contact-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Process",
+            "screenshot": "screenshots\/our-process.png",
+            "source": "templates\/our-process.json",
+            "preview_url": "https:\/\/templatekits.radiantthemes.com\/digim\/template-kit\/our-process\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Awesome Contact Form7 for Elementor",
+            "version": "1.1",
+            "file": "awesome-contact-form7-for-elementor\/init.php",
+            "author": "B.M. Rafiul Alam"
+        },
+        {
+            "name": "Contact Form 7",
+            "version": "5.2.1",
+            "file": "contact-form-7\/wp-contact-form-7.php",
+            "author": "Takayuki Miyoshi"
+        },
+        {
+            "name": "Elementor",
+            "version": "2.9.14",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "404-img-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/404-img-3-600x302.png",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 48054,
+            "dimensions": [
+                644,
+                324
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/landing-page-template-404-error-design_3078935.htm"
+        },
+        {
+            "filename": "innerpage-banner-3.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/innerpage-banner-3-600x101.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 50317,
+            "dimensions": [
+                1920,
+                324
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homesix-img1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/homesix-img1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 82251,
+            "dimensions": [
+                578,
+                560
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/data-analysis-financial-adviser-business-data-analysis-landing-pages-template_8178008.htm"
+        },
+        {
+            "filename": "homefive-img2-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/homefive-img2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 88853,
+            "dimensions": [
+                587,
+                526
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/team-work-concept-people-work-with-finance-charts-graphs-business-data-analysis-optimization-landing-web-page-vector-design_6711611.htm"
+        },
+        {
+            "filename": "symbol1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/symbol1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 1091,
+            "dimensions": [
+                18,
+                19
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "symbol2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/symbol2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 1218,
+            "dimensions": [
+                20,
+                21
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-icon1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/about-icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6080,
+            "dimensions": [
+                121,
+                121
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "about-icon2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/about-icon2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6784,
+            "dimensions": [
+                121,
+                121
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/creativity_1126453?term=idea&page=1&position=30"
+        },
+        {
+            "filename": "about-icon3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/about-icon3.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6091,
+            "dimensions": [
+                121,
+                121
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/optimize_2344698?term=optimize&page=1&position=40"
+        },
+        {
+            "filename": "about-icon4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/about-icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 6524,
+            "dimensions": [
+                121,
+                121
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/target_1589599?term=target&page=1&position=80"
+        },
+        {
+            "filename": "divider.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/divider.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 3440,
+            "dimensions": [
+                24,
+                1357
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Technology.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Technology.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2320,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/flat-technology-logo-collection_4403604.htm"
+        },
+        {
+            "filename": "Circle-Techno.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Circle-Techno.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2202,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/set-company-logo-design-ideas_3462566.htm#page=2&query=logo%20icon&position=3"
+        },
+        {
+            "filename": "Brand-Techno.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Brand-Techno.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2044,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/colorful-gradient-abstract-logo_6758040.htm#page=1&query=colorful-gradient-abstract-logo&position=0"
+        },
+        {
+            "filename": "Bubble-Tech.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Bubble-Tech.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2238,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Partic-Tech.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Partic-Tech.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2130,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/flat-technology-logo-collection_4403604.htm"
+        },
+        {
+            "filename": "Hexa-Techno.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Hexa-Techno.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 1857,
+            "dimensions": [
+                100,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/abstract-logo-two-versions_7088660.htm#page=1&query=abstract-logo-two-versions&position=5"
+        },
+        {
+            "filename": "about-img-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/about-img-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 27780,
+            "dimensions": [
+                455,
+                443
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "team1-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/team1-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 15303,
+            "dimensions": [
+                294,
+                328
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team2-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/team2-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 17051,
+            "dimensions": [
+                294,
+                328
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team3-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/team3-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 20729,
+            "dimensions": [
+                294,
+                328
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team4-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/team4-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 18450,
+            "dimensions": [
+                294,
+                328
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "pricing-img-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/pricing-img-3-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 22344,
+            "dimensions": [
+                608,
+                608
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "blank-image-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/blank-image-1.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 1708,
+            "dimensions": [
+                20,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "pricing-img-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/pricing-img-1.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 14603,
+            "dimensions": [
+                120,
+                336
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-flat-design-isometric-concept-data-analysis_3983952.htm"
+        },
+        {
+            "filename": "pricing-img-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/pricing-img-2.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 10811,
+            "dimensions": [
+                135,
+                337
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-flat-design-isometric-concept-data-analysis_3983952.htm"
+        },
+        {
+            "filename": "1-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/1-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3037,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "2-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/2-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 4622,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "3-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/3-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2592,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "4-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/4-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 5534,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-logos-branding-vector_3585461.htm#query=logo%20icon%20set%20hipster&position=25"
+        },
+        {
+            "filename": "5-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/5-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3455,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/line-art-design_6794067.htm"
+        },
+        {
+            "filename": "6-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/6-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3017,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/line-art-design_6794067.htm"
+        },
+        {
+            "filename": "7-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/7-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 5896,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-logos-branding-vector_3585461.htm#query=logo%20icon%20set%20hipster&position=25"
+        },
+        {
+            "filename": "8-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/8-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2364,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "9-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/9-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3841,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/line-art-design_6794067.htm"
+        },
+        {
+            "filename": "10-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/10-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3849,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "11-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/11-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 5789,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-logos-branding-vector_3585440.htm#page=1&query=logo%20icon%20the%20backyard&position=4"
+        },
+        {
+            "filename": "12-black.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/12-black.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2723,
+            "dimensions": [
+                216,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homepage3-banner-bg.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage3-banner-bg-600x238.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 71048,
+            "dimensions": [
+                1920,
+                761
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "call-circle.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/call-circle.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1865,
+            "dimensions": [
+                50,
+                50
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "banner-img-4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/banner-img-4-600x494.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 114338,
+            "dimensions": [
+                745,
+                614
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-psd\/dashboard-website-template_7196126.htm"
+        },
+        {
+            "filename": "icon1-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/icon1-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 2186,
+            "dimensions": [
+                53,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon2-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/icon2-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1659,
+            "dimensions": [
+                53,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon3-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/icon3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1800,
+            "dimensions": [
+                53,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 2073,
+            "dimensions": [
+                53,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homepage-img1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage-img1-600x380.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 74519,
+            "dimensions": [
+                703,
+                445
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/symbolic-brainstorming-success-company-strategy_7847915.htm#page=3&position=20"
+        },
+        {
+            "filename": "homethree-star-for-success-story.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-star-for-success-story-600x178.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 5322,
+            "dimensions": [
+                1220,
+                361
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "home3-bg3-2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home3-bg3-2-600x115.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 31220,
+            "dimensions": [
+                1920,
+                367
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homethree-line-bg.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-line-bg-600x2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1891,
+            "dimensions": [
+                791,
+                3
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "blank-image-1-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/blank-image-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1708,
+            "dimensions": [
+                20,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homethree-check.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-check.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 1223,
+            "dimensions": [
+                42,
+                42
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homethree-success-story.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-success-story-600x55.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 6240,
+            "dimensions": [
+                827,
+                76
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homepage3-img1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage3-img1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 54533,
+            "dimensions": [
+                577,
+                453
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/food-delivery-service-young-male-courier-with-large-backpack_7714012.htm#page=6&position=40"
+        },
+        {
+            "filename": "homethree-icon-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 3866,
+            "dimensions": [
+                55,
+                53
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-icon-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 3288,
+            "dimensions": [
+                55,
+                53
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-icon-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 4275,
+            "dimensions": [
+                55,
+                53
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-icon-4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 5191,
+            "dimensions": [
+                55,
+                54
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-icon-5.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 4504,
+            "dimensions": [
+                55,
+                53
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-icon-6.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-icon-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 4048,
+            "dimensions": [
+                55,
+                53
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/set-linear-seo-icons_6356616.htm#page=1&query=seo%20icon%20set&position=1"
+        },
+        {
+            "filename": "homethree-start-for-subscribe.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homethree-start-for-subscribe-600x156.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 4989,
+            "dimensions": [
+                1210,
+                315
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "home3-bg3-3.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home3-bg3-3-600x115.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 31220,
+            "dimensions": [
+                1920,
+                367
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "testimonial-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/testimonial-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                }
+            ],
+            "filesize": 81733,
+            "dimensions": [
+                522,
+                523
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/illustrated-people-avatars-pack_7136778.htm#query=avatar&position=26"
+        },
+        {
+            "filename": "client2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/client2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-three.json",
+                    "name": "Home Version Three"
+                },
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 2231,
+            "dimensions": [
+                76,
+                76
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hometwo-bannerbg-5-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-bannerbg-5-1-600x309.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 88287,
+            "dimensions": [
+                1600,
+                823
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hometwo-banner-img-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-banner-img-1-600x295.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 99162,
+            "dimensions": [
+                1021,
+                502
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/search-concept-landing-page-flat-style_4934497.htm#page=2&query=seo&position=4"
+        },
+        {
+            "filename": "image_box1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/image_box1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 4809,
+            "dimensions": [
+                74,
+                74
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image_box2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/image_box2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 3360,
+            "dimensions": [
+                74,
+                74
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image_box3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/image_box3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 4453,
+            "dimensions": [
+                74,
+                74
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image_box4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/image_box4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 4668,
+            "dimensions": [
+                74,
+                74
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "home-two-star.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home-two-star-600x167.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 6065,
+            "dimensions": [
+                1238,
+                345
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "play_button.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/play_button.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 2177,
+            "dimensions": [
+                72,
+                72
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hometwo-img-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 14275,
+            "dimensions": [
+                105,
+                157
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/isometric-sets-use-mobile-applications-by-young-entrepreneurs_5527817.htm#page=3&query=web+development&position=40"
+        },
+        {
+            "filename": "hometwo-img-5.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 21624,
+            "dimensions": [
+                133,
+                161
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/isometric-sets-use-mobile-applications-by-young-entrepreneurs_5527817.htm#page=3&query=web+development&position=40"
+        },
+        {
+            "filename": "hometwo-img-4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 18963,
+            "dimensions": [
+                105,
+                158
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/isometric-sets-use-mobile-applications-by-young-entrepreneurs_5527817.htm#page=3&query=web+development&position=40"
+        },
+        {
+            "filename": "hometwo-img-6.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 19953,
+            "dimensions": [
+                125,
+                158
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/isometric-sets-use-mobile-applications-by-young-entrepreneurs_5527817.htm#page=3&query=web+development&position=40"
+        },
+        {
+            "filename": "homeone-img-71.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-71.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 65418,
+            "dimensions": [
+                597,
+                496
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/search-engine-rank-seo-optimization-isometric-landing-pages-seo-marketing-analytics-online-ranking-result_7772561.htm"
+        },
+        {
+            "filename": "hometwo-img-9.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-9-600x554.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 113407,
+            "dimensions": [
+                630,
+                582
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-isometric-illustration-ui-concept_8763289.htm"
+        },
+        {
+            "filename": "services1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/services1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 1308,
+            "dimensions": [
+                40,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "services3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/services3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 1433,
+            "dimensions": [
+                40,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "services2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/services2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 1391,
+            "dimensions": [
+                40,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "services4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/services4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 1440,
+            "dimensions": [
+                40,
+                41
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "hometwo-img-8.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/hometwo-img-8.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                }
+            ],
+            "filesize": 11056,
+            "dimensions": [
+                110,
+                109
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "arrow.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/arrow.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 2159,
+            "dimensions": [
+                62,
+                62
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "blog1-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/blog1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 43630,
+            "dimensions": [
+                404,
+                288
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/people-walking-dog-concept_8149569.htm"
+        },
+        {
+            "filename": "blog2-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/blog2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 44399,
+            "dimensions": [
+                404,
+                288
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/OUMw43P04nc"
+        },
+        {
+            "filename": "blog3-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/blog3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-two.json",
+                    "name": "Home Version Two"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 34282,
+            "dimensions": [
+                403,
+                288
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/new-normal-museums_8918886.htm"
+        },
+        {
+            "filename": "homepage1-banner-bg-new.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage1-banner-bg-new-600x209.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 54617,
+            "dimensions": [
+                1920,
+                670
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homepage1-banner-img-new-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage1-banner-img-new-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 144556,
+            "dimensions": [
+                488,
+                527
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-flat-design-isometric-concept-data-analysis_3983952.htm"
+        },
+        {
+            "filename": "homeone-img-9.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-9.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 4891,
+            "dimensions": [
+                101,
+                82
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-10.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-10.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 2910,
+            "dimensions": [
+                101,
+                82
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-11.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-11.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 4009,
+            "dimensions": [
+                101,
+                82
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-3-600x328.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 63802,
+            "dimensions": [
+                629,
+                344
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/coworking-office-flat-landing-page-template-with-header_5875697.htm#page=1&query=team&position=44"
+        },
+        {
+            "filename": "home3-bg2-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home3-bg2-1-600x142.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 37976,
+            "dimensions": [
+                1920,
+                454
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-line-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-line-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 17184,
+            "dimensions": [
+                348,
+                396
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-15.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-15.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 7657,
+            "dimensions": [
+                133,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-16.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-16.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 6713,
+            "dimensions": [
+                133,
+                144
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-17.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-17.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                },
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 7030,
+            "dimensions": [
+                133,
+                146
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homeone-img-4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homeone-img-4-600x439.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 61028,
+            "dimensions": [
+                664,
+                486
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/search-engine-optimization-advertising-concept-illustration_7488426.htm"
+        },
+        {
+            "filename": "home3-bg3-1.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home3-bg3-1-600x115.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 31220,
+            "dimensions": [
+                1920,
+                367
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "home1-get-support-pic.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home1-get-support-pic.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 36945,
+            "dimensions": [
+                460,
+                391
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/contact-us-landing-page-with-mail-female_5515726.htm#page=1&query=contact&position=23"
+        },
+        {
+            "filename": "home1-mapbg.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/home1-mapbg-600x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home-version-one.json",
+                    "name": "Home Version One"
+                }
+            ],
+            "filesize": 145987,
+            "dimensions": [
+                626,
+                417
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "team5.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/team5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 15169,
+            "dimensions": [
+                255,
+                285
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team6.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/team6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 14066,
+            "dimensions": [
+                255,
+                285
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team7.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/team7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 14259,
+            "dimensions": [
+                255,
+                285
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "team8.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/team8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 15069,
+            "dimensions": [
+                255,
+                285
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/collection-people-avatars_7149993.htm"
+        },
+        {
+            "filename": "homefive-arrow-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/homefive-arrow-1.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 2314,
+            "dimensions": [
+                55,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homefive-arrow-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/homefive-arrow-2.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 2250,
+            "dimensions": [
+                55,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "homefive-img9.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/homefive-img9.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 14603,
+            "dimensions": [
+                120,
+                336
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-flat-design-isometric-concept-data-analysis_3983952.htm"
+        },
+        {
+            "filename": "homepage-3-icon4-bg.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/homepage-3-icon4-bg.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 2289,
+            "dimensions": [
+                43,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "how-it-work-img-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/how-it-work-img-1.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 62791,
+            "dimensions": [
+                542,
+                509
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/teamwork-isometric-landing-page_6963016.htm"
+        },
+        {
+            "filename": "how-it-work-img-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/how-it-work-img-2.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 86722,
+            "dimensions": [
+                594,
+                399
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/digital-media-management-isometric-illustration_6919773.htm"
+        },
+        {
+            "filename": "Play_banner_home3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/07\/Play_banner_home3.png",
+            "templates": [
+                {
+                    "source": "templates\/how-it-works.json",
+                    "name": "How it Works"
+                }
+            ],
+            "filesize": 1951,
+            "dimensions": [
+                56,
+                55
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "faq-bg2.jpg",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/faq-bg2-600x203.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 29843,
+            "dimensions": [
+                1920,
+                651
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "56x56-icon-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/56x56-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 1195,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/optimization_2361678?term=optimize&page=1&position=10"
+        },
+        {
+            "filename": "56x56-icon2-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/56x56-icon2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 647,
+            "dimensions": [
+                52,
+                52
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/domain_2235607?term=www%20world&page=1&position=12"
+        },
+        {
+            "filename": "56x56-icon4.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/56x56-icon4.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 641,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/free-icon\/conversation_942802?term=chat&page=1&position=84"
+        },
+        {
+            "filename": "contact-icon-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/contact-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2023,
+            "dimensions": [
+                55,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "contact-icon-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/contact-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2078,
+            "dimensions": [
+                55,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "contact-icon-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/contact-icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 2012,
+            "dimensions": [
+                55,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "our-process-img-1.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/our-process-img-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 21244,
+            "dimensions": [
+                586,
+                410
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "our-process-img-3.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/our-process-img-3.png",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 21920,
+            "dimensions": [
+                391,
+                283
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/site-stats-concept-illustration_7140733.htm#page=1&query=dashboard&position=13"
+        },
+        {
+            "filename": "our-process-img-2.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/08\/our-process-img-2-600x472.png",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 113297,
+            "dimensions": [
+                626,
+                492
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/premium-vector\/modern-flat-design-isometric-concept-data-analysis_3983952.htm"
+        },
+        {
+            "filename": "Play.png",
+            "thumbnail_url": "https:\/\/templatekits.radiantthemes.com\/digim\/wp-content\/uploads\/2020\/05\/Play.png",
+            "templates": [
+                {
+                    "source": "templates\/our-process.json",
+                    "name": "Our Process"
+                }
+            ],
+            "filesize": 2528,
+            "dimensions": [
+                73,
+                73
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

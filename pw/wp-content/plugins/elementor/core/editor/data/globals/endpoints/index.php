@@ -1,5 +1,15 @@
-<br />
-<b>Fatal error</b>:  Uncaught Error: Class 'Elementor\Data\Base\Endpoint' not found in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/elementor/core/editor/data/globals/endpoints/index.php:7
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/elementor/core/editor/data/globals/endpoints/index.php</b> on line <b>7</b><br />
+<?php
+namespace Elementor\Core\Editor\Data\Globals\Endpoints;
+
+use Elementor\Data\Base\Endpoint;
+
+// TODO: Create base class for index endpoints, and move this function to there.
+class Index extends Endpoint {
+	public function get_name() {
+		return 'index'; // TODO: Replace with BaseIndex class.
+	}
+
+	public function get_items( $request ) {
+		return $this->controller->get_items_recursive( [ $this ] ); // TODO: Replace with BaseIndex class.
+	}
+}

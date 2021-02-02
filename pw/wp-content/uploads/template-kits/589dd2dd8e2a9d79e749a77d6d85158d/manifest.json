@@ -1,0 +1,2487 @@
+{
+    "manifest_version": "1.0.14",
+    "title": "Vixus - Business Startup Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Prices Style 2 Block",
+            "screenshot": "screenshots\/prices-style-2-block.jpg",
+            "source": "templates\/prices-style-2-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-prices-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style-6",
+            "screenshot": "screenshots\/header-style-6.jpg",
+            "source": "templates\/header-style-6.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-6",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services Style 1 Block",
+            "screenshot": "screenshots\/services-style-1-block.jpg",
+            "source": "templates\/services-style-1-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-services-style-1\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services Style 2 Block",
+            "screenshot": "screenshots\/services-style-2-block.jpg",
+            "source": "templates\/services-style-2-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-services-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services Style 3 Block",
+            "screenshot": "screenshots\/services-style-3-block.jpg",
+            "source": "templates\/services-style-3-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-services-style-3\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials Block",
+            "screenshot": "screenshots\/testimonials-block.jpg",
+            "source": "templates\/testimonials-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-testimonials\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home-1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/home-1\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header style-7",
+            "screenshot": "screenshots\/header-style-7.jpg",
+            "source": "templates\/header-style-7.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-7",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header style-5",
+            "screenshot": "screenshots\/header-style-5.jpg",
+            "source": "templates\/header-style-5.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-5",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery Style 1 Block",
+            "screenshot": "screenshots\/gallery-style-1-block.jpg",
+            "source": "templates\/gallery-style-1-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-gallery-style-1\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header style-4",
+            "screenshot": "screenshots\/header-style-4.jpg",
+            "source": "templates\/header-style-4.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-4",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header style-3",
+            "screenshot": "screenshots\/header-style-3.jpg",
+            "source": "templates\/header-style-3.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-3",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer style-2",
+            "screenshot": "screenshots\/footer-style-2.jpg",
+            "source": "templates\/footer-style-2.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=footer-style-2-2",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header style-2",
+            "screenshot": "screenshots\/header-style-2.jpg",
+            "source": "templates\/header-style-2.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-2",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer style-1",
+            "screenshot": "screenshots\/footer-style-1.jpg",
+            "source": "templates\/footer-style-1.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=footer-style-2",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer default",
+            "screenshot": "screenshots\/footer-default.jpg",
+            "source": "templates\/footer-default.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=footer-main",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header style-1",
+            "screenshot": "screenshots\/header-style-1.jpg",
+            "source": "templates\/header-style-1.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-style-1",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery Style 2 Block",
+            "screenshot": "screenshots\/gallery-style-2-block.jpg",
+            "source": "templates\/gallery-style-2-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-gallery-style-2\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Text with 4 Images Block",
+            "screenshot": "screenshots\/text-with-4-images-block.jpg",
+            "source": "templates\/text-with-4-images-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-text-with-4-image\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home-2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/home-2\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home-3",
+            "screenshot": "screenshots\/home-3.jpg",
+            "source": "templates\/home-3.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/home-3\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Company",
+            "screenshot": "screenshots\/about-company.jpg",
+            "source": "templates\/about-company.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/about-company\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Company",
+            "screenshot": "screenshots\/our-company.jpg",
+            "source": "templates\/our-company.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/our-company\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "What we do",
+            "screenshot": "screenshots\/what-we-do.jpg",
+            "source": "templates\/what-we-do.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/what-we-do\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Services",
+            "screenshot": "screenshots\/our-services.jpg",
+            "source": "templates\/our-services.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/our-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Image with Text 2 Column Block",
+            "screenshot": "screenshots\/image-with-text-2-column-block.jpg",
+            "source": "templates\/image-with-text-2-column-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-image-with-text-2-column\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our projects",
+            "screenshot": "screenshots\/our-projects.jpg",
+            "source": "templates\/our-projects.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/our-projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Price page",
+            "screenshot": "screenshots\/price-page.jpg",
+            "source": "templates\/price-page.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/price-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Prices Style 1 Block",
+            "screenshot": "screenshots\/prices-style-1-block.jpg",
+            "source": "templates\/prices-style-1-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-prices-style-1\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Left Text with Video Block",
+            "screenshot": "screenshots\/left-text-with-video-block.jpg",
+            "source": "templates\/left-text-with-video-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-left-text-with-video\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Left Text with Features and Image Block",
+            "screenshot": "screenshots\/left-text-with-features-and-image-block.jpg",
+            "source": "templates\/left-text-with-features-and-image-block.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/template-kit\/template-left-text-with-features-and-image\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header default",
+            "screenshot": "screenshots\/header-default.jpg",
+            "source": "templates\/header-default.json",
+            "preview_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/?elementor_library=header-default",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.11",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.5",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        }
+    ],
+    "images": [
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/prices-style-2-block.json",
+                    "name": "Prices Style 2 Block"
+                },
+                {
+                    "source": "templates\/services-style-1-block.json",
+                    "name": "Services Style 1 Block"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/prices-style-1-block.json",
+                    "name": "Prices Style 1 Block"
+                },
+                {
+                    "source": "templates\/left-text-with-features-and-image-block.json",
+                    "name": "Left Text with Features and Image Block"
+                }
+            ],
+            "filesize": 2591,
+            "dimensions": [
+                65,
+                70
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/prices-style-2-block.json",
+                    "name": "Prices Style 2 Block"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/prices-style-1-block.json",
+                    "name": "Prices Style 1 Block"
+                },
+                {
+                    "source": "templates\/left-text-with-features-and-image-block.json",
+                    "name": "Left Text with Features and Image Block"
+                }
+            ],
+            "filesize": 3601,
+            "dimensions": [
+                71,
+                71
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "icon-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/prices-style-2-block.json",
+                    "name": "Prices Style 2 Block"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/prices-style-1-block.json",
+                    "name": "Prices Style 1 Block"
+                }
+            ],
+            "filesize": 3222,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "background-9.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-9-600x169.jpg",
+            "templates": [
+                {
+                    "source": "templates\/header-style-6.json",
+                    "name": "Header style-6"
+                },
+                {
+                    "source": "templates\/header-style-3.json",
+                    "name": "Header style-3"
+                },
+                {
+                    "source": "templates\/header-style-2.json",
+                    "name": "Header style-2"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 22806,
+            "dimensions": [
+                1923,
+                542
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-white.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/logo-white.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-6.json",
+                    "name": "Header style-6"
+                },
+                {
+                    "source": "templates\/header-style-3.json",
+                    "name": "Header style-3"
+                },
+                {
+                    "source": "templates\/header-style-2.json",
+                    "name": "Header style-2"
+                },
+                {
+                    "source": "templates\/footer-style-1.json",
+                    "name": "Footer style-1"
+                },
+                {
+                    "source": "templates\/footer-default.json",
+                    "name": "Footer default"
+                }
+            ],
+            "filesize": 3463,
+            "dimensions": [
+                129,
+                36
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-2a.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/icon-2a.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-1-block.json",
+                    "name": "Services Style 1 Block"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                }
+            ],
+            "filesize": 2257,
+            "dimensions": [
+                69,
+                60
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "icon-6-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/icon-6-1.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-1-block.json",
+                    "name": "Services Style 1 Block"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                }
+            ],
+            "filesize": 2399,
+            "dimensions": [
+                64,
+                64
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "icon-7.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/icon-7.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-1-block.json",
+                    "name": "Services Style 1 Block"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                }
+            ],
+            "filesize": 2373,
+            "dimensions": [
+                57,
+                66
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "blog-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-1.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-2-block.json",
+                    "name": "Services Style 2 Block"
+                },
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 46154,
+            "dimensions": [
+                550,
+                312
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "blog-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-2.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-2-block.json",
+                    "name": "Services Style 2 Block"
+                },
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 28107,
+            "dimensions": [
+                550,
+                312
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "blog-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-3.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-2-block.json",
+                    "name": "Services Style 2 Block"
+                },
+                {
+                    "source": "templates\/our-company.json",
+                    "name": "Our Company"
+                }
+            ],
+            "filesize": 23946,
+            "dimensions": [
+                550,
+                312
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "blog-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-5.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-2-block.json",
+                    "name": "Services Style 2 Block"
+                },
+                {
+                    "source": "templates\/our-company.json",
+                    "name": "Our Company"
+                }
+            ],
+            "filesize": 21707,
+            "dimensions": [
+                350,
+                246
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "gallery-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/06\/gallery-1.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-3-block.json",
+                    "name": "Services Style 3 Block"
+                },
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 45527,
+            "dimensions": [
+                450,
+                328
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "clipart-8.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-8.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-3-block.json",
+                    "name": "Services Style 3 Block"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 32160,
+            "dimensions": [
+                468,
+                508
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "clipart-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/clipart-4-600x468.png",
+            "templates": [
+                {
+                    "source": "templates\/services-style-3-block.json",
+                    "name": "Services Style 3 Block"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our projects"
+                }
+            ],
+            "filesize": 38855,
+            "dimensions": [
+                671,
+                523
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "blockquote.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/blockquote.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials-block.json",
+                    "name": "Testimonials Block"
+                },
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                }
+            ],
+            "filesize": 1203,
+            "dimensions": [
+                33,
+                26
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "clipart-1w.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/clipart-1w-600x473.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/image-with-text-2-column-block.json",
+                    "name": "Image with Text 2 Column Block"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our projects"
+                }
+            ],
+            "filesize": 57301,
+            "dimensions": [
+                860,
+                678
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "clipart-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/clipart-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                }
+            ],
+            "filesize": 33337,
+            "dimensions": [
+                551,
+                556
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "clipart-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/clipart-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                }
+            ],
+            "filesize": 25223,
+            "dimensions": [
+                467,
+                465
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                }
+            ],
+            "filesize": 2130,
+            "dimensions": [
+                65,
+                56
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "icon-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/icon-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/left-text-with-features-and-image-block.json",
+                    "name": "Left Text with Features and Image Block"
+                }
+            ],
+            "filesize": 2647,
+            "dimensions": [
+                60,
+                69
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "background-1.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/background-1-600x211.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                }
+            ],
+            "filesize": 27800,
+            "dimensions": [
+                1920,
+                676
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "happy-young-casual-businessman-talking-on-mobile-Y2K9WAG.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/happy-young-casual-businessman-talking-on-mobile-Y2K9WAG-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 161250,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Y2K9WAG"
+        },
+        {
+            "filename": "casual-business-people-shaking-hands-4N6YMWV.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/casual-business-people-shaking-hands-4N6YMWV-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 216767,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4N6YMWV"
+        },
+        {
+            "filename": "smiling-business-woman-standing-and-looking-on-PCM72NW.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/smiling-business-woman-standing-and-looking-on-PCM72NW-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home-1"
+                },
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 348293,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PCM72NW"
+        },
+        {
+            "filename": "logo.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/02\/logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header-style-7.json",
+                    "name": "Header style-7"
+                },
+                {
+                    "source": "templates\/header-style-5.json",
+                    "name": "Header style-5"
+                },
+                {
+                    "source": "templates\/header-style-4.json",
+                    "name": "Header style-4"
+                },
+                {
+                    "source": "templates\/header-style-1.json",
+                    "name": "Header style-1"
+                },
+                {
+                    "source": "templates\/header-default.json",
+                    "name": "Header default"
+                }
+            ],
+            "filesize": 3077,
+            "dimensions": [
+                129,
+                36
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "clipart-6.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-6.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/left-text-with-video-block.json",
+                    "name": "Left Text with Video Block"
+                }
+            ],
+            "filesize": 40455,
+            "dimensions": [
+                465,
+                496
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "clipart-12.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-12.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 19731,
+            "dimensions": [
+                364,
+                422
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "clipart-10.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-10.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-1-block.json",
+                    "name": "Gallery Style 1 Block"
+                },
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 35123,
+            "dimensions": [
+                571,
+                620
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "gallery-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-2.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 23266,
+            "dimensions": [
+                370,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "gallery-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-3.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 20064,
+            "dimensions": [
+                370,
+                276
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "gallery-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-4.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 21799,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "blog-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-4.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 30767,
+            "dimensions": [
+                550,
+                312
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "gallery-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-5.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 20288,
+            "dimensions": [
+                370,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "gallery-6.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-6.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 27507,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "gallery-7.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/gallery-7.png",
+            "templates": [
+                {
+                    "source": "templates\/gallery-style-2-block.json",
+                    "name": "Gallery Style 2 Block"
+                }
+            ],
+            "filesize": 24277,
+            "dimensions": [
+                370,
+                570
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "block-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-2.png",
+            "templates": [
+                {
+                    "source": "templates\/text-with-4-images-block.json",
+                    "name": "Text with 4 Images Block"
+                }
+            ],
+            "filesize": 19225,
+            "dimensions": [
+                270,
+                342
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "block-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-3.png",
+            "templates": [
+                {
+                    "source": "templates\/text-with-4-images-block.json",
+                    "name": "Text with 4 Images Block"
+                }
+            ],
+            "filesize": 20565,
+            "dimensions": [
+                270,
+                342
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "block-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-4.png",
+            "templates": [
+                {
+                    "source": "templates\/text-with-4-images-block.json",
+                    "name": "Text with 4 Images Block"
+                }
+            ],
+            "filesize": 18879,
+            "dimensions": [
+                270,
+                342
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "block-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-5.png",
+            "templates": [
+                {
+                    "source": "templates\/text-with-4-images-block.json",
+                    "name": "Text with 4 Images Block"
+                }
+            ],
+            "filesize": 15922,
+            "dimensions": [
+                270,
+                342
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-LDMS2NS"
+        },
+        {
+            "filename": "clipart-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-5-600x438.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                },
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our projects"
+                },
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 116512,
+            "dimensions": [
+                972,
+                709
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "background-2.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-2-600x397.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 43218,
+            "dimensions": [
+                1920,
+                1270
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "price-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/price-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 17501,
+            "dimensions": [
+                350,
+                223
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "price-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/price-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 20745,
+            "dimensions": [
+                350,
+                223
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "price-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/price-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 18506,
+            "dimensions": [
+                350,
+                223
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "cirkle-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/cirkle-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 6542,
+            "dimensions": [
+                124,
+                123
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "cirkle-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/cirkle-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 5348,
+            "dimensions": [
+                124,
+                123
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "cirkle-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/cirkle-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 7151,
+            "dimensions": [
+                124,
+                123
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "cirkle-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/cirkle-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 7421,
+            "dimensions": [
+                124,
+                123
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "cirkle-5.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/cirkle-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home-2"
+                }
+            ],
+            "filesize": 6413,
+            "dimensions": [
+                124,
+                123
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "clipart-7.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-7.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our projects"
+                }
+            ],
+            "filesize": 29046,
+            "dimensions": [
+                571,
+                337
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "round-1-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 4112,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "round-2-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 3778,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "round-3-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 3962,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "round-4-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-4-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 4022,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "round-5-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-5-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 4618,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "round-6.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/round-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 4838,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/packs\/business-149\/"
+        },
+        {
+            "filename": "transformation-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/transformation-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 20223,
+            "dimensions": [
+                346,
+                217
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "transformation-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/transformation-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 16238,
+            "dimensions": [
+                364,
+                217
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "transformation-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/transformation-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 24091,
+            "dimensions": [
+                355,
+                217
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "transformation-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/transformation-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-3.json",
+                    "name": "Home-3"
+                }
+            ],
+            "filesize": 30648,
+            "dimensions": [
+                375,
+                217
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "bg-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/bg-1-600x199.png",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                }
+            ],
+            "filesize": 50630,
+            "dimensions": [
+                1920,
+                636
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "clipart-9.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/clipart-9.png",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 49729,
+            "dimensions": [
+                564,
+                601
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "quote-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/quote-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                }
+            ],
+            "filesize": 1197,
+            "dimensions": [
+                33,
+                26
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/bg-2-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                }
+            ],
+            "filesize": 43691,
+            "dimensions": [
+                1920,
+                676
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "smiling-woman-in-business-meeting-8XM8MQA.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/smiling-woman-in-business-meeting-8XM8MQA-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 170421,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8XM8MQA"
+        },
+        {
+            "filename": "stylish-business-woman-using-smartphone-7ASWUC9.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/stylish-business-woman-using-smartphone-7ASWUC9-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 159015,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7ASWUC9"
+        },
+        {
+            "filename": "successful-businessman-speaking-by-phone-W5EM9UV.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/successful-businessman-speaking-by-phone-W5EM9UV-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-company.json",
+                    "name": "About Company"
+                },
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 146155,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-W5EM9UV"
+        },
+        {
+            "filename": "blog-9.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/blog-9.png",
+            "templates": [
+                {
+                    "source": "templates\/our-company.json",
+                    "name": "Our Company"
+                }
+            ],
+            "filesize": 19680,
+            "dimensions": [
+                350,
+                246
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "block-6.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-6-600x355.png",
+            "templates": [
+                {
+                    "source": "templates\/our-company.json",
+                    "name": "Our Company"
+                }
+            ],
+            "filesize": 50332,
+            "dimensions": [
+                971,
+                574
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-BR44YFJ"
+        },
+        {
+            "filename": "background-4.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-4-600x273.jpg",
+            "templates": [
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                }
+            ],
+            "filesize": 29697,
+            "dimensions": [
+                1920,
+                873
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "happy-young-startup-owner-standing-in-office-PAUPQE3.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/happy-young-startup-owner-standing-in-office-PAUPQE3-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 178628,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PAUPQE3"
+        },
+        {
+            "filename": "happy-young-woman-using-mobile-phone-MYXK5W7.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/happy-young-woman-using-mobile-phone-MYXK5W7-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/what-we-do.json",
+                    "name": "What we do"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 148293,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MYXK5W7"
+        },
+        {
+            "filename": "background-4-1.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-4-1-600x153.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 22151,
+            "dimensions": [
+                1920,
+                489
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "o-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/o-1.png",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 2941,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "o-2.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/o-2.png",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 3087,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "o-3.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/o-3.png",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 3080,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "o-4.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/o-4.png",
+            "templates": [
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 3036,
+            "dimensions": [
+                79,
+                79
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "portrait-of-confident-businessman-in-conference-TXX6Y45.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/portrait-of-confident-businessman-in-conference-TXX6Y45-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 350511,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TXX6Y45"
+        },
+        {
+            "filename": "young-cheerful-business-woman-chatting-by-mobile-PFUZM56.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/young-cheerful-business-woman-chatting-by-mobile-PFUZM56-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 184067,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PFUZM56"
+        },
+        {
+            "filename": "vacancy-1-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/vacancy-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 17838,
+            "dimensions": [
+                278,
+                227
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        },
+        {
+            "filename": "background-7.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-7-600x96.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our projects"
+                }
+            ],
+            "filesize": 12642,
+            "dimensions": [
+                1920,
+                308
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "background-9-1.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/background-9-1-600x287.jpg",
+            "templates": [
+                {
+                    "source": "templates\/price-page.json",
+                    "name": "Price page"
+                }
+            ],
+            "filesize": 30582,
+            "dimensions": [
+                1920,
+                919
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg.jpg",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/bg-600x184.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 41526,
+            "dimensions": [
+                1920,
+                588
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "block-1.png",
+            "thumbnail_url": "http:\/\/template-kit.axiomthemes.com\/mobile-application\/wp-content\/uploads\/sites\/10\/2020\/03\/block-1.png",
+            "templates": [
+                {
+                    "source": "templates\/left-text-with-features-and-image-block.json",
+                    "name": "Left Text with Features and Image Block"
+                }
+            ],
+            "filesize": 32089,
+            "dimensions": [
+                568,
+                443
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/flat-design-concept-icons-collection-HAQTN47"
+        }
+    ]
+}

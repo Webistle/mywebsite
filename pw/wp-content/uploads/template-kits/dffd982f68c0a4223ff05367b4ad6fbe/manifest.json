@@ -1,0 +1,3293 @@
+{
+    "manifest_version": "1.0.16",
+    "title": "Influence Marketing",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/bimberonline.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Price Package 04",
+            "screenshot": "screenshots\/price-package-04.jpg",
+            "source": "templates\/price-package-04.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/price-package-04\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Price Package 02",
+            "screenshot": "screenshots\/price-package-02.jpg",
+            "source": "templates\/price-package-02.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/price-package-02\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Price Package 01",
+            "screenshot": "screenshots\/price-package-01.jpg",
+            "source": "templates\/price-package-01.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/price-package-01\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Price Package 03",
+            "screenshot": "screenshots\/price-package-03.jpg",
+            "source": "templates\/price-package-03.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/price-package-03\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage 02",
+            "screenshot": "screenshots\/homepage-02.jpg",
+            "source": "templates\/homepage-02.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/homepage-02\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Email Marketing",
+            "screenshot": "screenshots\/email-marketing.jpg",
+            "source": "templates\/email-marketing.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/email-marketing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive Post",
+            "screenshot": "screenshots\/archive-post.jpg",
+            "source": "templates\/archive-post.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/?elementor_library=archive-post",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/?elementor_library=single-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Free Seo Audit",
+            "screenshot": "screenshots\/free-seo-audit.jpg",
+            "source": "templates\/free-seo-audit.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/?elementor_library=free-seo-audit",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/2989"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Page #2989."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage 01",
+            "screenshot": "screenshots\/homepage-01.jpg",
+            "source": "templates\/homepage-01.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/homepage-01\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Project",
+            "screenshot": "screenshots\/single-project.jpg",
+            "source": "templates\/single-project.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/single-project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Cases Studies",
+            "screenshot": "screenshots\/our-cases-studies.jpg",
+            "source": "templates\/our-cases-studies.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/our-cases-studies\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Online Presence Analysis",
+            "screenshot": "screenshots\/online-presence-analysis.jpg",
+            "source": "templates\/online-presence-analysis.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/online-presence-analysis\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search Engine Marketing",
+            "screenshot": "screenshots\/search-engine-marketing.jpg",
+            "source": "templates\/search-engine-marketing.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/search-engine-marketing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Web Design",
+            "screenshot": "screenshots\/web-design.jpg",
+            "source": "templates\/web-design.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/web-design\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Link Generation",
+            "screenshot": "screenshots\/link-generation.jpg",
+            "source": "templates\/link-generation.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/link-generation\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Digital Consultancy",
+            "screenshot": "screenshots\/digital-consultancy.jpg",
+            "source": "templates\/digital-consultancy.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/digital-consultancy\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Faq",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search Engine Optimization",
+            "screenshot": "screenshots\/search-engine-optimization.jpg",
+            "source": "templates\/search-engine-optimization.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/search-engine-optimization\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Social Media Marketing",
+            "screenshot": "screenshots\/social-media-marketing.jpg",
+            "source": "templates\/social-media-marketing.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/template-kit\/social-media-marketing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/bimberonline.com\/influence-marketing\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.0.11",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.0.5",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "image-background-section-04-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-section-04-min-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 104597,
+            "dimensions": [
+                1920,
+                674
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/5-digital-marketing-banner-concepts-84T4EC"
+        },
+        {
+            "filename": "image-rocket-09-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-rocket-09-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 7641,
+            "dimensions": [
+                360,
+                352
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-universe-vector-patches-vol-1-NH6DPV"
+        },
+        {
+            "filename": "image-section-76-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-76-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 2229,
+            "dimensions": [
+                226,
+                137
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/new-business-project-start-up-FNH6GR"
+        },
+        {
+            "filename": "image-rocket-13-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-rocket-13-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 9134,
+            "dimensions": [
+                458,
+                473
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-universe-vector-patches-vol-1-NH6DPV"
+        },
+        {
+            "filename": "image-rocket-12-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-rocket-12-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 3325,
+            "dimensions": [
+                200,
+                199
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/space-universe-vector-patches-vol-1-NH6DPV"
+        },
+        {
+            "filename": "image-section-77-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-77-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 2707,
+            "dimensions": [
+                288,
+                169
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/new-business-project-start-up-FNH6GR"
+        },
+        {
+            "filename": "image-section-75-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-75-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/price-package-02.json",
+                    "name": "Price Package 02"
+                },
+                {
+                    "source": "templates\/price-package-01.json",
+                    "name": "Price Package 01"
+                },
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 10302,
+            "dimensions": [
+                228,
+                701
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/new-business-project-start-up-FNH6GR"
+        },
+        {
+            "filename": "image-section-72-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-72-min-600x650.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 29963,
+            "dimensions": [
+                606,
+                657
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-73-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-73-min-600x650.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 28658,
+            "dimensions": [
+                609,
+                660
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-74-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-74-min-600x654.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-04.json",
+                    "name": "Price Package 04"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 27074,
+            "dimensions": [
+                606,
+                661
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-badge-07-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-badge-07-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 5492,
+            "dimensions": [
+                350,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-money-market-NFAEYWA"
+        },
+        {
+            "filename": "image-badge-08-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-badge-08-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 8955,
+            "dimensions": [
+                350,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-money-market-NFAEYWA"
+        },
+        {
+            "filename": "image-badge-09-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-badge-09-min.png",
+            "templates": [
+                {
+                    "source": "templates\/price-package-03.json",
+                    "name": "Price Package 03"
+                },
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 11771,
+            "dimensions": [
+                350,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/digital-money-market-NFAEYWA"
+        },
+        {
+            "filename": "image-background-section-06-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-section-06-min-600x328.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 11932,
+            "dimensions": [
+                1905,
+                1040
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-63-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-63-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 42301,
+            "dimensions": [
+                1200,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-40-modern-flat-design-concepts-4W5BVKZ"
+        },
+        {
+            "filename": "image-section-67-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-67-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 10910,
+            "dimensions": [
+                560,
+                1110
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-66-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-66-min-600x237.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 8786,
+            "dimensions": [
+                1013,
+                400
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-62.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-62-600x480.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 74909,
+            "dimensions": [
+                1000,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "image-section-61.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-61-600x480.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 83053,
+            "dimensions": [
+                1000,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "image-section-60.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-60-600x480.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 75494,
+            "dimensions": [
+                1000,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/web-development-line-design-banners-25X626K"
+        },
+        {
+            "filename": "image-background-popup-01-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-popup-01-min-600x600.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 32303,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-71-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-71-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 10167,
+            "dimensions": [
+                358,
+                1097
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-70-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-70-min-600x213.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 8085,
+            "dimensions": [
+                1147,
+                408
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-section-65-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-65-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 38647,
+            "dimensions": [
+                1200,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-40-modern-flat-design-concepts-4W5BVKZ"
+        },
+        {
+            "filename": "image-icon-50-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-50-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 1228,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-filled-icons-PZSHXDR"
+        },
+        {
+            "filename": "image-icon-51-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-51-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 1631,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-filled-icons-PZSHXDR"
+        },
+        {
+            "filename": "image-icon-52-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-52-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 1165,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-filled-icons-PZSHXDR"
+        },
+        {
+            "filename": "image-icon-55-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-55-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 1844,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-filled-icons-PZSHXDR"
+        },
+        {
+            "filename": "image-section-64-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-64-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 33485,
+            "dimensions": [
+                1200,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-40-modern-flat-design-concepts-4W5BVKZ"
+        },
+        {
+            "filename": "image-section-69-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-69-min-600x276.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                }
+            ],
+            "filesize": 9399,
+            "dimensions": [
+                1029,
+                474
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "image-team-07-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-07-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 100095,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-08-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-08-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 90619,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-03-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-03-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 75907,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-02-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-02-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage-02.json",
+                    "name": "Homepage 02"
+                },
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 42609,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-background-section-01-min-1.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2019\/11\/image-background-section-01-min-1-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 118178,
+            "dimensions": [
+                1920,
+                674
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/5-digital-marketing-banner-concepts-84T4EC"
+        },
+        {
+            "filename": "image-section-50-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-50-min-600x609.png",
+            "templates": [
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                }
+            ],
+            "filesize": 38834,
+            "dimensions": [
+                986,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-56-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-56-min-600x684.png",
+            "templates": [
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 37246,
+            "dimensions": [
+                878,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-background-section-03-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-section-03-min-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/email-marketing.json",
+                    "name": "Email Marketing"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 91815,
+            "dimensions": [
+                1920,
+                674
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/5-digital-marketing-banner-concepts-84T4EC"
+        },
+        {
+            "filename": "image-section-banner-11.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-11-600x185.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 45452,
+            "dimensions": [
+                1201,
+                370
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-53-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-53-min-600x602.png",
+            "templates": [
+                {
+                    "source": "templates\/archive-post.json",
+                    "name": "Archive Post"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 33485,
+            "dimensions": [
+                653,
+                655
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-background-section-05-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-section-05-min-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 97322,
+            "dimensions": [
+                1920,
+                674
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/5-digital-marketing-banner-concepts-84T4EC"
+        },
+        {
+            "filename": "image-section-36-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-36-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                },
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 10972,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-background-popup-02-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-popup-02-min-600x629.png",
+            "templates": [
+                {
+                    "source": "templates\/free-seo-audit.json",
+                    "name": "Free Seo Audit"
+                }
+            ],
+            "filesize": 26652,
+            "dimensions": [
+                616,
+                646
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-analysis-insometric-concept-62CPBNT"
+        },
+        {
+            "filename": "image-background-hero-01-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2019\/11\/image-background-hero-01-min-600x391.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 55012,
+            "dimensions": [
+                1921,
+                1251
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/liquid-molecules-backgrounds-D2EQ7W"
+        },
+        {
+            "filename": "image-section-banner-04-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-04-min-600x329.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 60584,
+            "dimensions": [
+                1695,
+                930
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-banner-12-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-12-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 4627,
+            "dimensions": [
+                368,
+                368
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-banner-16-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-16-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 3866,
+            "dimensions": [
+                355,
+                355
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-banner-13-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-13-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 3206,
+            "dimensions": [
+                303,
+                303
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-banner-14-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-14-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2173,
+            "dimensions": [
+                199,
+                199
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-section-banner-19-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-banner-19-min-600x588.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 130793,
+            "dimensions": [
+                1986,
+                1945
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-startup-illustration-with-layout-CFYDEZ4"
+        },
+        {
+            "filename": "image-icon-27-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-27-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2035,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-icon-26-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-26-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2286,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-icon-29-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-29-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2223,
+            "dimensions": [
+                201,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-icon-28-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-28-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2129,
+            "dimensions": [
+                200,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-section-46-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-46-min-600x623.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                },
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 45811,
+            "dimensions": [
+                964,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-43-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-43-min-600x706.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 41665,
+            "dimensions": [
+                851,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-25-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-25-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2209,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-icon-24-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-24-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 1107,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-icon-23-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-23-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2313,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-icon-22-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-22-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2424,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-icon-21-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-21-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 2625,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-icon-20-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-20-min.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 3341,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-growth-line-icons-Z8FKX2M"
+        },
+        {
+            "filename": "image-section-47-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-47-min-600x336.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage-01.json",
+                    "name": "Homepage 01"
+                }
+            ],
+            "filesize": 23306,
+            "dimensions": [
+                1207,
+                676
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-section-27-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-27-min.png",
+            "templates": [
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                }
+            ],
+            "filesize": 12092,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-people-character-situation-scenes-PSMBNMZ"
+        },
+        {
+            "filename": "image-section-26-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-26-min.png",
+            "templates": [
+                {
+                    "source": "templates\/single-project.json",
+                    "name": "Single Project"
+                }
+            ],
+            "filesize": 14139,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/marketing-people-character-situation-scenes-PSMBNMZ"
+        },
+        {
+            "filename": "image-background-section-02-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-background-section-02-min-600x211.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                },
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 78257,
+            "dimensions": [
+                1920,
+                674
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/5-digital-marketing-banner-concepts-84T4EC"
+        },
+        {
+            "filename": "image-section-38-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-38-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 7868,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-section-37-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-37-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 12821,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-section-35-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-35-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 13793,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-section-34-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-34-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 10392,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-section-39-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-39-min-600x450.png",
+            "templates": [
+                {
+                    "source": "templates\/our-cases-studies.json",
+                    "name": "Our Cases Studies"
+                }
+            ],
+            "filesize": 10932,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-flat-line-color-conceptual-icons-AY83NP"
+        },
+        {
+            "filename": "image-icon-43-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-43-min.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 4146,
+            "dimensions": [
+                251,
+                251
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/flat-icons-seo-marketing-SZ3AXJ"
+        },
+        {
+            "filename": "image-icon-42-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-42-min.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 3668,
+            "dimensions": [
+                251,
+                251
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/flat-icons-seo-marketing-SZ3AXJ"
+        },
+        {
+            "filename": "image-icon-44-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-44-min.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 5000,
+            "dimensions": [
+                251,
+                251
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/flat-icons-seo-marketing-SZ3AXJ"
+        },
+        {
+            "filename": "image-icon-41-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-41-min.png",
+            "templates": [
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                }
+            ],
+            "filesize": 2381,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-icon-40-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-40-min.png",
+            "templates": [
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                }
+            ],
+            "filesize": 2045,
+            "dimensions": [
+                240,
+                240
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-section-49-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-49-min-600x667.png",
+            "templates": [
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                }
+            ],
+            "filesize": 40552,
+            "dimensions": [
+                901,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-58-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-58-min-600x524.png",
+            "templates": [
+                {
+                    "source": "templates\/online-presence-analysis.json",
+                    "name": "Online Presence Analysis"
+                }
+            ],
+            "filesize": 55403,
+            "dimensions": [
+                1146,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-62-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-62-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 3687,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-63-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-63-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 2392,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-61-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-61-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                },
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 3486,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-66.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-66.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                }
+            ],
+            "filesize": 9942,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-section-45-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-45-min-600x569.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-marketing.json",
+                    "name": "Search Engine Marketing"
+                }
+            ],
+            "filesize": 54187,
+            "dimensions": [
+                1056,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-35-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-35-min.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 1469,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-web-design-development-icon-YTFKC3"
+        },
+        {
+            "filename": "image-icon-36-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-36-min.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 2130,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-web-design-development-icon-YTFKC3"
+        },
+        {
+            "filename": "image-icon-37-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-37-min.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 2128,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-web-design-development-icon-YTFKC3"
+        },
+        {
+            "filename": "image-icon-38-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-38-min.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 2312,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/100-web-design-development-icon-YTFKC3"
+        },
+        {
+            "filename": "image-rocket-15-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-rocket-15-min.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 8451,
+            "dimensions": [
+                219,
+                418
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/new-business-project-start-up-FNH6GR"
+        },
+        {
+            "filename": "image-section-48-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-48-min-600x709.png",
+            "templates": [
+                {
+                    "source": "templates\/web-design.json",
+                    "name": "Web Design"
+                }
+            ],
+            "filesize": 38684,
+            "dimensions": [
+                847,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-team-01-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-01-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 64915,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-05-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-05-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 70930,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-06-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-06-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 59690,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-team-04-min.jpg",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-team-04-min-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 81218,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-different-joyful-millennials-portrai-C7RWEU3"
+        },
+        {
+            "filename": "image-section-41-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-41-min-600x837.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 347306,
+            "dimensions": [
+                717,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/an-elegant-black-male-dressed-in-a-suit-isolated-o-WTBBVVL"
+        },
+        {
+            "filename": "image-section-signature-01-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-signature-01-min.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 3119,
+            "dimensions": [
+                569,
+                101
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/signature-WKSJWKD"
+        },
+        {
+            "filename": "image-section-32-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-section-32-min-600x455.png",
+            "templates": [
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                }
+            ],
+            "filesize": 27437,
+            "dimensions": [
+                1318,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/data-analysis-illustration-5SS6QD2"
+        },
+        {
+            "filename": "image-icon-68-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-68-min.png",
+            "templates": [
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 2627,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-67-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-67-min.png",
+            "templates": [
+                {
+                    "source": "templates\/link-generation.json",
+                    "name": "Link Generation"
+                }
+            ],
+            "filesize": 3309,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-section-59-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-59-min-600x644.png",
+            "templates": [
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 52907,
+            "dimensions": [
+                932,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-64-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-64-min.png",
+            "templates": [
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                }
+            ],
+            "filesize": 3177,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-65-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-65-min.png",
+            "templates": [
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                }
+            ],
+            "filesize": 3043,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-icon-60-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/09\/image-icon-60-min.png",
+            "templates": [
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 1902,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-section-52-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-52-min-600x784.png",
+            "templates": [
+                {
+                    "source": "templates\/digital-consultancy.json",
+                    "name": "Digital Consultancy"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 37817,
+            "dimensions": [
+                766,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-54-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-54-min-600x654.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 37727,
+            "dimensions": [
+                918,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-07-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-07-min.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 5295,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/108-online-marketing-icons-butterscotch-series-H8BXYG"
+        },
+        {
+            "filename": "image-icon-08-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-08-min.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 3231,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/108-online-marketing-icons-butterscotch-series-H8BXYG"
+        },
+        {
+            "filename": "image-icon-10-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-10-min.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 6254,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/108-online-marketing-icons-butterscotch-series-H8BXYG"
+        },
+        {
+            "filename": "image-icon-09-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-09-min.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 3862,
+            "dimensions": [
+                201,
+                201
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/108-online-marketing-icons-butterscotch-series-H8BXYG"
+        },
+        {
+            "filename": "image-section-44-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-44-min-600x727.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 37112,
+            "dimensions": [
+                826,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-rocket-01-min-1.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-rocket-01-min-1-600x143.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 5662,
+            "dimensions": [
+                988,
+                235
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/new-business-project-start-up-FNH6GR"
+        },
+        {
+            "filename": "15-Seo-monitoring-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2019\/11\/15-Seo-monitoring-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 995,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "19-Database-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2019\/11\/19-Database-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 1248,
+            "dimensions": [
+                144,
+                144
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/50-business-and-seo-icon-set-XYPFZ6"
+        },
+        {
+            "filename": "image-section-57-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-57-min-600x617.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 39913,
+            "dimensions": [
+                974,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-icon-69-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-icon-69-min.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 1654,
+            "dimensions": [
+                200,
+                200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/seo-marketing-shape-icons-BRTFLMZ"
+        },
+        {
+            "filename": "image-section-51-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-51-min-600x575.png",
+            "templates": [
+                {
+                    "source": "templates\/search-engine-optimization.json",
+                    "name": "Search Engine Optimization"
+                }
+            ],
+            "filesize": 53114,
+            "dimensions": [
+                1045,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "image-section-55-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2020\/08\/image-section-55-min-600x602.png",
+            "templates": [
+                {
+                    "source": "templates\/social-media-marketing.json",
+                    "name": "Social Media Marketing"
+                }
+            ],
+            "filesize": 44233,
+            "dimensions": [
+                997,
+                1001
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/set-of-modern-isometric-concepts-FAEQVQ"
+        },
+        {
+            "filename": "logo-influence-marketing-min.png",
+            "thumbnail_url": "https:\/\/bimberonline.com\/influence-marketing\/wp-content\/uploads\/sites\/27\/2019\/11\/logo-influence-marketing-min.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4627,
+            "dimensions": [
+                251,
+                86
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/rocket-logo-design-DFTR6XU"
+        }
+    ]
+}

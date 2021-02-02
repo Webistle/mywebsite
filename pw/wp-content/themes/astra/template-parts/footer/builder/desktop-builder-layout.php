@@ -1,6 +1,48 @@
+<?php
+/**
+ * Template part for displaying the footer info.
+ *
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Astra
+ * @since 1.0.0
+ */
+
+?>
 <footer
-<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function astra_attr() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/footer/builder/desktop-builder-layout.php:14
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/footer/builder/desktop-builder-layout.php</b> on line <b>14</b><br />
+<?php 
+echo astra_attr(
+	'footer',
+	array(
+		'id'    => 'colophon',
+		'class' => 'ast-site-footer ' . join(
+			' ',
+			astra_get_footer_classes()
+		),
+	)
+);
+?>
+>
+	<?php
+		astra_footer_content_top();
+	?>
+	<div class="ast-main-footer-wrap">
+		<?php
+		/**
+		 * Astra Top footer
+		 */
+		do_action( 'astra_above_footer' );
+		/**
+		 * Astra Middle footer
+		 */
+		do_action( 'astra_primary_footer' );
+		/**
+		 * Astra Bottom footer
+		 */
+		do_action( 'astra_below_footer' );
+		?>
+	</div>
+	<?php
+		astra_footer_content_bottom();
+	?>
+</footer><!-- #colophon -->

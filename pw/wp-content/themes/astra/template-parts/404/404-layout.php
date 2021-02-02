@@ -1,7 +1,28 @@
+<?php
+/**
+ * Template for 404
+ *
+ * @package     Astra
+ * @author      Astra
+ * @copyright   Copyright (c) 2020, Astra
+ * @link        https://wpastra.com/
+ * @since       Astra 1.0.0
+ */
+
+?>
 <div class="ast-404-layout-1">
 
-	<br />
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function astra_the_title() in /opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/404/404-layout.php:15
-Stack trace:
-#0 {main}
-  thrown in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/themes/astra/template-parts/404/404-layout.php</b> on line <b>15</b><br />
+	<?php astra_the_title( '<header class="page-header"><h1 class="page-title">', '</h1></header><!-- .page-header -->' ); ?>
+
+	<div class="page-content">
+
+		<div class="page-sub-title">
+			<?php echo esc_html( astra_default_strings( 'string-404-sub-title', false ) ); ?>
+		</div>
+
+		<div class="ast-404-search">
+			<?php the_widget( 'WP_Widget_Search' ); ?>
+		</div>
+
+	</div><!-- .page-content -->
+</div>

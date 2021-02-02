@@ -1,6 +1,72 @@
-<br />
-<b>Warning</b>:  Use of undefined constant ASTRA_SITES_DIR - assumed 'ASTRA_SITES_DIR' (this will throw an Error in a future version of PHP) in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/compatibility/class-astra-sites-compatibility.php</b> on line <b>48</b><br />
-<br />
-<b>Warning</b>:  require_once(ASTRA_SITES_DIRinc/classes/compatibility/astra-pro/class-astra-sites-compatibility-astra-pro.php): failed to open stream: No such file or directory in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/compatibility/class-astra-sites-compatibility.php</b> on line <b>48</b><br />
-<br />
-<b>Fatal error</b>:  require_once(): Failed opening required 'ASTRA_SITES_DIRinc/classes/compatibility/astra-pro/class-astra-sites-compatibility-astra-pro.php' (include_path='.:/opt/lampp/lib/php') in <b>/opt/lampp/htdocs/mywebsite/Resweb/wp-content/plugins/astra-sites/inc/classes/compatibility/class-astra-sites-compatibility.php</b> on line <b>48</b><br />
+<?php
+/**
+ * Astra Sites Compatibility for 3rd party plugins.
+ *
+ * @package Astra Sites
+ * @since 1.0.11
+ */
+
+if ( ! class_exists( 'Astra_Sites_Compatibility' ) ) :
+
+	/**
+	 * Astra Sites Compatibility
+	 *
+	 * @since 1.0.11
+	 */
+	class Astra_Sites_Compatibility {
+
+		/**
+		 * Instance
+		 *
+		 * @access private
+		 * @var object Class object.
+		 * @since 1.0.11
+		 */
+		private static $instance;
+
+		/**
+		 * Initiator
+		 *
+		 * @since 1.0.11
+		 * @return object initialized object of class.
+		 */
+		public static function instance() {
+			if ( ! isset( self::$instance ) ) {
+				self::$instance = new self();
+			}
+			return self::$instance;
+		}
+
+		/**
+		 * Constructor
+		 *
+		 * @since 1.0.11
+		 */
+		public function __construct() {
+
+			// Plugin - Astra Pro.
+			require_once ASTRA_SITES_DIR . 'inc/classes/compatibility/astra-pro/class-astra-sites-compatibility-astra-pro.php';
+
+			// Plugin - WooCommerce.
+			require_once ASTRA_SITES_DIR . 'inc/classes/compatibility/woocommerce/class-astra-sites-compatibility-woocommerce.php';
+
+			// Plugin - LearnDash LMS.
+			require_once ASTRA_SITES_DIR . 'inc/classes/compatibility/sfwd-lms/class-astra-sites-compatibility-sfwd-lms.php';
+
+			// Plugin - Elementor.
+			require_once ASTRA_SITES_DIR . 'inc/classes/compatibility/elementor/class-astra-sites-compatibility-elementor.php';
+
+			// Plugin - LearnDash.
+			require_once ASTRA_SITES_DIR . 'inc/classes/compatibility/learndash/class-astra-sites-compatibility-learndash.php';
+		}
+
+	}
+
+	/**
+	 * Kicking this off by calling 'instance()' method
+	 */
+	Astra_Sites_Compatibility::instance();
+
+endif;
+
+
