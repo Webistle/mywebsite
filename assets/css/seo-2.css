@@ -1149,6 +1149,7 @@ transition: width .3s;
     height: 55px;
     position: absolute;
     background-color: #000a2a;
+    display: none;
 }
 
 .seo-2-portfolio-content {
