@@ -26,7 +26,22 @@
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-
+<style>
+    #emailus:hover{
+        background-color: var(--primary-color);
+    background-image: -webkit-linear-gradient(
+45deg
+, var(--secondary-color) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(
+45deg
+, var(--secondary-color) 15%, var(--primary-color) 65%);
+    color: var(--primary-b-color);
+    }
+    .icon-rocket:before{
+        position: relative;
+        right: 15px;
+    }
+</style>
     <!-- ==============================================
         Vendor Stylesheet
         =============================================== -->
@@ -131,7 +146,7 @@
                 <!-- Navbar Action -->
                 <ul class="navbar-nav action">
                     <li class="nav-item ml-3">
-                        <a href="#contact" class="btn ml-lg-auto primary-button smooth-anchor"><i class="icon-speech"></i>CONTACT US</a>
+                        <a href="#get" class="btn ml-lg-auto primary-button smooth-anchor"><i class="icon-speech"></i>CONTACT US</a>
                     </li>
                 </ul>
             </div>
@@ -155,7 +170,7 @@
                             <div class="center align-self-center text-center">
                                 <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text"># A Different<br>Digital Agency</h1>
                                 <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We work with a focus on creativity, combining design and results.</p>
-                                <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
+                                <a href="#get" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
                             </div>
                         </div>
                     </div>
@@ -285,7 +300,28 @@
                             <div class="center align-self-center text-center">
                                 <h2 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">ARE YOU READY?</h2>
                                 <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We are driven by creativity. We create innovative things to help you achieve better results and consolidate yourself in the market.</p>
-                                <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button"><i class="icon-rocket"></i>CONTACT US</a>
+
+                                <a href="mailto:webistle@gmail.com" data-aos="zoom-out-up" data-aos-delay="1200" id="emailus" style="position: relative;
+                                z-index: 2;
+                                padding: 10px 25px;
+                                background-color: var(--primary-color);
+                                border-radius: 2px;
+                                color: var(--primary-b-color);
+                                font-weight: 400;
+                                width: max-content;
+                                bottom: -25px;
+                                left: 482px;
+                                width: 176px;
+                                height: 44px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem 1.25rem;
+    border-width: 0;
+    border-radius: 2px;"
+                                ><i class="icon-rocket"></i> EMAIL US</a>
                             </div>
                         </div>
                     </div>
@@ -467,7 +503,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section-6 odd form featured">
+    <section id="contact" class="section-6 odd form featured" style="display: none;">
         <div class="container">
             <form action="php/form.php" id="leverage-form" class="multi-step-form">
                 <input type="hidden" name="section" value="leverage_form">
@@ -640,7 +676,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="odd">
+    <footer class="odd" style="display: none;">
 
         <!-- Footer [links] -->
         <section id="footer" class="footer">
