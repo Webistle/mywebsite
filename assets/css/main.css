@@ -1763,7 +1763,7 @@ header .navbar-expand .navbar-brand i {
     color: var(--primary-color);
 }
 
-header .navbar-expand .navbar-brand i.leverage-2-0 {
+header .navbar-expand .navbar-brand {
     margin: 0 0 0 5px;
     font-family: var(--h1-font);
     font-size: 12px;
