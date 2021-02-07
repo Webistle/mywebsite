@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 05/02/2021 13:58
+    Creation date: 07/02/2021 11:36
     */
 
     @font-face {
@@ -43,6 +43,7 @@
 .flaticon-globe:before { content: "\f103"; }
 .flaticon-shopping-cart:before { content: "\f104"; }
 .flaticon-bar-chart:before { content: "\f105"; }
+.flaticon-search:before { content: "\f106"; }
     
     $font-Flaticon-google: "\f100";
     $font-Flaticon-facebook: "\f101";
@@ -50,3 +51,4 @@
     $font-Flaticon-globe: "\f103";
     $font-Flaticon-shopping-cart: "\f104";
     $font-Flaticon-bar-chart: "\f105";
+    $font-Flaticon-search: "\f106";

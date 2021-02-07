@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/02/2021 13:58
+  	Creation date: 07/02/2021 11:36
   	*/
 
 @font-face {
@@ -23,9 +23,9 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 43px;
+        font-size: 20px;
 font-style: normal;
 margin-left: 20px;
 }
@@ -36,3 +36,4 @@ margin-left: 20px;
 .flaticon-globe:before { content: "\f103"; }
 .flaticon-shopping-cart:before { content: "\f104"; }
 .flaticon-bar-chart:before { content: "\f105"; }
+.flaticon-search:before { content: "\f106"; }
