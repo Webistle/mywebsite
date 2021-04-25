@@ -43,6 +43,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
     <link rel="shortcut icon" href="assets/images/fv.png" type="image/x-icon">
+
 <style>
    
     #emailus{
@@ -80,10 +81,95 @@
     .facebook2{
         font-size: 10px;
     }
+    .seo-2-boost-form {
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.seo-2-boost-form .seo-2-boost-input {
+    margin-right: 20px;
+}
+
+.seo-2-boost-form .seo-2-boost-input span {
+    top: 23px;
+    left: 35px;
+    position: absolute;
+}
+
+.seo-2-boost-form .seo-2-boost-input input {
+    width: 400px;
+    height: 70px;
+    border: none;
+    padding-left: 70px;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.seo-2-boost-form .seo-2-boost-input input::placeholder {
+    color: #566492;
+}
+
+.seo-2-boost-form button {
+    color: #fff;
+    border: none;
+    height: 70px;
+    width: 275px;
+    font-weight: 700;
+    border-radius: 40px;
+    background: #007bff
+}
+
+.seo-2-boost-form button i {
+    margin-right: 5px;
+}
+
+.seo-2-boost-form button:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+@media screen and (max-width: 1199px) {
+
+   
+    .seo-2-boost-form .seo-2-boost-input input {
+        width: 315px;
+    }
+    .seo-2-boost-form button {
+        width: 250px;
+    }}
+    .seo-2-boost-form .seo-2-boost-input {
+        margin-bottom: 10px;
+    }
+    .seo-2-boost-form .seo-2-boost-input input {
+        height: 70px;
+    }
+    .seo-2-boost-form .seo-2-boost-input span {
+        top: 13px;
+    }
+    .seo-2-boost-form button {
+        height: 70px;
+    }
+    .seo-2-boost-form .seo-2-boost-input {
+        margin-right: 10px;
+    }
+   .seo-2-boost-input{
+       caret-color: black;
+   }
+   
+   .form-contentt:hover{
+   color: #7890A4;
+   
+   }
+   .iconn{
+       font-size: 20px;
+       position: relative;
+       right: 13px;
+       top: 11px;
+   }
 </style>
     <!-- ==============================================
         Vendor Stylesheet
         =============================================== -->
+        <link rel="stylesheet" href="assets/fontawesome-all.css">
         <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
@@ -181,7 +267,7 @@
                 <!-- Navbar Action -->
                 <ul class="navbar-nav action">
                     <li class="nav-item ml-3">
-                        <a href="#get" class="btn ml-lg-auto primary-button smooth-anchor"><i class="icon-speech"></i>CONTACT US</a>
+                        <a href="#get" class="btn ml-lg-auto primary-button smooth-anchor"><i class="icon-speech"></i>GET A QUOTE</a>
                     </li>
                 </ul>
             </div>
@@ -268,14 +354,14 @@
             <div class="row justify-content-center text-center items">
                 <div class="col-12 col-md-6 col-lg-4 item">
                     <div class="card featured">
-                        <i class="icon icon-globe iconsize"></i>
+                        <i class="icon flaticon-globe iconsize"></i>
                         <h4>Website Development</h4>
                         <p>We build professional responsive websites optimized for the most popular search engines.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 item">
                     <div class="card">
-                        <i class="icon iconalag flaticon-network-1"></i>
+                        <i class="icon iconalag flaticon-network"></i>
                         <h4>Affiliate Marketing</h4>
                         <p>Increase your sales with an incredible marketing option, "Affiliate Marketing".</p>
                     </div>
@@ -335,8 +421,21 @@
                             <div class="center align-self-center text-center">
                                 <h2 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">ARE YOU READY?</h2>
                                 <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">We are driven by creativity. We create innovative things to help you achieve better results and consolidate yourself in the market.</p>
-
-                              <a href="mailto:contact@webistle.com?subject=Enquiry"id="emailus" data-aos="zoom-out-up" data-aos-delay="1200" class="primary-button" style="z-index: 2;
+                                <div class="seo-2-boost-content  wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                                    <form method="post" name="google-sheet2" autocomplete="off">
+                                        <div class="seo-2-boost-form d-flex justify-content-center">
+                                            <div class="seo-2-boost-input position-relative" data-aos="zoom-out-up" data-aos-delay="900">
+                                                <span><i class="iconn flaticon-globe"></i></span>
+                                                <input class="form-contentt" type="text" name="website1"placeholder="Enter website url" style="color: black;">
+                                            </div>
+                                            <div class="seo-2-boost-input position-relative" data-aos="zoom-out-up" data-aos-delay="1000">
+                                                <span><i class="iconn flaticon-message"></i></span>
+                                                <input class="form-contentt" type="email" name="email1" placeholder="Enter email address" style="color: black;" required> 
+                                            </div>
+                                            <button type="submit" data-aos="zoom-out-up" data-aos-delay="1100"><i class=""></i> Get a quote</button>
+                                    </form>
+                                    </div>
+                             <!--<a href="mailto:contact@webistle.com?subject=Enquiry"id="emailus" data-aos="zoom-out-up" data-aos-delay="1200" class="primary-button" style="z-index: 2;
                               padding: 10px 25px;
                               background-color: #0075f2;
                               border-radius: 2px;
@@ -353,7 +452,7 @@
   text-align: center;
   padding: .5rem 1.25rem;
   border-width: 0;
-  border-radius: 2px;"><i class="icon-rocket"></i> EMAIL US</a>
+  border-radius: 2px;"><i class="icon-rocket"></i> EMAIL US</a>--> 
                             </div>
                         </div>
                     </div>
@@ -667,7 +766,17 @@
     <script src="assets/js/vendor/particles.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="nav.js"></script>
-
+    <script>
+        const scriptURL2 = 'https://script.google.com/macros/s/AKfycbxpwPFlbCllr3-AhK48WMN2T24GgcPA375jmWsCZqtKXIbamWCgXvJf1g/exec'
+        const form2 = document.forms['google-sheet2']
+      
+        form2.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
     <!-- #endregion Global ========================= -->
 
 </body>
