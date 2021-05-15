@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?3c51fa840a9e0f6f2b2d15c4e2a92511") format("truetype"),
-url("./flaticon.woff?3c51fa840a9e0f6f2b2d15c4e2a92511") format("woff"),
-url("./flaticon.woff2?3c51fa840a9e0f6f2b2d15c4e2a92511") format("woff2"),
-url("./flaticon.eot?3c51fa840a9e0f6f2b2d15c4e2a92511#iefix") format("embedded-opentype"),
-url("./flaticon.svg?3c51fa840a9e0f6f2b2d15c4e2a92511#flaticon") format("svg");
+    src: url("./flaticon.ttf?7421eba928ae1139d40c15dfacb8ee1a") format("truetype"),
+url("./flaticon.woff?7421eba928ae1139d40c15dfacb8ee1a") format("woff"),
+url("./flaticon.woff2?7421eba928ae1139d40c15dfacb8ee1a") format("woff2"),
+url("./flaticon.eot?7421eba928ae1139d40c15dfacb8ee1a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7421eba928ae1139d40c15dfacb8ee1a#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -33,6 +33,9 @@ $flaticon-map: (
     "megaphone": "\f10a",
     "message": "\f10b",
     "map": "\f10c",
+    "facebook-1": "\f10d",
+    "facebook-circular-logo": "\f10e",
+    "facebook-3": "\f10f",
 );
 
 .flaticon-google:before {
@@ -70,4 +73,13 @@ $flaticon-map: (
 }
 .flaticon-map:before {
     content: map-get($flaticon-map, "map");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-facebook-circular-logo:before {
+    content: map-get($flaticon-map, "facebook-circular-logo");
+}
+.flaticon-facebook-3:before {
+    content: map-get($flaticon-map, "facebook-3");
 }
