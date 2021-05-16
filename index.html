@@ -258,6 +258,30 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T78S8CD"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Chat plugin code -->
+<div class="fb-customerchat"
+  attribution="biz_inbox"
+  page_id="107956184768523">
+</div>
     <div id="homesection"></div>
     <section id="slider" class="hero odd p-0 featured">
     <!-- Header -->
