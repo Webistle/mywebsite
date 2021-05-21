@@ -96,6 +96,9 @@ theme.
   /*----------------------------------------------------*/
   /*App landing global area*/
   /*----------------------------------------------------*/
+html, body{
+  scroll-behavior: smooth;
+}
   .iconsize{
     color: white;
     font-size: 70px;
@@ -3712,7 +3715,7 @@ Sticky Menu
 }
 
 .webistle-main-header .webistle-main-navigation li a {
-  color: #213e6e;
+  
   font-size: 17px;
   font-weight: 600;
   padding-bottom: 20px;

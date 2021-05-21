@@ -435,7 +435,7 @@ Author:
 						jQuery('.main_header').removeClass('menu-bg-overlay')
 					}
 				})
-				$('.navbar-nav a').on("click", function(){
+				$('.navbar-nav a').on("", function(){
 					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 						var target = $(this.hash);
 						if (target.length) {
@@ -501,7 +501,7 @@ Author:
 						jQuery('.saas_two_main_header').removeClass('saas_2-menu-bg-overlay ')
 					}
 				})
-				$('.saas_two_main_header .navbar-nav a').on("click", function(){
+				$('.saas_two_main_header .navbar-nav a').on("", function(){
 					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 						var target = $(this.hash);
 						if (target.length) {
@@ -644,7 +644,7 @@ Author:
 						jQuery('.str-main-header').removeClass('str-sticky-menu')
 					}
 				})
-				$('.navbar-nav a').on("click", function(){
+				$('.navbar-nav a').on("", function(){
 					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 						var target = $(this.hash);
 						if (target.length) {
