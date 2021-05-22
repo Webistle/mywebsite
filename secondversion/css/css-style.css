@@ -1,16 +1,6 @@
 @charset "UTF-8";
 /*----------------------------------------------------
-@File: Default Styles
-@Author:
-@URL:
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name:
-@Author: Themexriver.
 
 **Css Table Of Content**
 1- App Landing--
@@ -96,6 +86,37 @@ theme.
   /*----------------------------------------------------*/
   /*App landing global area*/
   /*----------------------------------------------------*/
+  @media screen and (max-width: 991px) {
+    #webistle-banner {
+      top: 10px;
+    }
+  }
+.webistle-service-content .webistle-service-box2:after {
+  left: 0;
+    right: 0;
+    content: "";
+    height: 8px;
+    bottom: -4px;
+    width: 240px;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #0072ff;
+    transition: .3s all ease-in-out;
+}
+.webistle-service-content .webistle-service-box:after {
+  left: 0;
+    right: 0;
+    content: "";
+    height: 8px;
+    bottom: -4px;
+    width: 240px;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #0072ff;
+    transition: .3s all ease-in-out;
+}
 html, body{
   scroll-behavior: smooth;
 }
@@ -4322,31 +4343,10 @@ Sticky Menu
 .webistle-service-content .webistle-service-box2 {
   transition: 0.3s all ease-in-out;
   background-color: #fff;
-}
-.webistle-service-content .webistle-service-box:after {
-  left: 0;
-  right: 0;
-  content: "";
-  height: 8px;
-  bottom: -4px;
-  width: 240px;
+  max-width: 370px;
   margin: 0 auto;
-  position: absolute;
-  border-radius: 30px;
-  background-color: #0072ff;
-  transition: 0.3s all ease-in-out;
-}
-.webistle-service-content .webistle-service-box2:after {
-  left: 0;
-  right: 0;
-  content: "";
-  height: 8px;
-  bottom: -4px;
-  width: 240px;
-  margin: 0 auto;
-  position: absolute;
-  border-radius: 30px;
-  background-color: #0072ff;
+  margin-bottom: 60px;
+
   transition: 0.3s all ease-in-out;
 }
 .webistle-service-content .webistle-service-box:hover {
@@ -5932,6 +5932,7 @@ Sticky Menu
 
   .webistle-footer-widget {
     margin-bottom: 40px;
+
   }
 
   .webistle-main-header {
@@ -9139,191 +9140,7 @@ Sticky Menu
   box-shadow: 0px 20px 81px 0px rgba(8, 0, 20, 0.14);
 }
 
-.webistle_two_service_section .service_content_box:before {
-  content: "";
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-  z-index: -3;
-  border-radius: 10px;
-  position: absolute;
-  transition: 0.5s all ease-in-out;
-  background-image: linear-gradient(45deg, #fc01fd 32%, #6b2c94 100%);
-}
-
-.webistle_two_service_section .service_content_box:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  border-radius: 10px;
-  background-color: #fff;
-}
-
-.webistle_two_service_section .service_content_box:hover {
-  transform: translate(-7px, -7px);
-  box-shadow: 0px 20px 81px 0px rgba(8, 0, 20, 0.3);
-}
-
-.webistle_two_service_section .service_content_box:hover:before {
-  transform: translate(7px, 7px);
-}
-
-.webistle_two_service_section .service_content_box .service_icon_box {
-  width: 60px;
-  margin-bottom: 18px;
-}
-
-.webistle_two_service_section .service_content_box .service_icon_box .upper_icon svg {
-  height: 48px;
-  width: 48px;
-  fill: #30347b;
-}
-
-.webistle_two_service_section .service_content_box .service_icon_box .lower_icon {
-  position: absolute;
-  top: 10px;
-  z-index: -1;
-  right: 0;
-}
-
-.webistle_two_service_section .service_content_box .service_icon_box .lower_icon svg {
-  width: 45px;
-  height: 45px;
-  fill: #c4a2fc;
-}
-
-.webistle_two_service_section .service_content_box .service_text_box h3 {
-  color: #010101;
-  font-size: 22px;
-  font-weight: 700;
-  padding-bottom: 15px;
-}
-
-.webistle_two_service_section .service_content_box .service_text_box p {
-  line-height: 1.5;
-  color: #666666;
-}
-
-/*---------------------------------------------------- */
-/*Service area*/
-/*----------------------------------------------------*/
-.webistle_two_about_section {
-  padding: 70px 0px;
-  background-color: #ebedf2;
-}
-
-.webistle_two_about_section:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -400px;
-  height: 100%;
-  width: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../images/banner-abshape.png);
-}
-
-.webistle_two_about_section:after {
-  content: "";
-  height: 600px;
-  width: 600px;
-  right: -380px;
-  top: 285px;
-  border-radius: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-image: url(../images/banner-abshape2.png);
-}
-
-.webistle_two_about_section .about_content_s2 {
-  padding: 50px 70px 50px 110px;
-}
-
-.webistle_two_about_section .s2-about_text_icon {
-  padding-top: 35px;
-}
-
-.webistle_two_about_section .s2-about_text_icon .s2-about_icon {
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  padding-top: 15px;
-  border-radius: 100%;
-  margin-bottom: 16px;
-  background-color: #6c2b95;
-}
-
-.webistle_two_about_section .s2-about_text_icon .s2-about_icon svg {
-  fill: #fff;
-  width: 40px;
-  height: 40px;
-}
-
-.webistle_two_about_section .s2-about_text_icon .s2-about_text h3 {
-  font-size: 36px;
-  line-height: 1.278;
-  padding-bottom: 15px;
-}
-
-/*---------------------------------------------------- */
-/*Feature area*/
-/*----------------------------------------------------*/
-.webistle_two_feature_section {
-  padding: 105px 0px 85px;
-}
-
-.webistle_two_feature_section .s2-feature_text {
-  max-width: 520px;
-  padding: 40px 0 0 50px;
-}
-
-.webistle_two_feature_section .s2-feature_text h2 {
-  font-size: 40px;
-  line-height: 1.25;
-  padding: 15px 0px 15px;
-}
-
-.webistle_two_feature_section .s2-feature_text p {
-  padding-bottom: 43px;
-}
-
-.webistle_two_feature_section .s2-feature_text .webistle_btn a {
-  padding: 10px 25px 10px 25px;
-}
-
-.webistle_two_feature_section .s2-feature_text .webistle_btn a i {
-  font-size: 20px;
-  margin-right: 5px;
-}
-
-.webistle_two_feature_section .s2-feature_right {
-  padding-left: 35px;
-}
-
-.webistle_two_feature_section .s2-feature_right .s2-feature_list {
-  margin-bottom: 10px;
-  padding: 22px 32px 20px;
-  border-radius: 10px;
-  display: inline-block;
-  transition: 0.4s all ease-in-out;
-  position: relative;
-}
-
-.webistle_two_feature_section .s2-feature_right .s2-feature_list:before {
-  position: absolute;
-  content: "";
-  height: 0px;
-  width: 5px;
-  left: 0;
-  top: 50%;
-  border-radius: 50px;
-  transform: translateY(-50%);
+.webistle_two_service_section .                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                (-50%);
   transition: 0.3s all ease-in-out;
 }
 
@@ -9477,18 +9294,7 @@ Sticky Menu
   left: 15px;
 }
 
-.webistle_two_team_section .s2-team_img_text .s2_tean_img:before,
-.webistle_two_team_section .s2-team_img_text .s2_tean_img:after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  border-radius: 100%;
-  border: 3px solid #cc0fda;
+.webistle_two_team_section .s2-team_img_text .                                                                                                                                                                                                                                                                 0fda;
   z-index: 1;
   transition: 0.3s all ease-in-out;
 }
@@ -15268,182 +15074,7 @@ div#dia-preloader {
     transform: translateX(-10px);
   }
   100% {
-    transform: translateX(-100px);
-  }
-}
-.dia-footer-shape3 {
-  left: 0;
-  right: 0;
-  opacity: 1;
-  z-index: -1;
-  top: 100px;
-  margin: 0 auto;
-  text-align: center;
-  animation-duration: 25s;
-  animation-name: left-right-move;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-/*---------------------------------------------------- */
-/*responsive area*/
-/*----------------------------------------------------*/
-@media only screen and (min-width: 1367px) and (max-width: 1700px) {
-  .dia-banner-section .banner-side-img.banner-img1,
-  .dia-banner-section .banner-side-img.banner-img2 {
-    right: -450px;
-  }
-
-  .dia-banner-section .banner-side-img.banner-img1.view-on,
-  .dia-banner-section .banner-side-img.banner-img2.view-on {
-    right: -200px;
-  }
-
-  .dia-banner-section .banner-side-shape1,
-  .dia-banner-section .banner-side-shape2 {
-    left: -150px;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .dia-banner-section .banner-side-img.banner-img1,
-  .dia-banner-section .banner-side-img.banner-img2 {
-    right: -600px;
-  }
-
-  .dia-banner-section .banner-side-img.banner-img1.view-on,
-  .dia-banner-section .banner-side-img.banner-img2.view-on {
-    right: -250px;
-  }
-
-  .dia-banner-section .banner-shape2 {
-    left: 20px;
-  }
-
-  .dia-newslatter-section .n-shape4 {
-    left: 10px;
-  }
-
-  .dia-banner-section .banner-side-shape1,
-  .dia-banner-section .banner-side-shape2 {
-    left: -150px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .dia-banner-section .banner-side-shape1,
-  .dia-banner-section .banner-side-shape2,
-  .dia-testimonial-section .tst-side-shape {
-    display: none;
-  }
-
-  .dia-banner-section .banner-shape2 {
-    z-index: -1;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .dia-banner-section .banner-side-img.banner-img1,
-  .dia-banner-section .banner-side-img.banner-img2 {
-    right: -800px;
-  }
-
-  .dia-banner-section .banner-side-img.banner-img1.view-on,
-  .dia-banner-section .banner-side-img.banner-img2.view-on {
-    right: -500px;
-  }
-
-  .dia-service-section .dia-service-details .dia-service-item:nth-child(even) {
-    padding-left: 0px;
-  }
-
-  .dia-service-section .dia-service-btn .dia-service-more {
-    width: 185px;
-  }
-
-  .dia-team-section .dia-team-content .owl-nav {
-    text-align: center;
-    margin-top: 30px;
-    padding-bottom: 20px;
-  }
-  .dia-testimonial-section {
-    overflow: hidden;
-  }
-  .dia-team-section .dia-team-content .owl-nav .owl-prev,
-  .dia-team-section .dia-team-content .owl-nav .owl-next {
-    position: static;
-    margin: 0px 8px;
-    transform: translateY(0);
-  }
-
-  .dia-team-section .dia-team-content .owl-item.active.center .dia-team-img:after,
-  .dia-team-section .dia-team-pic-text:hover .dia-team-img:after {
-    left: 70px;
-  }
-
-  .dia-footer-widget .download-btn a {
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 991px) {
-  .dia-banner-section .dia-banner-content {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .dia-banner-section .dia-banner-content .dia-banner-btn {
-    justify-content: center;
-  }
-
-  .dia-testimonial-section .dia-testimonial_slider-area .test-shape1,
-  .dia-testimonial-section .dia-testimonial_slider-area .test-shape2 {
-    display: none;
-  }
-
-  .dia-main-navigation {
-    display: none;
-  }
-
-  .dia-banner-section .banner-side-img,
-  .dia-about-content .dia-about-img .ab-shape1,
-  .dia-about-content .dia-about-img .ab-shape2,
-  .dia-exp-section .dia-exp-img .ab-shape1,
-  .dia-exp-section .dia-exp-img .ab-shape2 {
-    display: none;
-  }
-
-  .dia-main-header.dia-sticky-menu {
-    padding-top: 15px;
-  }
-
-  .dia-main-header .dia-logo {
-    margin-top: 0;
-  }
-
-  .dia-sticky-menu {
-    padding: 15px 0px;
-  }
-
-  .dia-mobile_menu_button {
-    display: block;
-  }
-
-  .dia-service-section .dia-service-img {
-    margin-top: 0;
-    margin-bottom: 35px;
-  }
-
-  .dia-fun-fact-section .dia-fun-fact-item .fun-fact-number span,
-  .dia-fun-fact-section .dia-fun-fact-item .fun-fact-number h3 {
-    font-size: 80px;
-  }
-
-  .dia-about-content .dia-about-img {
-    margin-left: 0;
-    margin-top: 30px;
-  }
-
-  .dia-exp-img {
-    margin-bottom: 30px;
-  }
-
+    transform                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
   .dia-team-section .dia-team-content .owl-item.active.center .dia-team-img:after,
   .dia-team-section .dia-team-pic-text:hover .dia-team-img:after {
     left: 105px;
@@ -15640,19 +15271,7 @@ div#dia-preloader {
     padding: 10px 0px 20px;
   }
 
-  .dia-blog-section {
-    padding-bottom: 20px;
-  }
-
-  .dia-newslatter-section .dia-newslatter-content .dia-newslatter-text h3 {
-    font-size: 28px;
-  }
-
-  .dia-newslatter-section .dia-newslatter-content {
-    padding: 45px 25px 45px 25px;
-  }
-
-  .dia-footer-section {
+  .dia-blog-                                                                                                                                                                                                                                                                 
     padding-top: 50px;
   }
 
@@ -17449,160 +17068,7 @@ div#pm-preloader {
   }
 
   .pm-intregation-section .pm-intregation-img .intr-img-top .intr-img-item:nth-child(2),
-  .pm-intregation-section .pm-intregation-img .intr-img-bottom .intr-img-item:nth-child(1) {
-    transform: translateY(0);
-  }
-
-  .pm-intregation-section .pm-intregation-img .intr-img-item {
-    margin-bottom: 30px;
-  }
-
-  .pm-intregation-section {
-    padding: 50px 0px 20px;
-  }
-
-  .pm-feature-section-2 .pm-feature-content-2 .pm-feature-process {
-    margin-bottom: 50px;
-  }
-
-  .pm-process-icon-text .pm-process-icon {
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  .pm-process-icon-text {
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
-    margin-bottom: 30px;
-  }
-
-  .pm-process-section {
-    padding: 50px 0px 20px;
-  }
-
-  .pm-counter-section .pm-counter-wrapper {
-    padding: 20px 0px;
-  }
-
-  .pm-testimonial-section {
-    padding: 50px 0px 20px;
-  }
-
-  .pm-blog-img-text {
-    display: block;
-  }
-
-  .pm-blog-img {
-    width: 100%;
-    float: none;
-    display: block;
-  }
-
-  .pm-blog-img-text .pm-blog-text {
-    max-width: 100%;
-    padding-left: 0;
-    padding-top: 25px;
-    display: inline-block;
-  }
-
-  .pm-blog-section {
-    padding: 80px 0px 40px;
-  }
-
-  .pm-call-to-action-section .call-to-action-wrapper {
-    padding: 40px 15px;
-  }
-
-  .pm-call-to-action-section .call-to-action-wrapper .pm-call-action-content .pm-call-action-btn a:nth-child(1) {
-    margin-bottom: 20px;
-  }
-
-  .pm-call-to-action-section .call-to-action-wrapper .pm-call-action-content .pm-call-action-btn a:nth-child(1),
-  .pm-call-to-action-section .call-to-action-wrapper .pm-call-action-content .pm-call-action-btn a:nth-child(2) {
-    height: 50px;
-    width: 130px;
-    font-size: 14px;
-    line-height: 50px;
-  }
-
-  .pm-footer-section .footer-widget-area .pm-footer-widget {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .pm-footer-section .pm-footer-wrapper {
-    padding: 50px 0px 20px;
-  }
-
-  .pm-footer-copyright .pm-footer-copyright-menu a {
-    font-size: 14px;
-    margin-right: 5px;
-  }
-
-  .pm-scrollup {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-  }
-
-  .pm-counter-section .pm-counter-text-icon .odometer,
-  .pm-counter-section .pm-counter-text-icon strong {
-    font-size: 30px;
-  }
-
-  .pm-counter-section .pm-counter-text-icon strong {
-    top: 5px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .pm-section-title h2 {
-    font-size: 24px;
-  }
-
-  .pm-feature-section-2 .pm-feature-content-2 .pm-feature-item-content .pm-f-process-text {
-    font-size: 16px;
-  }
-}
-/*---------------------------------------------------- */
-/*dark-version area*/
-/*----------------------------------------------------*/
-.pm-home.dark-version {
-  color: #afafaf;
-}
-.pm-home.dark-version .pm-banner-section-1,
-.pm-home.dark-version .pm-call-to-action-section .call-to-action-wrapper {
-  background: linear-gradient(-90deg, #151516 0%, #1f1f21 100%);
-}
-.pm-home.dark-version .pm-title-tag,
-.pm-home.dark-version .pm-testimonial-inner {
-  background-color: #424242;
-}
-.pm-home.dark-version .pm-partner-section,
-.pm-home.dark-version .pm-feature-section,
-.pm-home.dark-version .pm-feature-section-2 .pm-feature-content-2 .pm-feature-process,
-.pm-home.dark-version .pm-process-section,
-.pm-home.dark-version .pm-counter-section,
-.pm-home.dark-version .pm-blog-section,
-.pm-home.dark-version .pm-call-to-action-section,
-.pm-home.dark-version .pm-footer-section,
-.pm-home.dark-version .pm-scrollup {
-  background-color: #252222;
-}
-.pm-home.dark-version .pm-counter-section .pm-counter-wrapper,
-.pm-home.dark-version .pm-testimonial-section,
-.pm-home.dark-version .pm-counter-section:after {
-  background-color: #000;
-}
-.pm-home.dark-version .pm-section-title h2,
-.pm-home.dark-version .pm-feature-innerbox .pm-feature-top .pm-feature-text h3,
-.pm-home.dark-version .pm-process-icon-text .pm-process-text h3,
-.pm-home.dark-version .pm-testimonial-inner .pm-testimonial-author .pm-author-text h3,
-.pm-home.dark-version .pm-counter-section .pm-counter-text-icon .odometer,
-.pm-home.dark-version .pm-counter-section .pm-counter-text-icon strong,
-.pm-home.dark-version .pm-counter-section .pm-counter-text-icon p,
-.pm-home.dark-version .pm-blog-img-text .pm-blog-text .pm-blog-title h3,
-.pm-home.dark-version .pm-footer-section .pm-footer-widget .widget-title,
+  .pm-intregation-section .pm-intregation-img .intr-imgooter-widget .widget-title,
 .pm-home.dark-version .pm-footer-section .pm-footer-widget p a,
 .pm-home.dark-version .pm-footer-section .pm-footer-widget .pm-footer-support a,
 .pm-home.dark-version .pm-footer-copyright .pm-footer-copyright-menu a,
