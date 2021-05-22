@@ -43,7 +43,7 @@ theme.
   *11- Call to Action Area
   *12- Blog Area
   *13- Footer
-3- SaaS Modern--
+3- webistle Modern--
   *1- Global Area
   *2- Header Area
   *3- Banner Area
@@ -53,7 +53,7 @@ theme.
   *7- Team Area
   *8- Testimonial Area
   *9- Newslatter Area
-4- SaaS Classic --
+4- webistle Classic --
   *1- Global Area
   *2- Header Area
   *3- Banner Area
@@ -3715,7 +3715,7 @@ Sticky Menu
 }
 
 .webistle-main-header .webistle-main-navigation li a {
-  
+
   font-size: 17px;
   font-weight: 600;
   padding-bottom: 20px;
@@ -4247,7 +4247,7 @@ Sticky Menu
 .webistle-service-content .webistle-service-icon-text {
   z-index: 1;
   overflow: hidden;
-  padding: 55px 65px;
+  padding: 55px 33px;
   transition: 0.3s all ease-in-out;
   box-shadow: 0px 0px 35px 0px rgba(164, 177, 235, 0.13);
 }
@@ -4425,7 +4425,7 @@ Sticky Menu
 .webistle-about-section .webistle-about-content {
   float: right;
   max-width: 580px;
-  padding-right: 100px;
+  padding-right: 91px;
 }
 
 .webistle-about-section .webistle-about-content .webistle-section-title2 h2 {
@@ -6305,7 +6305,7 @@ Sticky Menu
 
 /*global area*/
 /*----------------------------------------------------*/
-.saas-modern {
+.webistle-modern {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -6316,19 +6316,19 @@ Sticky Menu
   -webkit-font-smoothing: antialiased;
 }
 
-.saas-modern::selection {
+.webistle-modern::selection {
   color: #ffffff;
   background-color: #6e3ebf;
 }
 
-.saas-modern::-moz-selection {
+.webistle-modern::-moz-selection {
   color: #ffffff;
   background-color: #6e3ebf;
 }
 
-.saas-modern-preloader {
+.webistle-modern-preloader {
   background-color: #fff;
-  background: #fff url("../fonts/saas-m-pre.svg") no-repeat center center;
+  background: #fff url("../fonts/webistle-m-pre.svg") no-repeat center center;
 }
 
 .decoration-wrapper {
@@ -6350,12 +6350,12 @@ Sticky Menu
   animation: zooming 18s infinite both;
 }
 
-.saas-modern-headline h1,
-.saas-modern-headline h2,
-.saas-modern-headline h3,
-.saas-modern-headline h4,
-.saas-modern-headline h5,
-.saas-modern-headline h6 {
+.webistle-modern-headline h1,
+.webistle-modern-headline h2,
+.webistle-modern-headline h3,
+.webistle-modern-headline h4,
+.webistle-modern-headline h5,
+.webistle-modern-headline h6 {
   margin: 0;
   font-family: "Poppins";
 }
@@ -6490,7 +6490,7 @@ Sticky Menu
   animation: scroll2 15s ease-out infinite;
 }
 
-.saas-modern-scrollup {
+.webistle-modern-scrollup {
   width: 55px;
   right: 30px;
   z-index: 5;
@@ -6503,7 +6503,7 @@ Sticky Menu
   background-image: linear-gradient(-38deg, #20fdee 0%, #0478e9 100%);
 }
 
-.saas-modern-scrollup:after {
+.webistle-modern-scrollup:after {
   position: absolute;
   content: "";
   width: 0px;
@@ -6515,13 +6515,13 @@ Sticky Menu
   border-radius: 50%;
 }
 
-.saas-modern-scrollup i {
+.webistle-modern-scrollup i {
   color: #fff;
   font-size: 20px;
 }
 
 /*---------------------------------------------------- */
-/*Saas-Modern header area*/
+/*webistle-Modern header area*/
 /*----------------------------------------------------*/
 .main_header {
   z-index: 1;
@@ -6787,7 +6787,7 @@ Sticky Menu
 }
 
 /*---------------------------------------------------- */
-/*Saas-Modern  banner area*/
+/*webistle-Modern  banner area*/
 /*----------------------------------------------------*/
 .banner_section {
   overflow: visible;
@@ -6885,7 +6885,7 @@ Sticky Menu
 }
 
 /*---------------------------------------------------- */
-/*Saas-Modern Feature area*/
+/*webistle-Modern Feature area*/
 /*----------------------------------------------------*/
 .featured_service_section {
   padding: 65px 0px 0px;
@@ -7136,7 +7136,7 @@ Sticky Menu
 }
 
 /*---------------------------------------------------- */
-/*Saas-Modercompare area*/
+/*webistle-Modercompare area*/
 /*----------------------------------------------------*/
 .compare_section {
   padding-bottom: 15px;
@@ -8501,9 +8501,9 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/*SaaS Classic*/
+/*webistle Classic*/
 /*----------------------------------------------------*/
-.saas-classic {
+.webistle-classic {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -8514,32 +8514,32 @@ Sticky Menu
   -webkit-font-smoothing: antialiased;
 }
 
-.saas-classic::selection {
+.webistle-classic::selection {
   color: #ffffff;
   background-color: #6e3ebf;
 }
 
-.saas-classic::-moz-selection {
+.webistle-classic::-moz-selection {
   color: #ffffff;
   background-color: #6e3ebf;
 }
 
-.saas-classic-preloader {
+.webistle-classic-preloader {
   background-color: #fff;
-  background: #fff url("../fonts/saas-c-pre.svg") no-repeat center center;
+  background: #fff url("../fonts/webistle-c-pre.svg") no-repeat center center;
 }
 
-.saas2-headline h1,
-.saas2-headline h2,
-.saas2-headline h3,
-.saas2-headline h4,
-.saas2-headline h5,
-.saas2-headline h6 {
+.webistle2-headline h1,
+.webistle2-headline h2,
+.webistle2-headline h3,
+.webistle2-headline h4,
+.webistle2-headline h5,
+.webistle2-headline h6 {
   margin: 0;
   font-family: "Poppins";
 }
 
-.saas-classic-scrollup {
+.webistle-classic-scrollup {
   width: 55px;
   right: 20px;
   z-index: 5;
@@ -8552,26 +8552,26 @@ Sticky Menu
   background-image: linear-gradient(-45deg, #e511e6 32%, #6b2c94 100%);
 }
 
-.saas-classic-scrollup i {
+.webistle-classic-scrollup i {
   color: #fff;
   font-size: 20px;
 }
 
-.saas_two_section_title {
+.webistle_two_section_title {
   margin: 0 auto;
   max-width: 465px;
 }
 
-.saas_two_section_title .title_tag {
+.webistle_two_section_title .title_tag {
   padding: 5px 30px;
 }
 
-.saas_two_section_title h2 {
+.webistle_two_section_title h2 {
   font-size: 40px;
   padding-top: 15px;
 }
 
-.saas_btn a {
+.webistle_btn a {
   font-size: 15px;
   font-weight: 700;
   border-radius: 30px;
@@ -8579,7 +8579,7 @@ Sticky Menu
   border: 2px solid #6c2b95;
 }
 
-.saas_btn:before {
+.webistle_btn:before {
   top: 8px;
   left: 32px;
   font-weight: 900;
@@ -8633,9 +8633,9 @@ Sticky Menu
   animation-name: fadeFromLeft;
 }
 
-.saas_two_section_title .title_tag,
-.saas_two_banner_section .s2-banner_content .s2-tilte_tag,
-.saas_two_feature_section .s2-feature_text .feature_tag,
+.webistle_two_section_title .title_tag,
+.webistle_two_banner_section .s2-banner_content .s2-tilte_tag,
+.webistle_two_feature_section .s2-feature_text .feature_tag,
 .integration_section .integration_text .feature_tag {
   color: #951fb3;
   font-size: 18px;
@@ -8646,39 +8646,39 @@ Sticky Menu
   background-color: #ede0f4;
 }
 
-.saas_two_section_title h2,
-.saas_two_banner_section .s2-banner_content h1,
-.saas_two_about_section .s2-about_text_icon .s2-about_text h3,
-.saas_two_feature_section .s2-feature_text h2,
+.webistle_two_section_title h2,
+.webistle_two_banner_section .s2-banner_content h1,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text h3,
+.webistle_two_feature_section .s2-feature_text h2,
 .integration_section .integration_text h2,
-.saas_two_team_section .s2-team_img_text .s2_name_info h3 {
+.webistle_two_team_section .s2-team_img_text .s2_name_info h3 {
   font-weight: 700;
   color: #010101;
 }
 
-.saas_two_section_title h2 span,
-.saas_two_banner_section .s2-banner_content h1 span,
-.saas_two_about_section .s2-about_text_icon .s2-about_text h3 span,
-.saas_two_feature_section .s2-feature_text h2 span,
+.webistle_two_section_title h2 span,
+.webistle_two_banner_section .s2-banner_content h1 span,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text h3 span,
+.webistle_two_feature_section .s2-feature_text h2 span,
 .integration_section .integration_text h2 span,
-.saas_two_team_section .s2-team_img_text .s2_name_info h3 span {
+.webistle_two_team_section .s2-team_img_text .s2_name_info h3 span {
   font-weight: 300;
 }
 
-.saas_btn:before,
+.webistle_btn:before,
 .service_read_more a:after,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a:after,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a:after,
 .integration_section .integration_text a:after,
-.saas_two_banner_section .s2-banner_content .banner_btn a i,
-.saas_two_feature_section .s2-feature_text .saas_btn a i,
+.webistle_two_banner_section .s2-banner_content .banner_btn a i,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a i,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a i {
   background: linear-gradient(-45deg, #6b2c94 32%, #fc01fd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.saas_two_about_section .s2-about_text_icon .s2-about_text p,
-.saas_two_feature_section .s2-feature_text p,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text p,
+.webistle_two_feature_section .s2-feature_text p,
 .integration_section .integration_text p {
   color: #353535;
   font-size: 17px;
@@ -8687,7 +8687,7 @@ Sticky Menu
 }
 
 .service_read_more a,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a,
 .integration_section .integration_text a {
   color: #0066ff;
   font-size: 15px;
@@ -8697,7 +8697,7 @@ Sticky Menu
 }
 
 .service_read_more a:after,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a:after,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a:after,
 .integration_section .integration_text a:after {
   top: 0px;
   right: -35px;
@@ -8712,7 +8712,7 @@ Sticky Menu
 }
 
 .service_read_more a:before,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a:before,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a:before,
 .integration_section .integration_text a:before {
   height: 2px;
   width: 0%;
@@ -8724,13 +8724,13 @@ Sticky Menu
 }
 
 .service_read_more a:hover:before,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a:hover:before,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a:hover:before,
 .integration_section .integration_text a:hover:before {
   width: 100%;
 }
 
 .service_read_more a:hover:after,
-.saas_two_about_section .s2-about_text_icon .s2-about_text a:hover:after,
+.webistle_two_about_section .s2-about_text_icon .s2-about_text a:hover:after,
 .integration_section .integration_text a:hover:after {
   opacity: 1;
   right: -25px;
@@ -8738,8 +8738,8 @@ Sticky Menu
   visibility: visible;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a,
-.saas_two_feature_section .s2-feature_text .saas_btn a,
+.webistle_two_banner_section .s2-banner_content .banner_btn a,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a {
   transition: 0.3s all ease-in-out;
   position: relative;
@@ -8748,8 +8748,8 @@ Sticky Menu
   display: inline-block;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:before,
-.saas_two_feature_section .s2-feature_text .saas_btn a:before,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:before,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:before,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:before {
   position: absolute;
   content: "";
@@ -8766,8 +8766,8 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:after,
-.saas_two_feature_section .s2-feature_text .saas_btn a:after,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:after,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:after,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:after {
   height: 100%;
   width: 100%;
@@ -8780,29 +8780,29 @@ Sticky Menu
   background-color: #6c2b95;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:hover,
-.saas_two_feature_section .s2-feature_text .saas_btn a:hover,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:hover,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:hover,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:hover {
   color: #fff;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:hover i,
-.saas_two_feature_section .s2-feature_text .saas_btn a:hover i,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:hover i,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:hover i,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:hover i {
   background: none;
   -webkit-text-fill-color: inherit;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:hover:before,
-.saas_two_feature_section .s2-feature_text .saas_btn a:hover:before,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:hover:before,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:hover:before,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:hover:before {
   opacity: 1;
   right: 25px;
   visibility: visible;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a:hover:after,
-.saas_two_feature_section .s2-feature_text .saas_btn a:hover:after,
+.webistle_two_banner_section .s2-banner_content .banner_btn a:hover:after,
+.webistle_two_feature_section .s2-feature_text .webistle_btn a:hover:after,
 .s2-pricing_section .s2-pricing_item .s2-pricing_btn a:hover:after {
   top: 0;
 }
@@ -8810,7 +8810,7 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*Header area*/
 /*----------------------------------------------------*/
-.saas_two_main_header {
+.webistle_two_main_header {
   width: 100%;
   z-index: 9;
   padding: 15px 0px;
@@ -8819,45 +8819,45 @@ Sticky Menu
   box-shadow: 0px 11px 68px 0px rgba(0, 0, 0, 0.14);
 }
 
-.saas_two_main_header .sign_up_btn {
+.webistle_two_main_header .sign_up_btn {
   display: inline-block;
 }
 
-.saas_two_main_header .brand_logo {
+.webistle_two_main_header .brand_logo {
   padding-top: 10px;
 }
 
-.saas_two_main_header .s2-main-navigation {
+.webistle_two_main_header .s2-main-navigation {
   display: inline-block;
   padding-top: 20px;
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav {
+.webistle_two_main_header .s2-main-navigation .navbar-nav {
   display: inherit;
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav li {
+.webistle_two_main_header .s2-main-navigation .navbar-nav li {
   font-size: 15px;
   font-weight: 600;
   margin-right: 55px;
   font-family: "Poppins";
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav li a {
+.webistle_two_main_header .s2-main-navigation .navbar-nav li a {
   padding-bottom: 30px;
   position: relative;
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav li a:hover {
+.webistle_two_main_header .s2-main-navigation .navbar-nav li a:hover {
   color: #d10edd;
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav li a:hover:before {
+.webistle_two_main_header .s2-main-navigation .navbar-nav li a:hover:before {
   width: 100%;
 }
 
-.saas_two_main_header .s2-main-navigation .navbar-nav li a:before {
+.webistle_two_main_header .s2-main-navigation .navbar-nav li a:before {
   content: "";
   position: absolute;
   height: 2px;
@@ -8868,11 +8868,11 @@ Sticky Menu
   bottom: 25px;
 }
 
-.saas_two_main_header .s2-main-navigation .dropdown {
+.webistle_two_main_header .s2-main-navigation .dropdown {
   position: relative;
 }
 
-.saas_two_main_header .s2-main-navigation .dropdown:after {
+.webistle_two_main_header .s2-main-navigation .dropdown:after {
   content: "";
   position: absolute;
   right: -11px;
@@ -8882,11 +8882,11 @@ Sticky Menu
   font-weight: 900;
 }
 
-.saas_two_main_header .s2-main-navigation .dropdown:hover:after {
+.webistle_two_main_header .s2-main-navigation .dropdown:hover:after {
   color: #d10edd;
 }
 
-.saas_two_main_header .saas_sign_up_btn {
+.webistle_two_main_header .webistle_sign_up_btn {
   height: 55px;
   width: 175px;
   float: right;
@@ -8895,14 +8895,14 @@ Sticky Menu
   background-color: #73299a;
 }
 
-.saas_two_main_header .saas_sign_up_btn a {
+.webistle_two_main_header .webistle_sign_up_btn a {
   color: #fff;
   font-weight: 600;
   padding-left: 15px;
   position: relative;
 }
 
-.saas_two_main_header .saas_sign_up_btn a:before {
+.webistle_two_main_header .webistle_sign_up_btn a:before {
   left: -5px;
   top: 4px;
   color: #fff;
@@ -8914,7 +8914,7 @@ Sticky Menu
   font-family: "Font Awesome 5 Free";
 }
 
-.saas_two_main_header .dropdown .dropdown-menu {
+.webistle_two_main_header .dropdown .dropdown-menu {
   top: 65px;
   left: 0;
   opacity: 0;
@@ -8935,13 +8935,13 @@ Sticky Menu
   box-shadow: 0 5px 10px 0 rgba(83, 82, 82, 0.1);
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li {
+.webistle_two_main_header .dropdown .dropdown-menu li {
   width: 100%;
   padding: 10px 15px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li a {
+.webistle_two_main_header .dropdown .dropdown-menu li a {
   color: #343434;
   font-size: 14px;
   padding: 10px 0px;
@@ -8949,11 +8949,11 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li a:before {
+.webistle_two_main_header .dropdown .dropdown-menu li a:before {
   display: none;
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li a:after {
+.webistle_two_main_header .dropdown .dropdown-menu li a:after {
   left: 0;
   top: 15px;
   width: 8px;
@@ -8966,21 +8966,21 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li a:hover {
+.webistle_two_main_header .dropdown .dropdown-menu li a:hover {
   padding-left: 15px;
 }
 
-.saas_two_main_header .dropdown .dropdown-menu li a:hover:after {
+.webistle_two_main_header .dropdown .dropdown-menu li a:hover:after {
   transform: scale(1);
 }
 
-.saas_two_main_header .dropdown:hover .dropdown-menu {
+.webistle_two_main_header .dropdown:hover .dropdown-menu {
   top: 50px;
   opacity: 1;
   visibility: visible;
 }
 
-.saas_2-menu-bg-overlay {
+.webistle_2-menu-bg-overlay {
   background-color: #fff;
   animation-duration: 0.7s;
   animation-fill-mode: both;
@@ -8992,13 +8992,13 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_main_header.saas_2-menu-bg-overlay {
+.webistle_two_main_header.webistle_2-menu-bg-overlay {
   z-index: 9;
   top: 0px;
   box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
 }
 
-.saas_two_main_header.saas_2-menu-bg-overlay .dropdown:hover .dropdown-menu {
+.webistle_two_main_header.webistle_2-menu-bg-overlay .dropdown:hover .dropdown-menu {
   top: 45px;
 }
 
@@ -9027,14 +9027,14 @@ Sticky Menu
     transform: translateX(80%);
   }
 }
-.saas_two_banner_section {
+.webistle_two_banner_section {
   margin: 0 auto;
   max-width: 1920px;
   background-color: #fafafa;
   padding: 235px 0px 140px 0px;
 }
 
-.saas_two_banner_section:before {
+.webistle_two_banner_section:before {
   right: 0;
   width: 80%;
   content: "";
@@ -9045,27 +9045,27 @@ Sticky Menu
   background-image: url(../images/banner-b-shape1.png);
 }
 
-.saas_two_banner_section .s2-banner_content {
+.webistle_two_banner_section .s2-banner_content {
   position: relative;
   z-index: 1;
   max-width: 450px;
 }
 
-.saas_two_banner_section .s2-banner_content .s2-tilte_tag {
+.webistle_two_banner_section .s2-banner_content .s2-tilte_tag {
   padding: 5px 30px;
 }
 
-.saas_two_banner_section .s2-banner_content h1 {
+.webistle_two_banner_section .s2-banner_content h1 {
   font-size: 55px;
   padding: 18px 0px 20px 0px;
 }
 
-.saas_two_banner_section .s2-banner_content p {
+.webistle_two_banner_section .s2-banner_content p {
   font-size: 18px;
   padding-bottom: 35px;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a {
+.webistle_two_banner_section .s2-banner_content .banner_btn a {
   height: 50px;
   width: 175px;
   text-align: center;
@@ -9080,12 +9080,12 @@ Sticky Menu
   border: 2px solid #6c2b95;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn a i {
+.webistle_two_banner_section .s2-banner_content .banner_btn a i {
   font-size: 20px;
   margin-right: 8px;
 }
 
-.saas_two_banner_section .s2-banner_content .banner_btn span {
+.webistle_two_banner_section .s2-banner_content .banner_btn span {
   color: #6a6a6a;
   display: block;
   font-size: 14px;
@@ -9093,25 +9093,25 @@ Sticky Menu
   margin-left: 10px;
 }
 
-.saas_two_banner_section .s2-banner_area .banner_mockup {
+.webistle_two_banner_section .s2-banner_area .banner_mockup {
   position: absolute;
   top: -40px;
   right: -70px;
   z-index: 1;
 }
 
-.saas_two_banner_section .s2-banner_shape1 {
+.webistle_two_banner_section .s2-banner_shape1 {
   left: 0;
   top: 85px;
 }
 
-.saas_two_banner_section .s2-banner_shape2 {
+.webistle_two_banner_section .s2-banner_shape2 {
   top: 0;
   right: 0;
   animation: floatY 3s ease-in-out infinite;
 }
 
-.saas_two_banner_section .s2-banner_shape3 {
+.webistle_two_banner_section .s2-banner_shape3 {
   top: 0;
   right: 50%;
   transform: translateX(80%);
@@ -9121,15 +9121,15 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*Service area*/
 /*----------------------------------------------------*/
-.saas_two_service_section {
+.webistle_two_service_section {
   padding: 90px 0px 110px;
 }
 
-.saas_two_service_section .service_content {
+.webistle_two_service_section .service_content {
   padding-top: 70px;
 }
 
-.saas_two_service_section .service_content_box {
+.webistle_two_service_section .service_content_box {
   border-radius: 10px;
   margin-bottom: 50px;
   padding: 25px 30px 30px 35px;
@@ -9139,7 +9139,7 @@ Sticky Menu
   box-shadow: 0px 20px 81px 0px rgba(8, 0, 20, 0.14);
 }
 
-.saas_two_service_section .service_content_box:before {
+.webistle_two_service_section .service_content_box:before {
   content: "";
   width: 100%;
   top: 0;
@@ -9152,7 +9152,7 @@ Sticky Menu
   background-image: linear-gradient(45deg, #fc01fd 32%, #6b2c94 100%);
 }
 
-.saas_two_service_section .service_content_box:after {
+.webistle_two_service_section .service_content_box:after {
   content: "";
   height: 100%;
   width: 100%;
@@ -9164,47 +9164,47 @@ Sticky Menu
   background-color: #fff;
 }
 
-.saas_two_service_section .service_content_box:hover {
+.webistle_two_service_section .service_content_box:hover {
   transform: translate(-7px, -7px);
   box-shadow: 0px 20px 81px 0px rgba(8, 0, 20, 0.3);
 }
 
-.saas_two_service_section .service_content_box:hover:before {
+.webistle_two_service_section .service_content_box:hover:before {
   transform: translate(7px, 7px);
 }
 
-.saas_two_service_section .service_content_box .service_icon_box {
+.webistle_two_service_section .service_content_box .service_icon_box {
   width: 60px;
   margin-bottom: 18px;
 }
 
-.saas_two_service_section .service_content_box .service_icon_box .upper_icon svg {
+.webistle_two_service_section .service_content_box .service_icon_box .upper_icon svg {
   height: 48px;
   width: 48px;
   fill: #30347b;
 }
 
-.saas_two_service_section .service_content_box .service_icon_box .lower_icon {
+.webistle_two_service_section .service_content_box .service_icon_box .lower_icon {
   position: absolute;
   top: 10px;
   z-index: -1;
   right: 0;
 }
 
-.saas_two_service_section .service_content_box .service_icon_box .lower_icon svg {
+.webistle_two_service_section .service_content_box .service_icon_box .lower_icon svg {
   width: 45px;
   height: 45px;
   fill: #c4a2fc;
 }
 
-.saas_two_service_section .service_content_box .service_text_box h3 {
+.webistle_two_service_section .service_content_box .service_text_box h3 {
   color: #010101;
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 15px;
 }
 
-.saas_two_service_section .service_content_box .service_text_box p {
+.webistle_two_service_section .service_content_box .service_text_box p {
   line-height: 1.5;
   color: #666666;
 }
@@ -9212,12 +9212,12 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*Service area*/
 /*----------------------------------------------------*/
-.saas_two_about_section {
+.webistle_two_about_section {
   padding: 70px 0px;
   background-color: #ebedf2;
 }
 
-.saas_two_about_section:before {
+.webistle_two_about_section:before {
   content: "";
   position: absolute;
   top: 0;
@@ -9229,7 +9229,7 @@ Sticky Menu
   background-image: url(../images/banner-abshape.png);
 }
 
-.saas_two_about_section:after {
+.webistle_two_about_section:after {
   content: "";
   height: 600px;
   width: 600px;
@@ -9241,15 +9241,15 @@ Sticky Menu
   background-image: url(../images/banner-abshape2.png);
 }
 
-.saas_two_about_section .about_content_s2 {
+.webistle_two_about_section .about_content_s2 {
   padding: 50px 70px 50px 110px;
 }
 
-.saas_two_about_section .s2-about_text_icon {
+.webistle_two_about_section .s2-about_text_icon {
   padding-top: 35px;
 }
 
-.saas_two_about_section .s2-about_text_icon .s2-about_icon {
+.webistle_two_about_section .s2-about_text_icon .s2-about_icon {
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -9259,13 +9259,13 @@ Sticky Menu
   background-color: #6c2b95;
 }
 
-.saas_two_about_section .s2-about_text_icon .s2-about_icon svg {
+.webistle_two_about_section .s2-about_text_icon .s2-about_icon svg {
   fill: #fff;
   width: 40px;
   height: 40px;
 }
 
-.saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
+.webistle_two_about_section .s2-about_text_icon .s2-about_text h3 {
   font-size: 36px;
   line-height: 1.278;
   padding-bottom: 15px;
@@ -9274,39 +9274,39 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*Feature area*/
 /*----------------------------------------------------*/
-.saas_two_feature_section {
+.webistle_two_feature_section {
   padding: 105px 0px 85px;
 }
 
-.saas_two_feature_section .s2-feature_text {
+.webistle_two_feature_section .s2-feature_text {
   max-width: 520px;
   padding: 40px 0 0 50px;
 }
 
-.saas_two_feature_section .s2-feature_text h2 {
+.webistle_two_feature_section .s2-feature_text h2 {
   font-size: 40px;
   line-height: 1.25;
   padding: 15px 0px 15px;
 }
 
-.saas_two_feature_section .s2-feature_text p {
+.webistle_two_feature_section .s2-feature_text p {
   padding-bottom: 43px;
 }
 
-.saas_two_feature_section .s2-feature_text .saas_btn a {
+.webistle_two_feature_section .s2-feature_text .webistle_btn a {
   padding: 10px 25px 10px 25px;
 }
 
-.saas_two_feature_section .s2-feature_text .saas_btn a i {
+.webistle_two_feature_section .s2-feature_text .webistle_btn a i {
   font-size: 20px;
   margin-right: 5px;
 }
 
-.saas_two_feature_section .s2-feature_right {
+.webistle_two_feature_section .s2-feature_right {
   padding-left: 35px;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list {
   margin-bottom: 10px;
   padding: 22px 32px 20px;
   border-radius: 10px;
@@ -9315,7 +9315,7 @@ Sticky Menu
   position: relative;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:before {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:before {
   position: absolute;
   content: "";
   height: 0px;
@@ -9327,11 +9327,11 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:hover:before {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:hover:before {
   height: 60px;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
   width: 95px;
   float: left;
   height: 95px;
@@ -9340,7 +9340,7 @@ Sticky Menu
   margin-right: 30px;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon:after {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon:after {
   left: 0;
   right: 0;
   top: 5px;
@@ -9353,60 +9353,60 @@ Sticky Menu
   border-radius: 100%;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon i {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon i {
   font-size: 30px;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
   max-width: 310px;
   display: inline-block;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box h3 {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box h3 {
   color: #010101;
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 15px;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:hover {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:hover {
   margin-left: 30px;
   box-shadow: 0px 3px 43px 0px rgba(0, 0, 0, 0.13);
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon {
   background-color: #d9f3de;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon i {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1) .s2-feature_icon i {
   color: #049507;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1):before {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(1):before {
   background-color: #049507;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon {
   background-color: #e1e1f5;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon i {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2) .s2-feature_icon i {
   color: #6c2b95;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2):before {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(2):before {
   background-color: #6c2b95;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon {
   background-color: #ebdcf4;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon i {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3) .s2-feature_icon i {
   color: #d912dc;
 }
 
-.saas_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3):before {
+.webistle_two_feature_section .s2-feature_right .s2-feature_list:nth-child(3):before {
   background-color: #d912dc;
 }
 
@@ -9440,15 +9440,15 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*Team area*/
 /*----------------------------------------------------*/
-.saas_two_team_section {
+.webistle_two_team_section {
   padding: 118px 0px;
 }
 
-.saas_two_team_section .s2-team_membar {
+.webistle_two_team_section .s2-team_membar {
   padding-top: 130px;
 }
 
-.saas_two_team_section .s2-team_img_text {
+.webistle_two_team_section .s2-team_img_text {
   width: 100%;
   border-radius: 10px;
   display: inline-block;
@@ -9457,17 +9457,17 @@ Sticky Menu
   box-shadow: 0px 12px 43px 0px rgba(0, 0, 0, 0.13);
 }
 
-.saas_two_team_section .s2-team_img_text:hover {
+.webistle_two_team_section .s2-team_img_text:hover {
   box-shadow: 0px 23px 43px 0px rgba(0, 0, 0, 0.26);
 }
 
-.saas_two_team_section .s2-team_img_text:hover .s2_tean_img:before,
-.saas_two_team_section .s2-team_img_text:hover .s2_tean_img:after {
+.webistle_two_team_section .s2-team_img_text:hover .s2_tean_img:before,
+.webistle_two_team_section .s2-team_img_text:hover .s2_tean_img:after {
   opacity: 1;
   visibility: visible;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_tean_img {
+.webistle_two_team_section .s2-team_img_text .s2_tean_img {
   width: 130px;
   height: 130px;
   overflow: hidden;
@@ -9477,8 +9477,8 @@ Sticky Menu
   left: 15px;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_tean_img:before,
-.saas_two_team_section .s2-team_img_text .s2_tean_img:after {
+.webistle_two_team_section .s2-team_img_text .s2_tean_img:before,
+.webistle_two_team_section .s2-team_img_text .s2_tean_img:after {
   position: absolute;
   content: "";
   height: 100%;
@@ -9493,7 +9493,7 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_tean_img:after {
+.webistle_two_team_section .s2-team_img_text .s2_tean_img:after {
   height: 95%;
   width: 95%;
   top: 50%;
@@ -9503,44 +9503,44 @@ Sticky Menu
   transform: translateY(-50%);
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info {
+.webistle_two_team_section .s2-team_img_text .s2_name_info {
   float: left;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info h3 {
+.webistle_two_team_section .s2-team_img_text .s2_name_info h3 {
   font-size: 22px;
   padding-bottom: 5px;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info .s2-designation {
+.webistle_two_team_section .s2-team_img_text .s2_name_info .s2-designation {
   font-size: 15px;
   font-weight: 500;
   color: #53117f;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact {
+.webistle_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact {
   padding-top: 25px;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact span {
+.webistle_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact span {
   font-size: 15px;
   color: #737272;
   display: block;
   margin-bottom: 5px;
 }
 
-.saas_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact span i {
+.webistle_two_team_section .s2-team_img_text .s2_name_info .s2_mem_contact span i {
   color: #cc0fda;
   margin-right: 8px;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social {
   bottom: 30px;
   right: 15px;
   position: absolute;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social ul {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social ul {
   opacity: 0;
   margin-bottom: 15px;
   font-size: 14px;
@@ -9551,18 +9551,18 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social li {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social li {
   color: #fff;
   text-align: center;
   margin-top: 15px;
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social li:hover {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social li:hover {
   transform: translateX(5px);
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social .s2-share_btn {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social .s2-share_btn {
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -9571,11 +9571,11 @@ Sticky Menu
   background-color: #53117f;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social .s2-share_btn i {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social .s2-share_btn i {
   color: #fff;
 }
 
-.saas_two_team_section .s2-team_img_text .s2-mem_social:after {
+.webistle_two_team_section .s2-team_img_text .s2-mem_social:after {
   bottom: 20px;
   z-index: -1;
   content: "";
@@ -9589,18 +9589,18 @@ Sticky Menu
   transition: 0.5s all ease-in-out;
 }
 
-.saas_two_team_section .s2-team_img_text:hover .s2-mem_social:after {
+.webistle_two_team_section .s2-team_img_text:hover .s2-mem_social:after {
   height: 100%;
   bottom: 0px;
   opacity: 1;
   visibility: visible;
 }
 
-.saas_two_team_section .s2-team_img_text:hover .s2-share_btn {
+.webistle_two_team_section .s2-team_img_text:hover .s2-share_btn {
   background-color: #cc0fda;
 }
 
-.saas_two_team_section .s2-team_img_text:hover ul {
+.webistle_two_team_section .s2-team_img_text:hover ul {
   top: 0;
   transition-delay: 0.5s;
   opacity: 1;
@@ -9922,13 +9922,13 @@ Sticky Menu
 /*---------------------------------------------------- */
 /* Footer area*/
 /*----------------------------------------------------*/
-.saas_two_footer_section {
+.webistle_two_footer_section {
   z-index: 1;
   margin-top: 140px;
   padding: 0px 0px 65px;
 }
 
-.saas_two_footer_section:before {
+.webistle_two_footer_section:before {
   top: 0;
   left: 0;
   width: 100%;
@@ -9940,7 +9940,7 @@ Sticky Menu
   background-image: url(../images/banner-fobg.png);
 }
 
-.saas_two_footer_section .s2-newslatter_section {
+.webistle_two_footer_section .s2-newslatter_section {
   top: -90px;
   margin: 0 auto;
   max-width: 1170px;
@@ -9951,29 +9951,29 @@ Sticky Menu
   box-shadow: 0px 0px 16px 0px rgba(27, 2, 52, 0.34);
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter_title h2 {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter_title h2 {
   color: #fff;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 10px;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter_title p {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter_title p {
   font-family: "Poppins";
   color: #fff;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter-form {
   max-width: 660px;
   margin: 30px auto 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form .nws-button {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter-form .nws-button {
   top: 0;
   right: 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form input {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter-form input {
   height: 62px;
   width: 100%;
   border: none;
@@ -9982,7 +9982,7 @@ Sticky Menu
   border-radius: 5px;
 }
 
-.saas_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
+.webistle_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
   border: none;
   height: 62px;
   width: 155px;
@@ -9994,64 +9994,64 @@ Sticky Menu
   right: 0;
 }
 
-.saas_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
+.webistle_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
   top: -25px;
   left: 80px;
   z-index: 1;
   position: absolute;
 }
 
-.saas_two_footer_section .s2_footer_widget {
+.webistle_two_footer_section .s2_footer_widget {
   font-family: "Poppins";
   font-size: 14px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2-footer_logo {
+.webistle_two_footer_section .s2_footer_widget .s2-footer_logo {
   margin-bottom: 25px;
 }
 
-.saas_two_footer_section .s2_footer_widget .footer_about {
+.webistle_two_footer_section .s2_footer_widget .footer_about {
   color: #fff;
   max-width: 235px;
   margin-bottom: 20px;
   line-height: 1.714;
 }
 
-.saas_two_footer_section .s2_footer_widget p {
+.webistle_two_footer_section .s2_footer_widget p {
   color: #fff;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_about p {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_about p {
   width: 165px;
   margin-top: 8px;
   line-height: 1.714;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_about span {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_about span {
   color: #f104f5;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu {
   max-width: 340px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li {
   width: 50%;
   float: left;
   max-width: 320px;
   margin-bottom: 18px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a {
   color: #fff;
   margin-left: 15px;
   position: relative;
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:before {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a:before {
   top: 0;
   top: 0;
   left: -15px;
@@ -10064,7 +10064,7 @@ Sticky Menu
   font-family: "Font Awesome 5 Free";
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:after {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a:after {
   content: "";
   position: absolute;
   height: 1px;
@@ -10075,20 +10075,20 @@ Sticky Menu
   background-color: #f104f5;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover {
   margin-left: 25px;
   color: #f104f5;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover:before {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover:before {
   color: #f104f5;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover:after {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_menu li a:hover:after {
   width: 100%;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_widget_title {
+.webistle_two_footer_section .s2_footer_widget .s2_widget_title {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
@@ -10098,12 +10098,12 @@ Sticky Menu
   padding-bottom: 35px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_widget_title span {
+.webistle_two_footer_section .s2_footer_widget .s2_widget_title span {
   display: inline-block;
   margin-right: 20px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_widget_title i {
+.webistle_two_footer_section .s2_footer_widget .s2_widget_title i {
   width: 100%;
   height: 1.1px;
   position: relative;
@@ -10111,7 +10111,7 @@ Sticky Menu
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social a {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social a {
   height: 30px;
   width: 30px;
   border-radius: 100%;
@@ -10123,16 +10123,16 @@ Sticky Menu
   transition: 0.3s all ease-in-out;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social a:hover {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social a:hover {
   transform: scale(1.1);
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social form {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social form {
   margin: 18px 0px 30px;
   position: relative;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social form input {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social form input {
   height: 45px;
   background-color: #503d63;
   border: none;
@@ -10140,7 +10140,7 @@ Sticky Menu
   padding-left: 30px;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social form button {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social form button {
   color: #fff;
   width: 62px;
   border: none;
@@ -10152,19 +10152,19 @@ Sticky Menu
   background-color: #6c2b95;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social .fb-bg {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social .fb-bg {
   color: #16599b;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social .tw-bg {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social .tw-bg {
   color: #03a9f4;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social .dr-bg {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social .dr-bg {
   color: #ea4c89;
 }
 
-.saas_two_footer_section .s2_footer_widget .s2_footer_social .bh-bg {
+.webistle_two_footer_section .s2_footer_widget .s2_footer_social .bh-bg {
   color: #0067ff;
 }
 
@@ -10399,79 +10399,79 @@ Sticky Menu
 /* Responsive area*/
 /*----------------------------------------------------*/
 @media screen and (max-width: 1140px) {
-  .saas_two_footer_section .s2-newslatter_section {
+  .webistle_two_footer_section .s2-newslatter_section {
     top: 0;
     max-width: inherit;
     margin-bottom: 50px;
   }
 
-  .saas_two_footer_section {
+  .webistle_two_footer_section {
     overflow: hidden;
     margin-top: 0;
     padding: 25px 0px 65px;
   }
 
-  .saas_two_footer_section:before {
+  .webistle_two_footer_section:before {
     height: 75%;
     top: auto;
     bottom: 0;
   }
 }
 @media screen and (max-width: 1120px) {
-  .saas_two_feature_section .s2-feature_right {
+  .webistle_two_feature_section .s2-feature_right {
     padding-left: 0;
   }
 
-  .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
+  .webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
     margin-right: 10px;
   }
 }
 @media screen and (max-width: 1110px) {
-  .saas_two_main_header .s2-main-navigation .navbar-nav li {
+  .webistle_two_main_header .s2-main-navigation .navbar-nav li {
     margin-right: 25px;
   }
 
-  .saas_two_banner_section .s2-banner_area .banner_mockup {
+  .webistle_two_banner_section .s2-banner_area .banner_mockup {
     max-width: 630px;
     top: 30px;
   }
 }
 @media screen and (max-width: 1015px) {
-  .saas_two_main_header .s2-main-navigation .navbar-nav li {
+  .webistle_two_main_header .s2-main-navigation .navbar-nav li {
     margin-right: 25px;
   }
 
-  .saas_two_banner_section .s2-banner_area .banner_mockup {
+  .webistle_two_banner_section .s2-banner_area .banner_mockup {
     max-width: 630px;
     top: 30px;
   }
 
-  .saas_two_feature_section .s2-feature_right .s2-feature_list {
+  .webistle_two_feature_section .s2-feature_right .s2-feature_list {
     padding: 22px 20px 20px;
   }
 }
 @media screen and (max-width: 991px) {
-  .saas_two_banner_section:before {
+  .webistle_two_banner_section:before {
     width: 100%;
     top: 0;
     height: 100%;
   }
 
-  .saas_two_banner_section {
+  .webistle_two_banner_section {
     padding-bottom: 0;
     z-index: 1;
   }
 
-  .saas_two_banner_section .s2-banner_shape1 {
+  .webistle_two_banner_section .s2-banner_shape1 {
     z-index: -1;
   }
 
-  .saas_two_banner_section .s2-banner_area .banner_mockup {
+  .webistle_two_banner_section .s2-banner_area .banner_mockup {
     position: static;
     margin: 0 auto;
   }
 
-  .saas_two_banner_section .s2-banner_content {
+  .webistle_two_banner_section .s2-banner_content {
     max-width: 750px;
     margin: 0 auto;
     text-align: center;
@@ -10483,19 +10483,19 @@ Sticky Menu
     margin: 0 auto;
   }
 
-  .saas_two_main_header .s2-main-navigation {
+  .webistle_two_main_header .s2-main-navigation {
     display: none;
   }
 
-  .saas_two_banner_section .s2-banner_shape3 {
+  .webistle_two_banner_section .s2-banner_shape3 {
     top: 60px;
   }
 
-  .saas_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
+  .webistle_two_footer_section .s2-newslatter_section .newsletter_pattern_1 {
     display: none;
   }
 
-  .saas_two_footer_section:before {
+  .webistle_two_footer_section:before {
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -10508,15 +10508,15 @@ Sticky Menu
     display: none;
   }
 
-  .saas_two_footer_section {
+  .webistle_two_footer_section {
     background-color: #1b0234;
   }
 
-  .saas_two_footer_section .s2_footer_widget {
+  .webistle_two_footer_section .s2_footer_widget {
     margin-bottom: 30px;
   }
 
-  .saas_two_footer_section .s2_footer_widget .s2_widget_title {
+  .webistle_two_footer_section .s2_footer_widget .s2_widget_title {
     padding-bottom: 20px;
   }
 
@@ -10524,7 +10524,7 @@ Sticky Menu
     display: block;
   }
 
-  .saas_two_main_header .saas_sign_up_btn {
+  .webistle_two_main_header .webistle_sign_up_btn {
     position: absolute;
     top: 3px;
     right: 70px;
@@ -10533,19 +10533,19 @@ Sticky Menu
     line-height: 40px;
   }
 
-  .saas_two_main_header .saas_sign_up_btn a {
+  .webistle_two_main_header .webistle_sign_up_btn a {
     padding-left: 0;
   }
 
-  .saas_two_main_header .saas_sign_up_btn a:before {
+  .webistle_two_main_header .webistle_sign_up_btn a:before {
     display: none;
   }
 
-  .saas_two_about_section .about_content_s2 {
+  .webistle_two_about_section .about_content_s2 {
     padding: 30px 50px 30px 50px;
   }
 
-  .saas_two_feature_section .s2-feature_right {
+  .webistle_two_feature_section .s2-feature_right {
     padding-left: 0;
     margin-top: 40px;
   }
@@ -10554,67 +10554,67 @@ Sticky Menu
     margin-bottom: 40px;
   }
 
-  .saas_two_footer_section {
+  .webistle_two_footer_section {
     padding-top: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .saas_two_main_header .saas_sign_up_btn {
+  .webistle_two_main_header .webistle_sign_up_btn {
     top: -40px;
   }
 
-  .saas_two_main_header.saas_2-menu-bg-overlay .saas_sign_up_btn {
+  .webistle_two_main_header.webistle_2-menu-bg-overlay .webistle_sign_up_btn {
     top: -42px;
   }
 
-  .saas_two_service_section .service_content_box {
+  .webistle_two_service_section .service_content_box {
     max-width: 370px;
     margin: 0 auto;
     margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 480px) {
-  .saas_two_banner_section {
+  .webistle_two_banner_section {
     padding-top: 180px;
   }
 
-  .saas_two_banner_section .s2-banner_content h1 {
+  .webistle_two_banner_section .s2-banner_content h1 {
     font-size: 45px;
   }
 
-  .saas_two_banner_section .s2-banner_content .banner_btn a {
+  .webistle_two_banner_section .s2-banner_content .banner_btn a {
     height: 40px;
     width: 140px;
     margin-right: 10px;
     line-height: 36px;
   }
 
-  .saas_two_banner_section .s2-banner_content .banner_btn a i {
+  .webistle_two_banner_section .s2-banner_content .banner_btn a i {
     font-size: 16px;
     margin-right: 5px;
   }
 
-  .saas_two_banner_section .s2-banner_content {
+  .webistle_two_banner_section .s2-banner_content {
     padding-bottom: 30px;
   }
 
-  .saas_two_service_section {
+  .webistle_two_service_section {
     padding: 60px 0px;
   }
 
-  .saas_two_about_section {
+  .webistle_two_about_section {
     padding: 60px 0px 30px;
   }
 
-  .saas_two_about_section .about_content_s2 {
+  .webistle_two_about_section .about_content_s2 {
     padding: 20px 25px 20px 25px;
   }
 
-  .saas_two_about_section:before {
+  .webistle_two_about_section:before {
     display: none;
   }
 
-  .saas_two_about_section .s2-about_text_icon {
+  .webistle_two_about_section .s2-about_text_icon {
     padding-top: 0;
     margin-bottom: 30px;
   }
@@ -10623,22 +10623,22 @@ Sticky Menu
     margin-bottom: 30px;
   }
 
-  .saas_two_feature_section {
+  .webistle_two_feature_section {
     padding: 60px 0px 25px;
   }
 
-  .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
+  .webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_icon {
     margin: 0 auto;
     float: none;
     margin-bottom: 20px;
   }
 
-  .saas_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
+  .webistle_two_feature_section .s2-feature_right .s2-feature_list .s2-feature_text_box {
     text-align: center;
     max-width: 100%;
   }
 
-  .saas_two_team_section {
+  .webistle_two_team_section {
     padding: 60px 0px;
   }
 
@@ -10654,36 +10654,36 @@ Sticky Menu
     padding: 60px 0 40px;
   }
 
-  .saas_two_section_title h2 {
+  .webistle_two_section_title h2 {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 420px) {
-  .saas_two_section_title h2 {
+  .webistle_two_section_title h2 {
     font-size: 30px;
   }
 
-  .saas_two_service_section .service_content {
+  .webistle_two_service_section .service_content {
     padding-top: 40px;
   }
 
-  .saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
+  .webistle_two_about_section .s2-about_text_icon .s2-about_text h3 {
     font-size: 30px;
   }
 
-  .saas_two_about_section .s2-about_text_icon {
+  .webistle_two_about_section .s2-about_text_icon {
     margin-bottom: 15px;
   }
 
-  .saas_two_feature_section .s2-feature_text h2 {
+  .webistle_two_feature_section .s2-feature_text h2 {
     font-size: 30px;
   }
 
-  .saas_two_feature_section .s2-feature_text {
+  .webistle_two_feature_section .s2-feature_text {
     padding: 20px 0 0 0px;
   }
 
-  .saas_two_feature_section .s2-feature_text p {
+  .webistle_two_feature_section .s2-feature_text p {
     padding-bottom: 25px;
   }
 
@@ -10703,11 +10703,11 @@ Sticky Menu
     padding-top: 40px;
   }
 
-  .saas_two_footer_section {
+  .webistle_two_footer_section {
     padding-bottom: 30px;
   }
 
-  .saas_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
+  .webistle_two_footer_section .s2-newslatter_section .s2-newslatter-form button {
     width: 100px;
   }
 
@@ -10726,33 +10726,33 @@ Sticky Menu
     line-height: 40px;
   }
 
-  .saas_two_feature_section .s2-feature_right .s2-feature_list:hover {
+  .webistle_two_feature_section .s2-feature_right .s2-feature_list:hover {
     margin-left: 0;
   }
 
-  .saas_two_main_header .saas_sign_up_btn {
+  .webistle_two_main_header .webistle_sign_up_btn {
     right: 55px;
   }
 }
 @media screen and (max-width: 380px) {
-  .saas_two_banner_section .s2-banner_content h1 {
+  .webistle_two_banner_section .s2-banner_content h1 {
     font-size: 36px;
   }
 
-  .saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
+  .webistle_two_about_section .s2-about_text_icon .s2-about_text h3 {
     font-size: 26px;
   }
 }
 @media screen and (max-width: 320px) {
-  .saas_two_banner_section .s2-banner_content h1 {
+  .webistle_two_banner_section .s2-banner_content h1 {
     font-size: 34px;
   }
 
-  .saas_two_section_title h2 {
+  .webistle_two_section_title h2 {
     font-size: 26px;
   }
 
-  .saas_two_about_section .s2-about_text_icon .s2-about_text h3 {
+  .webistle_two_about_section .s2-about_text_icon .s2-about_text h3 {
     font-size: 24px;
   }
 }
@@ -15762,7 +15762,7 @@ div#dia-preloader {
   }
 }
 /*** Start Of blog Section ***/
-.saasio-breadcurmb-section {
+.webistleio-breadcurmb-section {
   background-color: #6c2b95;
   padding: 260px 0px 150px
 }
@@ -15774,12 +15774,12 @@ div#dia-preloader {
   font-family: 'Poppins';
   padding-bottom: 20px;
 }
-.saasio-page-breadcurmb li a  {
+.webistleio-page-breadcurmb li a  {
   color: #fff;
   margin: 0px 10px;
   position: relative;
 }
-.saasio-page-breadcurmb li a:after {
+.webistleio-page-breadcurmb li a:after {
  top: -2px;
  right: -18px;
  content: '\f054';
@@ -15787,7 +15787,7 @@ div#dia-preloader {
  position: absolute;
  font-family: 'Font Awesome 5 Free';
 }
-.saasio-page-breadcurmb li:last-child a::after {
+.webistleio-page-breadcurmb li:last-child a::after {
   display: none;
 }
 .news-feed-section {
@@ -15800,17 +15800,17 @@ div#dia-preloader {
   margin-bottom: 40px;
   box-shadow: 0px 0px 35px rgba(0,0,0,0.15);
 }
-.news-feed-section .saasio-blog-text {
+.news-feed-section .webistleio-blog-text {
   padding: 22px 30px 0px 0px;
 }
-.news-feed-section .saasio-blog-text h3 {
+.news-feed-section .webistleio-blog-text h3 {
   color: #373a5b;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.6;
   font-family: 'Poppins';
 }
-.news-feed-section .saasio-blog-text p {
+.news-feed-section .webistleio-blog-text p {
   margin-bottom: 0;
   padding-top: 20px;
 }
@@ -15820,18 +15820,18 @@ div#dia-preloader {
   font-weight: 700;
   margin-top: 20px;
 }
-.saasio-post-meta  a {
+.webistleio-post-meta  a {
   color: #777a91;
   margin-right: 15px;
 }
-.saasio-post-meta  a i {
+.webistleio-post-meta  a i {
   margin-right: 3px;
   font-size: 15px;
 }
-.saasio-pagination {
+.webistleio-pagination {
   padding-top: 30px;
 }
-.saasio-pagination a {
+.webistleio-pagination a {
   height: 40px;
   width: 40px;
   color: #fff;
@@ -15842,17 +15842,17 @@ div#dia-preloader {
   background-color: #6c2b95;
   transition: .3s all ease-in-out;
 }
-.saasio-pagination a:hover,
-.saasio-pagination a.active {
+.webistleio-pagination a:hover,
+.webistleio-pagination a.active {
   background-color: #cc0fda;
 }
-.saasio-blog-sidebar {
+.webistleio-blog-sidebar {
   padding-left: 30px;
 }
 .side-bar-widget {
   margin-bottom: 60px;
 }
-.saasio-blog-sidebar .widget-title-2 {
+.webistleio-blog-sidebar .widget-title-2 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 30px;
@@ -15997,10 +15997,10 @@ div#dia-preloader {
   background-color: #f7f7f7;
   transition: .3s all ease-in-out;
 }
-.saasio-comment-field {
+.webistleio-comment-field {
   padding-top: 80px;
 }
-.saasio-comment-field h3 {
+.webistleio-comment-field h3 {
   font-weight: 600;
   font-size: 30px;
 }
@@ -16065,10 +16065,10 @@ div#dia-preloader {
   background-color: #73299a;
 }
 @media screen and (max-width: 1024px) {
-  .news-feed-section .saasio-blog-text {
+  .news-feed-section .webistleio-blog-text {
     padding: 22px 30px 30px 0px
   }
-  .news-feed-section .saasio-blog-text h3 {
+  .news-feed-section .webistleio-blog-text h3 {
     font-size: 20px;
   }
   .recent-post-img-text .recent-post-text h3 {
@@ -16082,15 +16082,15 @@ div#dia-preloader {
   .blog-feed-img-txt {
     padding: 30px;
   }
-  .saasio-blog-sidebar {
+  .webistleio-blog-sidebar {
     padding-left: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .saasio-blog-sidebar {
+  .webistleio-blog-sidebar {
     margin-top: 30px;
   }
-  .saasio-breadcurmb-section {
+  .webistleio-breadcurmb-section {
     padding: 150px 0px 100px;
   }
   .breadcurmb-title h2 {
@@ -16109,7 +16109,7 @@ div#dia-preloader {
   }
 }
 /*=====================================================================
-SaaSio - HR Management
+webistleio - HR Management
 =====================================================================*/
 .pm-intregation-section .pm-intregation-text .pm-intr-feature-inner a .pm-inft-icon i {
   display: block;

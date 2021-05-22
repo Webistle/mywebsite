@@ -9,14 +9,14 @@ Author:
 
 	"use strict";
 
-	var SaaSio = {
+	var webistleio = {
 		init: function() {
 			this.Basic.init();
 		},
 
 		Basic: {
 			init: function() {
-				this.Saasiopreloader();
+				this.webistleiopreloader();
 				this.BackgroundImage();
 				this.counterUp();
 				this.EiStickyMenu();
@@ -34,12 +34,12 @@ Author:
 				this.APSeoVideoPopUp();
 				this.webistlePartner();
 				this.webistleTestimonial();
-				this.SaaSMscroller();
-				this.SaaSMMobileMenu();
-				this.SaaSMOnePageNav();
-				this.SaaSCMobileMenu();
-				this.SaaSCmemberSLider();
-				this.SaaSCOnePageNav();
+				this.webistleMscroller();
+				this.webistleMMobileMenu();
+				this.webistleMOnePageNav();
+				this.webistleCMobileMenu();
+				this.webistleCmemberSLider();
+				this.webistleCOnePageNav();
 				this.StrFeatureSlide();
 				this.StrPortfolioSlide();
 				this.StrBannerSlide();
@@ -65,7 +65,7 @@ Author:
 				this.PmPartnerSlider();
 				this.Animation();
 			},
-			Saasiopreloader: function (){
+			webistleiopreloader: function (){
 				jQuery(window).on('load', function(){
 					jQuery('#preloader').fadeOut('slow',function(){jQuery(this).remove();});
 				});
@@ -405,7 +405,7 @@ Author:
 					focusOnSelect: true
 				});
 			},
-			SaaSMscroller: function (){
+			webistleMscroller: function (){
 				$(window).on("load",function(){
 					$("#featured_scroll").mCustomScrollbar({
 						axis:"x",
@@ -415,7 +415,7 @@ Author:
 				});
 				$("#featured_scroll").removeClass("mCustomScrollbar");
 			},
-			SaaSMMobileMenu: function (){
+			webistleMMobileMenu: function (){
 				$('.open_mobile_menu').on("click", function() {
 					$('.mobile_menu_wrap').toggleClass("mobile_menu_on");
 				});
@@ -427,7 +427,7 @@ Author:
 					return false;
 				});
 			},
-			SaaSMOnePageNav: function (){
+			webistleMOnePageNav: function (){
 				jQuery(window).on('scroll', function() {
 					if (jQuery(window).scrollTop() > 100) {
 						jQuery('.main_header').addClass('menu-bg-overlay')
@@ -447,7 +447,7 @@ Author:
 					}
 				});
 			},
-			SaaSCMobileMenu: function (){
+			webistleCMobileMenu: function (){
 				$('.s2-open_mobile_menu').on("click", function() {
 					$('.s2-mobile_menu_wrap').toggleClass("mobile_menu_on");
 				});
@@ -461,7 +461,7 @@ Author:
 					});
 				}
 			},
-			SaaSCmemberSLider: function (){
+			webistleCmemberSLider: function (){
 				if($('#s2_team_slide').length){
 					$('#s2_team_slide').owlCarousel({
 						margin:30,
@@ -493,15 +493,15 @@ Author:
 					});
 				}
 			},
-			SaaSCOnePageNav: function (){
+			webistleCOnePageNav: function (){
 				jQuery(window).on('scroll', function() {
 					if (jQuery(window).scrollTop() > 100) {
-						jQuery('.saas_two_main_header').addClass('saas_2-menu-bg-overlay ')
+						jQuery('.webistle_two_main_header').addClass('webistle_2-menu-bg-overlay ')
 					} else {
-						jQuery('.saas_two_main_header').removeClass('saas_2-menu-bg-overlay ')
+						jQuery('.webistle_two_main_header').removeClass('webistle_2-menu-bg-overlay ')
 					}
 				})
-				$('.saas_two_main_header .navbar-nav a').on("", function(){
+				$('.webistle_two_main_header .navbar-nav a').on("", function(){
 					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 						var target = $(this.hash);
 						if (target.length) {
@@ -1046,7 +1046,7 @@ Author:
 }
 }
 jQuery(document).ready(function (){
-	SaaSio.init();
+	webistleio.init();
 });
 
 })();
