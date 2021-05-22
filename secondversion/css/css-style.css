@@ -4,13 +4,7 @@
 @Author:
 @URL:
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name:
-@Author: Themexriver.
+
 
 **Css Table Of Content**
 1- App Landing--
@@ -96,6 +90,9 @@ theme.
   /*----------------------------------------------------*/
   /*App landing global area*/
   /*----------------------------------------------------*/
+  html, body{
+    scroll-behavior: smooth;
+  }
   .iconsize{
     color: white;
     font-size: 70px;
