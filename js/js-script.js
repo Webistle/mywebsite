@@ -94,15 +94,15 @@ Author:
 						}
 					}
 				});
-				$('.appi-ei-open_mobile_menu').on("click", function() {
-					$('.appi-ei-mobile_menu_wrap').toggleClass("mobile_menu_on");
+				$('.appi-ab-open_mobile_menu').on("click", function() {
+					$('.appi-ab-mobile_menu_wrap').toggleClass("mobile_menu_on");
 				});
-				$('.appi-ei-open_mobile_menu').on('click', function () {
+				$('.appi-ab-open_mobile_menu').on('click', function () {
 					$('body').toggleClass('mobile_menu_overlay_on');
 				});
-				if($('.appi-ei-mobile_menu li.dropdown ul').length){
-					$('.appi-ei-mobile_menu li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-					$('.appi-ei-mobile_menu li.dropdown .dropdown-btn').on('click', function() {
+				if($('.appi-ab-mobile_menu li.dropdown ul').length){
+					$('.appi-ab-mobile_menu li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
+					$('.appi-ab-mobile_menu li.dropdown .dropdown-btn').on('click', function() {
 						$(this).prev('ul').slideToggle(500);
 					});
 				}
@@ -123,9 +123,9 @@ Author:
 				}
 			},
 			EiscreenSlider: function (){
-				if ($('.ei-appScreenshotCarousel-container').length) {
-					if ($('.ei-appScreenshotCarousel-container').length) {
-						var swiper = new Swiper('.ei-appScreenshotCarousel-container', {
+				if ($('.ab-appScreenshotCarousel-container').length) {
+					if ($('.ab-appScreenshotCarousel-container').length) {
+						var swiper = new Swiper('.ab-appScreenshotCarousel-container', {
 							effect: 'coverflow',
 							loop: true,
 							centeredSlides: true,
@@ -194,7 +194,7 @@ Author:
 				});
 			},
 			EiTeamSlide: function (){
-				$('#ei-team-slide').owlCarousel({
+				$('#ab-team-slide').owlCarousel({
 					margin:0,
 					responsiveClass:true,
 					nav: true,
@@ -225,7 +225,7 @@ Author:
 				})
 			},
 			faqBg: function (){
-				$(document).on('click', '.ei-faq', function(){
+				$(document).on('click', '.ab-faq', function(){
 					$(this).addClass('faq_bg').siblings().removeClass('faq_bg')
 				})
 			},
@@ -237,8 +237,8 @@ Author:
 				});
 			},
 			EiServiceSLider: function (){
-				if($('.ei-service-slide').length){
-					var customPagerSlider = $(".ei-service-slide").bxSlider({
+				if($('.ab-service-slide').length){
+					var customPagerSlider = $(".ab-service-slide").bxSlider({
 						adaptiveHeight: true,
 						controls: true,
 						pause: 5000,
@@ -284,8 +284,8 @@ Author:
 				}
 			},
 			EiPartnerSlider: function (){
-				if($('#ei-partner-slide').length){
-					$('#ei-partner-slide').owlCarousel({
+				if($('#ab-partner-slide').length){
+					$('#ab-partner-slide').owlCarousel({
 						margin: 105,
 						autoplay: true,
 						loop: true,
