@@ -90,6 +90,9 @@
   /*----------------------------------------------------*/
   /*App landing global area*/
   /*----------------------------------------------------*/
+  #webistle-main-nav li.menu a:hover{
+    color:#0072ff;
+  }
   
   .displaynone{
     display: none;
