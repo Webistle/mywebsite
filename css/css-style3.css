@@ -113,7 +113,7 @@
     }
   }
   html, body{
-    scroll-behavior: smooth;
+    
   }
   .iconsize{
     color: white;
@@ -6101,7 +6101,7 @@ Sticky Menu
   .webistle-copyright .webistle-footer-social,
   .webistle-copyright .webistle-copyright-text {
     float: none;
-    display: block;
+    display: none;
     margin-bottom: 20px;
   }
 
