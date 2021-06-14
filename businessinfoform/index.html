@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Sign Up #2</title>
+  </head>
+  <body>
+  
+
+  <div class="d-lg-flex half">
+ 
+    <div class="contents order-2 order-md-1" style="height: 1500px;">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7 py-5">
+            <h3>Business info for Local Seo
+            </h3>
+            <p class="mb-4">Please fill in the information in this form correctly as this information will be displayed on your google mybusiness listing.</p>
+            <form action="#" method="post" autocomplete="off" name="google-sheet">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form-control" id="fname"  name="fname" required>
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname"  name="lname" required>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email"  name="email" required>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="bname">Business Name</label>
+                    <input type="text" class="form-control" id="bname"  name="bname" required>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="baddress">Business Address (It should be very accurate)</label>
+                    <input type="text" class="form-control" id="baddress" name="baddress" required>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="bphone">Business Phone Number</label>
+                    <input type="text" class="form-control" id="bphone"  name="bphone" required>
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group first">
+                    <label for="bwebsite">Business Website</label>
+                    <input type="text" class="form-control" id="bwebsite"  name="bwebsite" required>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="babout">About Business </label>
+                    <textarea type="text" class="form-control" id="babout"  name="babout" style="height: 150px;" placeholder="When was your business started, what value do you provide to the cuustomers and what differentiates you from the competitors?" required></textarea>
+                  </div>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="servicearea">Service Areas</label>
+                    <input type="text" class="form-control" name="servicearea" id="bservicearea" required>
+                  </div>    
+                </div>
+                
+                <!-- <div class="col-md-6">
+                    <div class="form-group first">
+                      <label for="dysoyl">Service Area</label>
+                      <input type="radio" class="form-control" id="yes" name="dysoyl" value="yes">
+                      <label for="yes">Yes</label><br>
+                      <input type="radio" id="no" class="form-control" name="dysoyl" value="no">
+                      <label for="no">No</label><br>
+                    
+                    </div>    
+                  </div>--> 
+                  
+                    <div class="col-md-12">
+                      <div class="form-group first">
+                        <label for="dysoyl">Do you serve customers outside your location? If yes then enter the areas.</label>
+                        <input type="text" class="form-control" id="dysoyl" name="dysoyl" required>
+                      </div>    
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group first">
+                        <label for="locations">Is your business located in other locations too?</label>
+                        <input type="text" class="form-control" id="locations" name="locations" required>
+                      </div>    
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group first">
+                        <label for="workingdays">Working Days and Working Hours</label>
+                        
+                        <textarea type="text" class="form-control" id="workingdays" name="workingdays" style="height: 150px;" required></textarea>
+                      </div>    
+                    </div>
+                    
+               
+              
+       
+
+              <input type="submit" value="Submit" class="btn px-5 btn-primary" style="position: relative; left: 15px; background-color:#007bff; border-color: #007bff;" >
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+    
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPjLPY6y7kHg27LgUHJTsqViFe5XsHJBFfFkQlnkkGUGA1W-H9Kmcp1a7_LDoZ-kE0/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
